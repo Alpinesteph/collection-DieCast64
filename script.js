@@ -4,15 +4,12 @@ fetch("collection.json")
     const gallery = document.getElementById("gallery");
 
     data.forEach(car => {
-      const card = document.createElement("div");
-      card.className = "card";
-
-      card.innerHTML = `
-        ${car.photo}
-        <strong>${car.marque} ${car.modele}</strong><br>
-        ${car.fabricant} – ${car.annee}
+      const div = document.createElement("div");
+      div.innerHTML = `
+        <p><strong>${car.marque} ${car.modele}</strong></p>
+        <p>${car.fabricant} – ${car.annee}</p>
+        <img src="${car.photo}" width="200">
       `;
-
-      gallery.appendChild(card);
+      gallery.appendChild(div);
     });
   });
