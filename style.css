@@ -1,69 +1,195 @@
-/* ---- Carte modèle en ligne ---- */
-.model-row{
-  display:grid;
-  grid-template-columns: 240px 1fr; /* gauche photo / droite infos */
-  gap:12px;
-  border:1px solid #eee;
-  border-radius:12px;
-  overflow:hidden;
-  background:#fff;
+/* =========================
+   Base
+========================= */
+body{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #fafafa;
+  color: #111;
 }
 
-/* Colonne gauche : uniquement la photo */
+h1{
+  margin: 0 0 10px 0;
+}
+
+#search{
+  width: min(650px, 100%);
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 0 18px 0;
+  background: #fff;
+}
+
+/* =========================
+   Brand block (group by marque)
+========================= */
+.brand-row{
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+}
+
+/* Left column (marque) */
+.brand-cell{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-top: 6px;
+}
+
+.brand-logo{
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+.brand-logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+/* Fallback initials badge if logo image is missing */
+.brand-badge{
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  background: #111;
+  color: #fff;
+  display: none; /* enabled in JS when logo missing */
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.brand-name{
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.1;
+}
+
+/* =========================
+   Right column: models list (vertical)
+========================= */
+.models{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* =========================
+   Model row: photo left + info right
+========================= */
+.model-row{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 12px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Left: photo only */
 .model-left{
-  background:#fff;
+  background: #fff;
 }
 
 .model-photo{
-  width:100%;
-  height:180px;        /* ajuste si tu veux plus grand */
-  object-fit:cover;
-  display:block;
-  background:#f2f2f2;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  background: #f2f2f2;
 }
 
-/* Colonne droite : texte */
+/* Right: text/info */
 .model-right{
-  padding:12px 14px;
-  font-size:13.5px;
+  padding: 12px 14px;
+  font-size: 13.5px;
 }
 
-/* Nom du modèle (gros + gras) */
+/* Model title (big and bold) */
 .model-title{
-  font-size:16px;
-  font-weight:800;
-  margin:0 0 10px 0;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 0 0 10px 0;
 }
 
-/* Lignes label + valeur */
+/* Each line "Label: value" */
 .meta-line{
-  margin:6px 0;
-  color:#222;
+  margin: 6px 0;
+  color: #222;
 }
 
 .meta-label{
-  font-weight:700;     /* labels en gras */
+  font-weight: 800; /* labels bold */
 }
 
-/* Notes normales */
+/* Notes */
 .notes{
-  margin-top:10px;
-  color:#444;
+  margin-top: 10px;
+  color: #444;
 }
 
-/* Fabricant en italique */
+/* Manufacturer italics */
 .fabricant{
-  margin-top:10px;
-  font-style:italic;
-  color:#333;
+  margin-top: 10px;
+  font-style: italic;
+  color: #333;
 }
 
-/* Mobile */
+/* =========================
+   Small polish
+========================= */
+.brand-row,
+.model-row{
+  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
+}
+
+.model-right strong{
+  font-weight: 800;
+}
+
+/* =========================
+   Responsive
+========================= */
 @media (max-width: 700px){
+  .brand-row{
+    grid-template-columns: 1fr;
+  }
+
+  .brand-cell{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .brand-name{
+    text-align: left;
+  }
+
   .model-row{
     grid-template-columns: 1fr;
   }
+
   .model-photo{
-    height:220px;
+    height: 220px;
   }
 }
