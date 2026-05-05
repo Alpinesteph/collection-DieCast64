@@ -1,3 +1,5 @@
+document.getElementById("gallery").innerHTML = "<p>JS chargé ✅</p>";
+console.log("JS chargé ✅");
 fetch("collection.json")
   .then(response => response.json())
   .then(data => {
