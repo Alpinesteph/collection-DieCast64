@@ -9,20 +9,18 @@ fetch("collection.json")
       return;
     }
 
-    function normalize(str) {
-      return (str || "").toString().toLowerCase().trim();
-    }
+    const normalize = (str) => (str || "").toString().toLowerCase().trim();
 
-    function initials(brand) {
+    const initials = (brand) => {
       return normalize(brand)
         .split(/\s+/)
         .filter(Boolean)
         .slice(0, 2)
         .map(w => w[0].toUpperCase())
         .join("");
-    }
+    };
 
-    function slugify(brand) {
+    const slugify = (brand) => {
       return normalize(brand)
         .replace(/é|è|ê/g, "e")
         .replace(/à|â/g, "a")
@@ -31,16 +29,14 @@ fetch("collection.json")
         .replace(/ù|û|ü/g, "u")
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
-    }
+    };
 
-    function logoPath(brand) {
-      return `logos/${slugify(brand)}.png`;
-    }
+    const logoPath = (brand) => `logos/${slugify(brand)}.png`;
 
     function render(filteredCars) {
       gallery.innerHTML = "";
 
-      // group by marque
+      // Group by marque
       const byBrand = new Map();
       filteredCars.forEach(car => {
         const brand = car.marque || "Sans marque";
@@ -49,6 +45,7 @@ fetch("collection.json")
       });
 
       const brands = Array.from(byBrand.keys()).sort((a, b) => a.localeCompare(b, "fr"));
+
       if (brands.length === 0) {
         gallery.innerHTML = "<p>Aucun résultat.</p>";
         return;
@@ -58,7 +55,7 @@ fetch("collection.json")
         const row = document.createElement("div");
         row.className = "brand-row";
 
-        // --- Left: brand cell ---
+        // ---- Left brand cell ----
         const left = document.createElement("div");
         left.className = "brand-cell";
 
@@ -88,7 +85,7 @@ fetch("collection.json")
         left.appendChild(logoBox);
         left.appendChild(brandName);
 
-        // --- Right: models list ---
+        // ---- Right models list ----
         const right = document.createElement("div");
         right.className = "models";
 
@@ -104,7 +101,7 @@ fetch("collection.json")
             ? car.photo
             : "https://via.placeholder.com/400x300?text=No+Photo";
 
-          // LEFT block
+          // LEFT block (title + photo)
           const leftBlock = document.createElement("div");
           leftBlock.className = "model-left";
 
@@ -126,18 +123,13 @@ fetch("collection.json")
           leftBlock.appendChild(header);
           leftBlock.appendChild(imgCar);
 
-          // RIGHT block
+          // RIGHT block (category, color, notes, fabricant italics)
           const rightBlock = document.createElement("div");
           rightBlock.className = "model-right";
-
-          const prixTxt = (car.prix !== null && car.prix !== undefined && car.prix !== "")
-            ? `${car.prix} €`
-            : "";
 
           rightBlock.innerHTML = `
             ${car.categorie ? `<div class="meta-line"><strong>Catégorie :</strong> ${car.categorie}</div>` : ""}
             ${car.couleur ? `<div class="meta-line"><strong>Couleur :</strong> ${car.couleur}</div>` : ""}
-            ${prixTxt ? `<div class="meta-line"><strong>Prix :</strong> ${prixTxt}</div>` : ""}
             ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
             ${car.fabricant ? `<div class="fabricant">${car.fabricant}</div>` : ""}
           `;
@@ -153,10 +145,10 @@ fetch("collection.json")
       });
     }
 
-    // first render
+    // Initial render
     render(cars);
 
-    // search filter
+    // Search
     searchInput.addEventListener("input", () => {
       const q = normalize(searchInput.value);
 
@@ -167,8 +159,8 @@ fetch("collection.json")
 
       const filtered = cars.filter(car => {
         const hay = [
-          car.marque, car.modele, car.annees, car.categorie,
-          car.couleur, car.notes, car.fabricant
+          car.marque, car.modele, car.annees,
+          car.categorie, car.couleur, car.notes, car.fabricant
         ].map(normalize).join(" ");
         return hay.includes(q);
       });
