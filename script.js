@@ -18,7 +18,7 @@ fetch("collection.json")
       return;
     }
 
-    // ✅ Ignore les lignes de type commentaire/template
+    // Ignore les lignes de type commentaire/template
     cars = cars.filter(car => !car._commentaire);
 
     const normalize = (str) => (str || "").toString().toLowerCase().trim();
@@ -44,6 +44,10 @@ fetch("collection.json")
     };
 
     const logoPath = (brand) => `logos/${slugify(brand)}.png`;
+
+    // Fallback photo externe (si pas de photo)
+    const NO_PHOTO =
+      "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
 
     function render(list) {
       gallery.innerHTML = "";
@@ -84,6 +88,7 @@ fetch("collection.json")
         badge.textContent = initials(brand);
 
         imgLogo.onerror = () => {
+          imgLogo.onerror = null; // sécurité
           imgLogo.style.display = "none";
           badge.style.display = "flex";
         };
@@ -110,10 +115,10 @@ fetch("collection.json")
           const modelRow = document.createElement("div");
           modelRow.className = "model-row";
 
-          // Photo à gauche
+          // Photo à gauche (fallback externe)
           const photoSrc = (car.photo && car.photo.trim() !== "")
             ? car.photo
-            : "https://via.placeholder.com/400x300?text=No+Photo";
+            : NO_PHOTO;
 
           const leftBlock = document.createElement("div");
           leftBlock.className = "model-left";
@@ -122,8 +127,11 @@ fetch("collection.json")
           imgCar.className = "model-photo";
           imgCar.src = photoSrc;
           imgCar.alt = `${car.marque || ""} ${car.modele || ""}`;
+
+          // Stop boucle infinie si l'image fallback échoue aussi
           imgCar.onerror = () => {
-            imgCar.src = "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
+            imgCar.onerror = null;
+            imgCar.src = NO_PHOTO;
           };
 
           leftBlock.appendChild(imgCar);
@@ -137,16 +145,19 @@ fetch("collection.json")
             ? 0
             : car.prix;
 
-          // Fabricant + référence (discrète)
+          // Fabricant (gras) + référence (discrète)
           const fabricantHtml = car.fabricant
             ? `
               <div class="fabricant-line">
-                <span class="fabricant">${car.fabricant}</span>
-                ${car.reference_fabricant ? `<span class="ref-fabricant">${car.reference_fabricant}</span>` : ""}
+                <span class="fabricant">
+                  ${car.fabricant}
+                  ${car.reference_fabricant ? `<span class="ref-fabricant">${car.reference_fabricant}</span>` : ""}
+                </span>
               </div>
             `
             : "";
 
+          // Ordre demandé: Années, Catégorie, Couleur, Prix, Notes, Fabricant
           rightBlock.innerHTML = `
             <div class="model-title">${car.modele || ""}</div>
 
