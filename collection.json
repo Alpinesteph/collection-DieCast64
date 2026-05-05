@@ -37,15 +37,15 @@
   },
   {
     "marque": "Audi",
-    "modele": "Quattro (Ur-Quattro)",
+    "modele": "Quattro",
     "annees": "1980–1991",
     "categorie": "Rallye / Sport classique",
     "couleur": "Gris",
     "prix": null,
     "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
     "fabricant": "Mini GT",
-    "reference_fabricant": "",
-    "photo": ""
+    "reference_fabricant":null,
+    "photo": null
   },
   {
     "marque": "Bentley",
