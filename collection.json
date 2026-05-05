@@ -1,4 +1,4 @@
-{
+[
   "marque": "Alfa Romeo",
   "modele": "33 Coupé Stradale Prototipo",
   "annees": "1967",
@@ -8,7 +8,7 @@
   "notes": "Laudoracing Minilaudo MLCP0001",
   "fabricant": "Laudoracing",
   "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto6.jpg"
-},
+],
 {
   "marque": "Alpine",
   "modele": "A110",
