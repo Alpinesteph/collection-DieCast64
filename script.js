@@ -4,10 +4,15 @@ fetch("collection.json")
     const gallery = document.getElementById("gallery");
     const searchInput = document.getElementById("search");
 
-    if (!Array.isArray(cars)) {
-      gallery.innerHTML = "<p>Erreur: collection.json doit être une liste JSON [ ... ]</p>";
-      return;
-    }
+    
+  if (!Array.isArray(cars)) {
+    gallery.innerHTML = "<p>Erreur: collection.json doit être une liste JSON [ ... ]</p>";
+    return;
+}
+
+// ✅ ici seulement (quand cars est bien une liste)
+cars = cars.filter(car => !car._commentaire);
+
 
     const normalize = (str) => (str || "").toString().toLowerCase().trim();
 
