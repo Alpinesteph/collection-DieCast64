@@ -19,7 +19,7 @@ fetch("collection.json")
         : "";
 
       div.innerHTML = `
-        <img class="car-photo" src="${photo}" alt="${car.marque || ""} ${car.modele || ""}">
+        <img class="car-photo" src="${photo}" alt="${(car.marque || "")} ${(car.modele || "")}">
         <div class="meta">
           <p><strong>${car.marque || ""} ${car.modele || ""}</strong></p>
           <p>${car.fabricant || ""}${car.annees ? " – " + car.annees : ""}</p>
