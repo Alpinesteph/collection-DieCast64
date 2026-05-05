@@ -1,33 +1,140 @@
-#gallery {
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #fafafa;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#search {
+  width: min(600px, 100%);
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+
+/* Une ligne = une marque */
+.brand-row {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 14px;
+}
+
+/* Colonne gauche (marque) */
+.brand-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 6px;
+}
+
+.brand-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+/* Image du logo si tu en mets une dans /logos */
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+/* Fallback "logo" si pas d’image: pastille avec initiales */
+.brand-badge {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  background: #111;
+  color: #fff;
+  display: none;           /* activé en JS si image absente */
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.brand-name {
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+
+/* Colonne droite: modèles de la marque */
+.models {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 14px;
 }
 
-.card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
+/* Carte modèle */
+.model-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
   overflow: hidden;
-  background: white;
+  background: #fff;
 }
 
-.car-photo {
+.model-photo {
   width: 100%;
-  height: 160px;
-  object-fit: cover; /* recadre sans déformer */
+  height: 140px;
+  object-fit: cover;
   display: block;
+  background: #f2f2f2;
 }
 
-.meta {
+.model-info {
   padding: 10px;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
-.meta p {
-  margin: 6px 0;
+.model-title {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin: 0 0 6px 0;
+}
+
+.model-title strong {
+  font-size: 14.5px;
+}
+
+.model-years {
+  color: #666;
+  font-size: 12.5px;
+}
+
+.meta-line {
+  margin: 4px 0;
+  color: #222;
 }
 
 .notes {
+  margin-top: 6px;
   color: #444;
+}
+
+.fabricant {
+  margin-top: 8px;
+  color: #333;
   font-style: italic;
 }
