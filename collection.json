@@ -71,7 +71,90 @@
     "reference_fabricant": "No.31",
     "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg"
   },
-
+{
+  "marque": "Bugatti",
+  "modele": "EB110",
+  "annees": "1991–1995",
+  "categorie": "Supercar",
+  "couleur": "Bleu",
+  "prix": null,
+  "notes": "Supercar visionnaire des années 90, l’EB110 combinait transmission intégrale, quatre turbos et un châssis carbone. Elle a marqué le renouveau technologique de Bugatti avant l’ère moderne.",
+  "fabricant": "Hot Wheels",
+  "reference_fabricant": "",
+  "photo": ""
+},
+{
+  "marque": "Cadillac",
+  "modele": "Eldorado DeVille 1959",
+  "annees": "1959",
+  "categorie": "Luxe américain",
+  "couleur": "Rose",
+  "prix": null,
+  "notes": "Symbole ultime du luxe américain des années 50, l’Eldorado 1959 est célèbre pour ses ailerons démesurés. Elle incarne l’exubérance et l’optimisme de l’âge d’or automobile américain.",
+  "fabricant": "Matchbox",
+  "reference_fabricant": "No.12",
+  "photo": ""
+},
+{
+  "marque": "Chevrolet",
+  "modele": "Corvette Stingray 1963",
+  "annees": "1963",
+  "categorie": "Sport / US Classic",
+  "couleur": "Bleu",
+  "prix": null,
+  "notes": "La Corvette Stingray 1963 a introduit un design radical et une vraie identité sportive américaine. Elle reste une référence absolue des muscle cars élégants.",
+  "fabricant": "AutoWorld",
+  "reference_fabricant": "",
+  "photo": ""
+},
+{
+  "marque": "Citroën",
+  "modele": "HY",
+  "annees": "1947–1981",
+  "categorie": "Utilitaire",
+  "couleur": "Gris",
+  "prix": null,
+  "notes": "Le Citroën HY est l’un des utilitaires les plus reconnaissables jamais produits. Sa robustesse et son design fonctionnel en ont fait une icône populaire durable.",
+  "fabricant": "Norev",
+  "reference_fabricant": "",
+  "photo": ""
+},
+{
+  "marque": "Citroën",
+  "modele": "2CV Charleston",
+  "annees": "1980–1990",
+  "categorie": "Citadine classique",
+  "couleur": "Noir / Bordeaux",
+  "prix": null,
+  "notes": "Version emblématique de la 2CV, la Charleston symbolise la voiture populaire française. Elle incarne la simplicité mécanique, l’accessibilité et la liberté automobile.",
+  "fabricant": "Norev",
+  "reference_fabricant": "",
+  "photo": ""
+},
+{
+  "marque": "Dodge",
+  "modele": "Viper",
+  "annees": "1992–2002",
+  "categorie": "Supercar / Muscle moderne",
+  "couleur": "Bleu",
+  "prix": null,
+  "notes": "La Dodge Viper est une voiture radicale, conçue sans compromis autour d’un V10 massif. Elle symbolise l’approche brute et extrême de la performance américaine.",
+  "fabricant": "Hot Wheels",
+  "reference_fabricant": "",
+  "photo": ""
+},
+{
+  "marque": "Ford",
+  "modele": "Mustang 1969",
+  "annees": "1969",
+  "categorie": "Muscle Car",
+  "couleur": "Gris",
+  "prix": null,
+  "notes": "Icône absolue du muscle car, la Mustang 1969 représente la liberté et la culture automobile américaine. Son design agressif et sa présence à l’écran l’ont rendue mythique.",
+  "fabricant": "Pop Race",
+  "reference_fabricant": "",
+  "photo": ""
+}
   {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
