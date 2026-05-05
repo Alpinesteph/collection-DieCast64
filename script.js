@@ -1,175 +1,59 @@
-fetch("collection.json")
-  .then(r => r.json())
-  .then(cars => {
-    const gallery = document.getElementById("gallery");
-    const searchInput = document.getElementById("search");
+models.forEach(car => {
+  const modelRow = document.createElement("div");
+  modelRow.className = "model-row";
 
-    if (!Array.isArray(cars)) {
-      gallery.innerHTML = "<p>Erreur: collection.json doit être une liste [ ... ]</p>";
-      return;
-    }
+  const photoSrc = (car.photo && car.photo.trim() !== "")
+    ? car.photo
+    : "https://via.placeholder.com/400x300?text=No+Photo";
 
-    const normalize = (str) => (str || "").toString().toLowerCase().trim();
+  // ------- LEFT : photo seulement -------
+  const leftBlock = document.createElement("div");
+  leftBlock.className = "model-left";
 
-    const initials = (brand) => {
-      return normalize(brand)
-        .split(/\s+/)
-        .filter(Boolean)
-        .slice(0, 2)
-        .map(w => w[0].toUpperCase())
-        .join("");
-    };
+  const imgCar = document.createElement("img");
+  imgCar.className = "model-photo";
+  imgCar.src = photoSrc;
+  imgCar.alt = `${car.marque || ""} ${car.modele || ""}`;
+  imgCar.onerror = () => {
+    imgCar.src = "https://via.placeholder.com/400x300?text=No+Photo";
+  };
 
-    const slugify = (brand) => {
-      return normalize(brand)
-        .replace(/é|è|ê/g, "e")
-        .replace(/à|â/g, "a")
-        .replace(/î|ï/g, "i")
-        .replace(/ô/g, "o")
-        .replace(/ù|û|ü/g, "u")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
-    };
+  leftBlock.appendChild(imgCar);
 
-    const logoPath = (brand) => `logos/${slugify(brand)}.png`;
+  // ------- RIGHT : modèle + meta -------
+  const rightBlock = document.createElement("div");
+  rightBlock.className = "model-right";
 
-    function render(filteredCars) {
-      gallery.innerHTML = "";
+  // Prix par défaut = 0 si null/undefined/""
+  const prix = (car.prix === null || car.prix === undefined || car.prix === "")
+    ? 0
+    : car.prix;
 
-      // Group by marque
-      const byBrand = new Map();
-      filteredCars.forEach(car => {
-        const brand = car.marque || "Sans marque";
-        if (!byBrand.has(brand)) byBrand.set(brand, []);
-        byBrand.get(brand).push(car);
-      });
+  rightBlock.innerHTML = `
+    <div class="model-title">${car.modele || ""}</div>
 
-      const brands = Array.from(byBrand.keys()).sort((a, b) => a.localeCompare(b, "fr"));
+    <div class="meta-line">
+      <span class="meta-label">Années :</span> ${car.annees || ""}
+    </div>
 
-      if (brands.length === 0) {
-        gallery.innerHTML = "<p>Aucun résultat.</p>";
-        return;
-      }
+    <div class="meta-line">
+      <span class="meta-label">Catégorie :</span> ${car.categorie || ""}
+    </div>
 
-      brands.forEach(brand => {
-        const row = document.createElement("div");
-        row.className = "brand-row";
+    <div class="meta-line">
+      <span class="meta-label">Couleur :</span> ${car.couleur || ""}
+    </div>
 
-        // ---- Left brand cell ----
-        const left = document.createElement("div");
-        left.className = "brand-cell";
+    <div class="meta-line">
+      <span class="meta-label">Prix :</span> ${prix} €
+    </div>
 
-        const logoBox = document.createElement("div");
-        logoBox.className = "brand-logo";
+    ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
 
-        const imgLogo = document.createElement("img");
-        imgLogo.src = logoPath(brand);
-        imgLogo.alt = `Logo ${brand}`;
+    ${car.fabricant ? `<div class="fabricant">${car.fabricant}</div>` : ""}
+  `;
 
-        const badge = document.createElement("div");
-        badge.className = "brand-badge";
-        badge.textContent = initials(brand);
-
-        imgLogo.onerror = () => {
-          imgLogo.style.display = "none";
-          badge.style.display = "flex";
-        };
-
-        logoBox.appendChild(imgLogo);
-        logoBox.appendChild(badge);
-
-        const brandName = document.createElement("div");
-        brandName.className = "brand-name";
-        brandName.textContent = brand;
-
-        left.appendChild(logoBox);
-        left.appendChild(brandName);
-
-        // ---- Right models list ----
-        const right = document.createElement("div");
-        right.className = "models";
-
-        const models = byBrand.get(brand).slice().sort((a, b) =>
-          (a.modele || "").localeCompare((b.modele || ""), "fr")
-        );
-
-        models.forEach(car => {
-          const modelRow = document.createElement("div");
-          modelRow.className = "model-row";
-
-          const photoSrc = (car.photo && car.photo.trim() !== "")
-            ? car.photo
-            : "https://via.placeholder.com/400x300?text=No+Photo";
-
-          // LEFT block (title + photo)
-          const leftBlock = document.createElement("div");
-          leftBlock.className = "model-left";
-
-          const header = document.createElement("div");
-          header.className = "model-header";
-          header.innerHTML = `
-            <span class="model-name">${car.modele || ""}</span>
-            ${car.annees ? `<span class="model-years">${car.annees}</span>` : ""}
-          `;
-
-          const imgCar = document.createElement("img");
-          imgCar.className = "model-photo";
-          imgCar.src = photoSrc;
-          imgCar.alt = `${car.marque || ""} ${car.modele || ""}`;
-          imgCar.onerror = () => {
-            imgCar.src = "https://via.placeholder.com/400x300?text=No+Photo";
-          };
-
-          leftBlock.appendChild(header);
-          leftBlock.appendChild(imgCar);
-
-          // RIGHT block (category, color, notes, fabricant italics)
-          const rightBlock = document.createElement("div");
-          rightBlock.className = "model-right";
-
-          rightBlock.innerHTML = `
-            ${car.categorie ? `<div class="meta-line"><strong>Catégorie :</strong> ${car.categorie}</div>` : ""}
-            ${car.couleur ? `<div class="meta-line"><strong>Couleur :</strong> ${car.couleur}</div>` : ""}
-            ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
-            ${car.fabricant ? `<div class="fabricant">${car.fabricant}</div>` : ""}
-          `;
-
-          modelRow.appendChild(leftBlock);
-          modelRow.appendChild(rightBlock);
-          right.appendChild(modelRow);
-        });
-
-        row.appendChild(left);
-        row.appendChild(right);
-        gallery.appendChild(row);
-      });
-    }
-
-    // Initial render
-    render(cars);
-
-    // Search
-    searchInput.addEventListener("input", () => {
-      const q = normalize(searchInput.value);
-
-      if (!q) {
-        render(cars);
-        return;
-      }
-
-      const filtered = cars.filter(car => {
-        const hay = [
-          car.marque, car.modele, car.annees,
-          car.categorie, car.couleur, car.notes, car.fabricant
-        ].map(normalize).join(" ");
-        return hay.includes(q);
-      });
-
-      render(filtered);
-    });
-  })
-  .catch(err => {
-    console.error("Erreur chargement collection.json:", err);
-    document.getElementById("gallery").innerHTML =
-      "<p>Erreur: impossible de charger collection.json (voir console).</p>";
-  });
+  modelRow.appendChild(leftBlock);
+  modelRow.appendChild(rightBlock);
+  right.appendChild(modelRow);
+});
