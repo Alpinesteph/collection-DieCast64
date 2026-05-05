@@ -4,15 +4,22 @@ fetch("collection.json")
     const gallery = document.getElementById("gallery");
     const searchInput = document.getElementById("search");
 
-    
-  if (!Array.isArray(cars)) {
-    gallery.innerHTML = "<p>Erreur: collection.json doit être une liste JSON [ ... ]</p>";
-    return;
-}
+    if (!gallery) {
+      console.error("Élément #gallery introuvable dans index.html");
+      return;
+    }
+    if (!searchInput) {
+      console.error("Élément #search introuvable dans index.html");
+      return;
+    }
 
-// ✅ ici seulement (quand cars est bien une liste)
-cars = cars.filter(car => !car._commentaire);
+    if (!Array.isArray(cars)) {
+      gallery.innerHTML = "<p>Erreur: collection.json doit être une liste JSON [ ... ]</p>";
+      return;
+    }
 
+    // ✅ Ignore les lignes de type commentaire/template
+    cars = cars.filter(car => !car._commentaire);
 
     const normalize = (str) => (str || "").toString().toLowerCase().trim();
 
@@ -38,17 +45,18 @@ cars = cars.filter(car => !car._commentaire);
 
     const logoPath = (brand) => `logos/${slugify(brand)}.png`;
 
-    function render(filteredCars) {
+    function render(list) {
       gallery.innerHTML = "";
 
       // Group by marque
       const byBrand = new Map();
-      filteredCars.forEach(car => {
+      list.forEach(car => {
         const brand = car.marque || "Sans marque";
         if (!byBrand.has(brand)) byBrand.set(brand, []);
         byBrand.get(brand).push(car);
       });
 
+      // Marques par ordre alphabétique
       const brands = Array.from(byBrand.keys()).sort((a, b) => a.localeCompare(b, "fr"));
 
       if (brands.length === 0) {
@@ -94,8 +102,7 @@ cars = cars.filter(car => !car._commentaire);
         const right = document.createElement("div");
         right.className = "models";
 
-        // ICI on définit models (donc models existe uniquement ici)
-        const models = byBrand.get(brand)
+        const models = (byBrand.get(brand) || [])
           .slice()
           .sort((a, b) => (a.modele || "").localeCompare((b.modele || ""), "fr"));
 
@@ -130,6 +137,16 @@ cars = cars.filter(car => !car._commentaire);
             ? 0
             : car.prix;
 
+          // Fabricant + référence (discrète)
+          const fabricantHtml = car.fabricant
+            ? `
+              <div class="fabricant-line">
+                <span class="fabricant">${car.fabricant}</span>
+                ${car.reference_fabricant ? `<span class="ref-fabricant">${car.reference_fabricant}</span>` : ""}
+              </div>
+            `
+            : "";
+
           rightBlock.innerHTML = `
             <div class="model-title">${car.modele || ""}</div>
 
@@ -151,7 +168,7 @@ cars = cars.filter(car => !car._commentaire);
 
             ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
 
-            ${car.fabricant ? `<div class="fabricant">${car.fabricant}</div>` : ""}
+            ${fabricantHtml}
           `;
 
           modelRow.appendChild(leftBlock);
@@ -179,8 +196,14 @@ cars = cars.filter(car => !car._commentaire);
 
       const filtered = cars.filter(car => {
         const hay = [
-          car.marque, car.modele, car.annees,
-          car.categorie, car.couleur, car.notes, car.fabricant
+          car.marque,
+          car.modele,
+          car.annees,
+          car.categorie,
+          car.couleur,
+          car.notes,
+          car.fabricant,
+          car.reference_fabricant
         ].map(normalize).join(" ");
         return hay.includes(q);
       });
@@ -190,6 +213,8 @@ cars = cars.filter(car => !car._commentaire);
   })
   .catch(err => {
     console.error("Erreur chargement collection.json:", err);
-    document.getElementById("gallery").innerHTML =
-      "<p>Erreur: impossible de charger collection.json (voir console).</p>";
+    const gallery = document.getElementById("gallery");
+    if (gallery) {
+      gallery.innerHTML = "<p>Erreur: impossible de charger collection.json (voir console).</p>";
+    }
   });
