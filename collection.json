@@ -1,32 +1,35 @@
 [
-  "marque": "Alfa Romeo",
-  "modele": "33 Coupé Stradale Prototipo",
-  "annees": "1967",
-  "categorie": "Supercar / Classique",
-  "couleur": "Rouge",
-  "prix": null,
-  "notes": "Laudoracing Minilaudo MLCP0001",
-  "fabricant": "Laudoracing",
-  "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto6.jpg"
-],
-{
-  "marque": "Alpine",
-  "modele": "A110",
-  "annees": "1963–1977",
-  "categorie": "Rallye / Sport",
-  "couleur": "Bleu métallisé",
-  "prix": null,
-  "notes": "Norev 3-inches réf. 310706",
-  "fabricant": "Norev",
-  "photo": "https://www.bcnstockcars.com/107602-thickbox_default/alpine-a110-bleu-box-norev-apx-164-norev-3-inches-75cm.jpg"
-},
-{
-  "marque": "Ferrari",
-  "modele": "F40",
-  "annees": "1987–1992",
-  "categorie": "Supercar",
-  "couleur": "Rouge",
-  "prix": null,
-  "notes": "Tomica Premium No.31",
-  "fabricant": "Tomica Premium",
-},
+  {
+    "marque": "Alfa Romeo",
+    "modele": "33 Coupé Stradale Prototipo",
+    "annees": "1967",
+    "categorie": "Supercar / Classique",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Laudoracing Minilaudo MLCP0001",
+    "fabricant": "Laudoracing",
+    "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto6.jpg"
+  },
+  {
+    "marque": "Alpine",
+    "modele": "A110",
+    "annees": "1963–1977",
+    "categorie": "Rallye / Sport",
+    "couleur": "Bleu métallisé",
+    "prix": null,
+    "notes": "Norev 3-inches réf. 310706",
+    "fabricant": "Norev",
+    "photo": "https://www.bcnstockcars.com/107602-thickbox_default/alpine-a110-bleu-box-norev-apx-164-norev-3-inches-75cm.jpg"
+  },
+  {
+    "marque": "Ferrari",
+    "modele": "F40",
+    "annees": "1987–1992",
+    "categorie": "Supercar",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Tomica Premium No.31",
+    "fabricant": "Tomica Premium",
+    "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg"
+  }
+]
