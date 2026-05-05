@@ -43,9 +43,9 @@
     "couleur": "Gris",
     "prix": null,
     "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
-    "fabricant": "Mini GT",
-    "reference_fabricant":null,
-    "photo": null
+    "fabricant": "Tarmac Works",
+    "reference_fabricant": "T64S-025-82RAC01",
+    "photo": "https://cdn.shopify.com/s/files/1/0604/9733/products/T64S-025-82RAC01_2048x.jpg"
   },
   {
     "marque": "Bentley",
@@ -80,8 +80,8 @@
   "prix": null,
   "notes": "Supercar visionnaire des années 90, l’EB110 combinait transmission intégrale, quatre turbos et un châssis carbone. Elle a marqué le renouveau technologique de Bugatti avant l’ère moderne.",
   "fabricant": "Hot Wheels",
-  "reference_fabricant": "",
-  "photo": ""
+  "reference_fabricant": null,
+  "photo": "https://cdn11.bigcommerce.com/s-mpz9h6/images/stencil/1280x1280/products/195436/331227/bugatti-eb110-hotwheels__91999.1683003839.jpg"
 },
 {
   "marque": "Cadillac",
