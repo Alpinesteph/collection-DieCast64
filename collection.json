@@ -6,8 +6,9 @@
     "categorie": "Supercar / Classique",
     "couleur": "Rouge",
     "prix": null,
-    "notes": "Laudoracing Minilaudo MLCP0001",
+    "notes": "La 33 Stradale est directement issue de la compétition (Tipo 33). Produite en très petite série, elle incarne l’âge d’or du design italien et l’esprit course d’Alfa Romeo.",
     "fabricant": "Laudoracing",
+    "reference_fabricant": "Minilaudo MLCP0001",
     "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto6.jpg"
   },
   {
@@ -17,20 +18,10 @@
     "categorie": "Rallye / Sport",
     "couleur": "Bleu métallisé",
     "prix": null,
-    "notes": "Norev 3-inches réf. 310706",
+    "notes": "Icône du rallye grâce à sa légèreté et son agilité, l’A110 a marqué les années 70 et la compétition française. Son style compact et son efficacité en spéciale en ont fait une légende intemporelle.",
     "fabricant": "Norev",
+    "reference_fabricant": "3-inches réf. 310706",
     "photo": "https://www.bcnstockcars.com/107602-thickbox_default/alpine-a110-bleu-box-norev-apx-164-norev-3-inches-75cm.jpg"
-  },
-  {
-    "marque": "Ferrari",
-    "modele": "F40",
-    "annees": "1987–1992",
-    "categorie": "Supercar",
-    "couleur": "Rouge",
-    "prix": null,
-    "notes": "Tomica Premium No.31",
-    "fabricant": "Tomica Premium",
-    "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg"
   },
   {
     "marque": "Aston Martin",
@@ -39,9 +30,22 @@
     "categorie": "GT classique / Cinéma",
     "couleur": "Argent",
     "prix": null,
-    "notes": "Mini GT 007 James Bond \"Goldfinger\" réf. MGT00900-007E",
+    "notes": "Symbole de l’élégance britannique, la DB5 est devenue mythique grâce à son association avec James Bond. Elle représente l’archétype du grand tourisme des sixties, entre luxe et performance.",
     "fabricant": "Mini GT",
-    "photo": "https://www.1-64specialist.com/cdn/shop/files/AstonMartinDB5_Goldfinger_007JamesBond-MiniGT-CodiceMGT00900-007EEnglishfoto2_bdd9b9d0-31d7-4bdc-bc0f-84b35395dd58.jpg?v=1743919854&width=1445"
+    "reference_fabricant": "MGT00900-007E",
+    "photo": "https://www.1-64specialist.com/cdn/shop/files/AstonMartinDB5_Goldfinger_007JamesBond-MiniGT-CodiceMGT00900-007EEnglishfoto2_bdd9b9d0-31d7-4bdc-bc0f-84b35395dd58.jpg"
+  },
+  {
+    "marque": "Audi",
+    "modele": "Quattro (Ur-Quattro)",
+    "annees": "1980–1991",
+    "categorie": "Rallye / Sport classique",
+    "couleur": "Gris",
+    "prix": null,
+    "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
+    "fabricant": "Mini GT",
+    "reference_fabricant": "",
+    "photo": ""
   },
   {
     "marque": "Bentley",
@@ -50,20 +54,35 @@
     "categorie": "GT3 / Course",
     "couleur": "Blanc / Vert",
     "prix": null,
-    "notes": "Hot Wheels Premium – Car Culture \"Race Day\"",
+    "notes": "Version course d’une Bentley moderne, la Continental GT3 a marqué le retour de la marque sur les circuits internationaux. Elle mélange prestige, endurance et performance pure dans la catégorie GT.",
     "fabricant": "Hot Wheels",
+    "reference_fabricant": "",
     "photo": "https://www.1-64specialist.com/cdn/shop/files/HotWheelsBentleyContinentalGT32018_veicoloCarCultureCircuitLegendsdacollezionefoto1.jpg"
   },
-{
-  "marque": "",
-  "modele": "",
-  "annees": "",
-  "categorie": "",
-  "couleur": "",
-  "prix": null,
-  "notes": "",
-  "fabricant": "",
-  "reference_fabricant": ""
-  "photo": ""
-}
+  {
+    "marque": "Ferrari",
+    "modele": "F40",
+    "annees": "1987–1992",
+    "categorie": "Supercar",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Supercar radicale et sans compromis, la F40 est l’une des Ferrari les plus iconiques. Légère, brutale et orientée performance, elle symbolise une époque où la sensation de conduite primait sur tout.",
+    "fabricant": "Tomica Premium",
+    "reference_fabricant": "No.31",
+    "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg"
+  },
+
+  {
+    "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
+    "marque": "",
+    "modele": "",
+    "annees": "",
+    "categorie": "",
+    "couleur": "",
+    "prix": null,
+    "notes": "",
+    "fabricant": "",
+    "reference_fabricant": "",
+    "photo": ""
+  }
 ]
