@@ -123,7 +123,7 @@ fetch("collection.json")
           imgCar.src = photoSrc;
           imgCar.alt = `${car.marque || ""} ${car.modele || ""}`;
           imgCar.onerror = () => {
-            imgCar.src = "https://via.placeholder.com/400x300?text=No+Photo";
+            imgCar.src = "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
           };
 
           leftBlock.appendChild(imgCar);
