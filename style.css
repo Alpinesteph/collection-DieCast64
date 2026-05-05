@@ -160,7 +160,8 @@ fabricant-line{
 
 /* Fabricant : normal (pas italique) */
 .fabricant{
-  font-style: normal;
+  margin-top: 10px;
+   font-style: normal;
 }
 
 /* =========================
