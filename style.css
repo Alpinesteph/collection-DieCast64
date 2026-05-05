@@ -145,14 +145,22 @@ h1{
 /* Notes */
 .notes{
   margin-top: 10px;
-  color: #444;
+  font-style: italic;
+  color: #333;
 }
 
 /* Manufacturer italics */
-.fabricant{
+
+fabricant-line{
   margin-top: 10px;
-  font-style: italic;
-  color: #333;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+/* Fabricant : normal (pas italique) */
+.fabricant{
+  font-style: normal;
 }
 
 /* =========================
