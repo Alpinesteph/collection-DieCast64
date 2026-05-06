@@ -44,8 +44,8 @@
     "prix": null,
     "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
     "fabricant": "Tarmac Works",
-    "reference_fabricant": "T64S-025-82RAC01",
-    "photo": ""
+    "reference_fabricant": "T64S-025-SL",
+    "photo": "https://modellautos-dresden.de/media/image/de/3d/67/T64S-025-SL-Audi-Quattro-silber-1-jpg_600x600@2x.jpg"
   },
   {
     "marque": "Bentley",
@@ -217,7 +217,7 @@
   },
   {
     "marque": "Mazda",
-    "modele": "RX-7 (FD3S)",
+    "modele": "RX-7",
     "annees": "1992–2002",
     "categorie": "Sport / JDM",
     "couleur": "Rouge",
@@ -249,7 +249,7 @@
     "notes": "La McLaren F1 est l’une des supercars les plus mythiques jamais construites, avec son V12 atmosphérique et sa position de conduite centrale. Elle a détenu le record de vitesse pour une voiture de série.",
     "fabricant": "Pop Race",
     "reference_fabricant": "McLaren F1",
-    "photo": ""
+    "photo": "http://diecasthunter.de/cdn/shop/files/IMG_1322_2.jpg?v=1758124332"
   },
   {
     "marque": "Mercedes-Benz",
@@ -261,7 +261,7 @@
     "notes": "La Mercedes 300 SL Roadster est dérivée de la célèbre Gullwing et conserve son innovation technique. Elle reste une icône du design et du luxe automobile des années 50.",
     "fabricant": "YS Models",
     "reference_fabricant": "Mercedes-Benz 300 SL Roadster",
-    "photo": ""
+    "photo": "https://jaimantoys.com/cdn/shop/files/Image_20241011225626132.jpg"
   },
   {
     "marque": "Mercedes-Benz",
