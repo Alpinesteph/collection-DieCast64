@@ -1,5 +1,70 @@
 [
   {
+    "marque": "Citroën",
+    "modele": "2CV Charleston",
+    "annees": "1987",
+    "categorie": "Classique",
+    "couleur": "Bordeaux / Noir",
+    "prix": 3.99,
+    "notes": "Citadine iconique française, version Charleston bicolore très reconnaissable.",
+    "fabricant": "Norev",
+    "reference_fabricant": "AMC0191352",
+    "photo": null,
+    "type": "classique"
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "205 GTI",
+    "annees": "1988",
+    "categorie": "Hot Hatch / Classique",
+    "couleur": "Noir",
+    "prix": 3.90,
+    "notes": "Petite sportive emblématique des années 80, très populaire en collection 1:64.",
+    "fabricant": "Norev",
+    "reference_fabricant": "112923",
+    "photo": null,
+    "type": "mythique"
+  },
+  {
+    "marque": "Nissan",
+    "modele": "Skyline 2000 GT-R (KPGC10)",
+    "annees": "1970s",
+    "categorie": "JDM / Classique",
+    "couleur": "Argent",
+    "prix": 13.90,
+    "notes": "Première génération de Skyline GT-R, véritable base de la légende JDM.",
+    "fabricant": "Tarmac Works",
+    "reference_fabricant": "107230",
+    "photo": null,
+    "type": "mythique"
+  },
+  {
+    "marque": "Nissan",
+    "modele": "Skyline GT-R R34 Z-Tune",
+    "annees": "2000s",
+    "categorie": "JDM / Sportive",
+    "couleur": "Argent",
+    "prix": 14.99,
+    "notes": "Version ultra rare et ultime du R34, produite en très petite série par Nismo.",
+    "fabricant": "Schuco",
+    "reference_fabricant": "452033800",
+    "photo": null,
+    "type": "mythique"
+  },
+  {
+    "marque": "Mercedes-Benz",
+    "modele": "190 E 2.5-16 EVO 1",
+    "annees": "1980s-1990s",
+    "categorie": "Touring / Sport",
+    "couleur": "gris foncé"
+    "prix": 17.99,
+    "notes": "Berline sportive de DTM, très iconique en course automobile allemande.",
+    "fabricant": "Tarmac Works",
+    "reference_fabricant": "115817",
+    "photo": null,
+    "type": "mythique"
+  },
+  {
     "marque": "Alfa Romeo",
     "modele": "33 Coupé Stradale Prototipo",
     "annees": "1967",
