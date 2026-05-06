@@ -132,15 +132,15 @@
   "photo": "https://www.norev.com/cdn/shop/files/AMC0191352-ROUGE-N_1.jpg"
 },
 {
-  "marque": "Dodge",
-  "modele": "Viper",
-  "annees": "1992–2002",
-  "categorie": "Supercar / Muscle moderne",
-  "couleur": "Bleu",
+  "marque": "Mini",
+  "modele": "Cooper",
+  "annees": "1961–1971",
+  "categorie": "Classique / Citadine",
+  "couleur": "Vert",
   "prix": null,
-  "notes": "La Dodge Viper est une voiture radicale, conçue sans compromis autour d’un V10 massif. Elle symbolise l’approche brute et extrême de la performance américaine.",
-  "fabricant": "Hot Wheels",
-  "reference_fabricant": "",
+  "notes": "La Mini Cooper est une icône britannique des années 60, célèbre pour son design compact et son agilité. Elle s’est illustrée en compétition, notamment en remportant le Rallye de Monte-Carlo à plusieurs reprises.",
+  "fabricant": "Norev",
+  "reference_fabricant": "Mini Cooper",
   "photo": ""
 },
 {
@@ -177,7 +177,7 @@
     "notes": "La Honda NSX est la première supercar japonaise moderne, développée avec l’aide d’Ayrton Senna. Elle combine performance et fiabilité, révolutionnant l’approche des supercars dans les années 90.",
     "fabricant": "Micro Turbo",
     "reference_fabricant": "Custom NSX Wide Body",
-    "photo": ""
+    "photo": "http://mt-model.com/cdn/shop/files/MT6412A1.jpg"
   },
   {
     "marque": "Lancia",
@@ -285,7 +285,7 @@
     "notes": "La Lancer Evolution VI Tommi Mäkinen Edition célèbre les titres WRC du pilote finlandais. Version ultime de l’Evo VI, elle est une icône absolue du rallye japonais.",
     "fabricant": "Hobby Japan",
     "reference_fabricant": "Lancer Evolution VI TME",
-    "photo": ""
+    "photo": "http://ig-model.online/cdn/shop/files/HJ643033AW_F_1200x1200.jpg"
   },
   {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
