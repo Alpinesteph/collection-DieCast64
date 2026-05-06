@@ -12,6 +12,15 @@ h1{
   margin: 0 0 10px 0;
 }
 
+h2{
+  margin-top: 40px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* =========================
+   Search
+========================= */
 #search{
   width: min(650px, 100%);
   padding: 10px 12px;
@@ -22,25 +31,55 @@ h1{
 }
 
 /* =========================
-   Brand block (group by marque)
+   Summary Navigation
+========================= */
+.summary{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.summary a{
+  text-decoration: none;
+  color: white;
+  background: #111;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.25s;
+}
+
+.summary a:hover{
+  background: #444;
+}
+
+/* =========================
+   Brand block
 ========================= */
 .brand-row{
   display: grid;
   grid-template-columns: 180px 1fr;
   gap: 16px;
   padding: 14px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   background: #fff;
   border: 1px solid #eee;
   border-radius: 14px;
+  transition: 0.2s;
 }
 
-/* Left column (marque) */
+.brand-row:hover{
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   Brand left
+========================= */
 .brand-cell{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   gap: 10px;
   padding-top: 6px;
 }
@@ -63,38 +102,36 @@ h1{
   padding: 10px;
 }
 
-/* Fallback initials badge if logo image is missing */
+/* fallback */
 .brand-badge{
   width: 72px;
   height: 72px;
   border-radius: 16px;
   background: #111;
   color: #fff;
-  display: none; /* enabled in JS when logo missing */
+  display: none;
   align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 18px;
-  letter-spacing: 0.5px;
 }
 
 .brand-name{
   font-weight: 800;
   text-align: center;
-  line-height: 1.1;
 }
 
 /* =========================
-   Right column: models list (vertical)
+   Models list
 ========================= */
 .models{
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 /* =========================
-   Model row: photo left + info right
+   Model card
 ========================= */
 .model-row{
   display: grid;
@@ -104,9 +141,15 @@ h1{
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
+  transition: 0.2s;
 }
 
-/* Left: photo only */
+.model-row:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* IMAGE */
 .model-left{
   background: #fff;
 }
@@ -114,35 +157,35 @@ h1{
 .model-photo{
   width: 100%;
   height: 260px;
-  object-fit: cover;
-  display: block;
+  object-fit: contain; /* ✅ mieux que cover pour diecast */
   background: #f2f2f2;
 }
 
-/* Right: text/info */
+/* =========================
+   Model info
+========================= */
 .model-right{
   padding: 12px 14px;
   font-size: 13.5px;
 }
 
-/* Model title (big and bold) */
 .model-title{
   font-size: 18px;
   font-weight: 900;
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
 }
 
-/* Each line "Label: value" */
 .meta-line{
-  margin: 6px 0;
-  color: #222;
+  margin: 5px 0;
 }
 
 .meta-label{
-  font-weight: 800; /* labels bold */
+  font-weight: 800;
 }
 
-/* Notes */
+/* =========================
+   Notes
+========================= */
 .notes{
   margin-top: 10px;
   font-style: italic;
@@ -150,19 +193,19 @@ h1{
   line-height: 1.35;
 }
 
-/* Manufacturer italics */
-
+/* =========================
+   Fabricant
+========================= */
 .fabricant-line{
   margin-top: 10px;
 }
 
 .fabricant{
-  font-weight: 700;   /* 👈 gras */
+  font-weight: 700;
   color: #222;
 }
 
 .ref-fabricant{
-  font-weight: 400;   /* ref pas en gras (discret) */
   font-size: 12px;
   color: #777;
   padding: 2px 6px;
@@ -172,22 +215,9 @@ h1{
   margin-left: 8px;
 }
 
-}
-
-/* Fabricant : normal (pas italique) */
-.fabricant{
-  margin-top: 10px;
-   font-style: normal;
-}
-
 /* =========================
-   Small polish
+   Polish
 ========================= */
-.brand-row,
-.model-row{
-  box-shadow: 0 1px 0 rgba(0,0,0,0.02);
-}
-
 .model-right strong{
   font-weight: 800;
 }
@@ -196,13 +226,13 @@ h1{
    Responsive
 ========================= */
 @media (max-width: 700px){
+
   .brand-row{
     grid-template-columns: 1fr;
   }
 
   .brand-cell{
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
   }
 
@@ -215,6 +245,7 @@ h1{
   }
 
   .model-photo{
-    height: 220px;
+    height: 200px;
   }
+
 }
