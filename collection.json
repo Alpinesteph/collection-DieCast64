@@ -9,8 +9,8 @@
     "notes": "La 33 Stradale est directement issue de la compétition (Tipo 33). Produite en très petite série, elle incarne l’âge d’or du design italien et l’esprit course d’Alfa Romeo.",
     "fabricant": "Laudoracing",
     "reference_fabricant": "Minilaudo MLCP0001",
-    "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto1.jpg"
-    "type": "mythique"
+    "photo": "https://www.1-64specialist.com/cdn/shop/files/AlfaRomeo33CoupeStradale1967RedPrototipoLaudoracingScala1-64foto1.jpg",,
+    "type": "mythique",
   },
   {
     "marque": "Alpine",
@@ -22,8 +22,8 @@
     "notes": "Icône du rallye grâce à sa légèreté et son agilité, l’A110 a marqué les années 70 et la compétition française. Son style compact et son efficacité en spéciale en ont fait une légende intemporelle.",
     "fabricant": "Norev",
     "reference_fabricant": "3-inches réf. 310706",
-    "photo": "https://www.norev.com/cdn/shop/files/517826.jpg"
-    "type": "mythique"
+    "photo": "https://www.norev.com/cdn/shop/files/517826.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Aston Martin",
@@ -35,8 +35,8 @@
     "notes": "Symbole de l’élégance britannique, la DB5 est devenue mythique grâce à son association avec James Bond. Elle représente l’archétype du grand tourisme des sixties, entre luxe et performance.",
     "fabricant": "Mini GT",
     "reference_fabricant": "MGT00901",
-    "photo": "https://www.1-64specialist.com/cdn/shop/files/AstonMartinDB5_Goldfinger_007JamesBond-MiniGT-CodiceMGT00900-007EEnglishfoto2_bdd9b9d0-31d7-4bdc-bc0f-84b35395dd58.jpg"
-    "type": "mythique"
+    "photo": "https://www.1-64specialist.com/cdn/shop/files/AstonMartinDB5_Goldfinger_007JamesBond-MiniGT-CodiceMGT00900-007EEnglishfoto2_bdd9b9d0-31d7-4bdc-bc0f-84b35395dd58.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Audi",
@@ -48,8 +48,8 @@
     "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "T64S-025-SL",
-    "photo": "https://modellautos-dresden.de/media/image/de/3d/67/T64S-025-SL-Audi-Quattro-silber-1-jpg_600x600@2x.jpg"
-    "type": "mythique"
+    "photo": "https://modellautos-dresden.de/media/image/de/3d/67/T64S-025-SL-Audi-Quattro-silber-1-jpg_600x600@2x.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Bentley",
@@ -61,8 +61,8 @@
     "notes": "Version course d’une Bentley moderne, la Continental GT3 a marqué le retour de la marque sur les circuits internationaux. Elle mélange prestige, endurance et performance pure dans la catégorie GT.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "",
-    "photo": "https://www.1-64specialist.com/cdn/shop/files/HotWheelsBentleyContinentalGT32018_veicoloCarCultureCircuitLegendsdacollezionefoto2.jpg"
-    "type": "mythique"
+    "photo": "https://www.1-64specialist.com/cdn/shop/files/HotWheelsBentleyContinentalGT32018_veicoloCarCultureCircuitLegendsdacollezionefoto2.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Ferrari",
@@ -74,8 +74,8 @@
     "notes": "Supercar radicale et sans compromis, la F40 est l’une des Ferrari les plus iconiques. Légère, brutale et orientée performance, elle symbolise une époque où la sensation de conduite primait sur tout.",
     "fabricant": "Tomica Premium",
     "reference_fabricant": "No.31",
-    "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg"
-    "type": "mythique"
+    "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg",
+    "type": "mythique",
   },
 {
   "marque": "Bugatti",
@@ -87,8 +87,8 @@
   "notes": "Supercar visionnaire des années 90, l’EB110 combinait transmission intégrale, quatre turbos et un châssis carbone. Elle a marqué le renouveau technologique de Bugatti avant l’ère moderne.",
   "fabricant": "Hot Wheels",
   "reference_fabricant": null,
-  "photo": "https://www.kmjdiecast.com/cdn/shop/products/20221106_210535_3.jpg"
-  "type": "mythique"
+  "photo": "https://www.kmjdiecast.com/cdn/shop/products/20221106_210535_3.jpg",
+  "type": "mythique",
 },
 {
   "marque": "Cadillac",
@@ -100,8 +100,8 @@
   "notes": "Symbole ultime du luxe américain des années 50, l’Eldorado 1959 est célèbre pour ses ailerons démesurés. Elle incarne l’exubérance et l’optimisme de l’âge d’or automobile américain.",
   "fabricant": "Matchbox",
   "reference_fabricant": "No.12",
-  "photo": "https://i.ebayimg.com/images/g/MvsAAeSwvb1p5hak/s-l500.jpg"
-  "type": "mythique"
+  "photo": "https://i.ebayimg.com/images/g/MvsAAeSwvb1p5hak/s-l500.jpg",
+  "type": "mythique",
 },
 {
   "marque": "Chevrolet",
@@ -113,8 +113,8 @@
   "notes": "La Corvette Stingray 1963 a introduit un design radical et une vraie identité sportive américaine. Elle reste une référence absolue des muscle cars élégants.",
   "fabricant": "Greenlight",
   "reference_fabricant": "",
-  "photo": "https://cdn11.bigcommerce.com/s-mpz9h6/images/stencil/1280x1280/products/195436/331227/hcj99_xb__47000.1683003839.jpg"
-  "type": "mythique"
+  "photo": "https://cdn11.bigcommerce.com/s-mpz9h6/images/stencil/1280x1280/products/195436/331227/hcj99_xb__47000.1683003839.jpg",
+  "type": "mythique",
 },
 {
   "marque": "Citroën",
@@ -126,8 +126,8 @@
   "notes": "Le Citroën HY est l’un des utilitaires les plus reconnaissables jamais produits. Sa robustesse et son design fonctionnel en ont fait une icône populaire durable.",
   "fabricant": "Norev",
   "reference_fabricant": "600967",
-  "photo": "https://www.norev.com/cdn/shop/files/310812.jpg"
-  "type": "mythique"
+  "photo": "https://www.norev.com/cdn/shop/files/310812.jpg",
+  "type": "mythique",
 },
 {
   "marque": "Citroën",
@@ -139,8 +139,8 @@
   "notes": "Version emblématique de la 2CV, la Charleston symbolise la voiture populaire française. Elle incarne la simplicité mécanique, l’accessibilité et la liberté automobile.",
   "fabricant": "Norev",
   "reference_fabricant": "26612",
-  "photo": "https://www.norev.com/cdn/shop/files/AMC0191352-ROUGE-N_1.jpg"
-  "type": "mythique"
+  "photo": "https://www.norev.com/cdn/shop/files/AMC0191352-ROUGE-N_1.jpg",
+  "type": "mythique",
 },
 {
   "marque": "Mini",
@@ -153,7 +153,7 @@
   "fabricant": "Norev",
   "reference_fabricant": "Mini Cooper",
   "photo": ""
-  "type": "mythique"
+  "type": "mythique",
 },
 {
   "marque": "Ford",
@@ -165,8 +165,8 @@
   "notes": "Icône absolue du muscle car, la Mustang 1967 représente la liberté et la culture automobile américaine. Son design agressif et sa présence à l’écran l’ont rendue mythique.",
   "fabricant": "Pop Race",
   "reference_fabricant": "",
-  "photo": "https://www.modellautocenter.de/media/image/product/27126/lg/ford-shelby-mustang-gt500-1967-grau-metallic-modellauto-164-pop-race.jpg"
-  "type": "mythique"
+  "photo": "https://www.modellautocenter.de/media/image/product/27126/lg/ford-shelby-mustang-gt500-1967-grau-metallic-modellauto-164-pop-race.jpg",
+  "type": "mythique",
 },
   {
     "marque": "Dodge",
@@ -178,8 +178,8 @@
     "notes": "La Dodge Viper est une supercar américaine brute et iconique, connue pour son V10 et son absence d’assistances électroniques. La version GTS des années 90, avec ses bandes blanches, incarne l’esprit muscle et performance US.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "’96 Dodge Viper GTS",
-    "photo": "https://164custom.com/images/HW/8888/2025-Case-H-Hot-Wheels-96-Dodge-Viper-GTS-01.jpg"
-    "type": "mythique"
+    "photo": "https://164custom.com/images/HW/8888/2025-Case-H-Hot-Wheels-96-Dodge-Viper-GTS-01.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Honda",
@@ -191,8 +191,8 @@
     "notes": "La Honda NSX est la première supercar japonaise moderne, développée avec l’aide d’Ayrton Senna. Elle combine performance et fiabilité, révolutionnant l’approche des supercars dans les années 90.",
     "fabricant": "Micro Turbo",
     "reference_fabricant": "Custom NSX Wide Body",
-    "photo": "http://mt-model.com/cdn/shop/files/MT6412A1.jpg"
-    "type": "mythique"
+    "photo": "http://mt-model.com/cdn/shop/files/MT6412A1.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Lancia",
@@ -205,7 +205,7 @@
     "fabricant": "Mini GT",
     "reference_fabricant": "MGT00846",
     "photo": "https://www.traincraftr.com/wp-content/uploads/2025/11/1763091937/mini-gt-1-64-lancia-stratos-hf-stradale-black-1763091944.webp"
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "Land Rover",
@@ -218,7 +218,7 @@
     "fabricant": "Matchbox",
     "reference_fabricant": "Moving Parts 1975 Range Rover",
     "photo": "https://www.picclickimg.com/atQAAeSwaXtofPLg/Matchbox-1975-Range-Rover-Blue-Moving-parts-Mix.webp"
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "Lexus",
@@ -230,8 +230,8 @@
     "notes": "La Lexus LFA est une supercar japonaise ultra exclusive, produite à seulement 500 exemplaires. Son V10 atmosphérique au son unique et sa construction en carbone en font une icône moderne.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "JBK57 Timeless Icons 2025",
-    "photo": "https://www.4hw.lt/images/uploader/pr/388x388.g/pre-order-hot-wheels-premium-timeless-icons-modeliukas-lexus-lfa-white-1.jpg"
-    "type": "mythique"
+    "photo": "https://www.4hw.lt/images/uploader/pr/388x388.g/pre-order-hot-wheels-premium-timeless-icons-modeliukas-lexus-lfa-white-1.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Mazda",
@@ -244,7 +244,7 @@
     "fabricant": "Tarmac Works",
     "reference_fabricant": "Mazda RX-7 FD3S",
     "photo": ""
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "Mazda",
@@ -257,7 +257,7 @@
     "fabricant": "Hobby Japan",
     "reference_fabricant": "Mazda MX-5 NA",
     "photo": ""
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "McLaren",
@@ -270,7 +270,7 @@
     "fabricant": "Pop Race",
     "reference_fabricant": "McLaren F1",
     "photo": "http://diecasthunter.de/cdn/shop/files/IMG_1322_2.jpg?v=1758124332"
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "Mercedes-Benz",
@@ -282,8 +282,8 @@
     "notes": "La Mercedes 300 SL Roadster est dérivée de la célèbre Gullwing et conserve son innovation technique. Elle reste une icône du design et du luxe automobile des années 50.",
     "fabricant": "YS Models",
     "reference_fabricant": "Mercedes-Benz 300 SL Roadster",
-    "photo": "https://jaimantoys.com/cdn/shop/files/Image_20241011225626132.jpg"
-    "type": "mythique"
+    "photo": "https://jaimantoys.com/cdn/shop/files/Image_20241011225626132.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Mercedes-Benz",
@@ -296,7 +296,7 @@
     "fabricant": "Para64",
     "reference_fabricant": "G63 AMG",
     "photo": ""
-    "type": "mythique"
+    "type": "mythique",
   },
   {
     "marque": "Mitsubishi",
@@ -308,8 +308,8 @@
     "notes": "La Lancer Evolution VI Tommi Mäkinen Edition célèbre les titres WRC du pilote finlandais. Version ultime de l’Evo VI, elle est une icône absolue du rallye japonais.",
     "fabricant": "Hobby Japan",
     "reference_fabricant": "Lancer Evolution VI TME",
-    "photo": "http://ig-model.online/cdn/shop/files/HJ643033AW_F_1200x1200.jpg"
-    "type": "mythique"
+    "photo": "http://ig-model.online/cdn/shop/files/HJ643033AW_F_1200x1200.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Renault",
@@ -321,8 +321,8 @@
     "notes": "Le Renault Espace F1 est un concept spectaculaire combinant un monospace avec un moteur de Formule 1 V10 Williams. Il symbolise l’audace technologique et le lien entre route et compétition.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "Renault Espace F1",
-    "photo": "https://media.cdnws.com/_i/221376/541/406/14/hot-wheels-renault-espace-f1-black.jpg"
-    "type": "mythique"
+    "photo": "https://media.cdnws.com/_i/221376/541/406/14/hot-wheels-renault-espace-f1-black.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Peugeot",
@@ -334,8 +334,8 @@
     "notes": "La Peugeot 205 GTI est une référence des hot hatch des années 80. Légère et agile, elle incarne le plaisir de conduite et reste une icône française.",
     "fabricant": "Norev",
     "reference_fabricant": "Peugeot 205 GTI",
-    "photo": "https://www.norev.com/medias/peugeot-205-gti-black-164.jpg"
-    "type": "mythique"
+    "photo": "https://www.norev.com/medias/peugeot-205-gti-black-164.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Porsche",
@@ -347,8 +347,8 @@
     "notes": "La 911 Carrera RS est une version allégée et radicale de la 911 classique. Elle est devenue une icône pour les puristes et les amateurs de conduite sportive.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "Porsche 911 Carrera RS",
-    "photo": "https://i.ebayimg.com/images/g/2ZAAAOSwHotWheels911RSorange.jpg"
-    "type": "mythique"
+    "photo": "https://i.ebayimg.com/images/g/2ZAAAOSwHotWheels911RSorange.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Porsche",
@@ -360,8 +360,8 @@
     "notes": "La Porsche 930 Turbo est la première 911 turbocompressée, célèbre pour son caractère brutal et son fameux ‘turbo lag’. Une icône des années 80.",
     "fabricant": "Majorette",
     "reference_fabricant": "Porsche 930 Turbo",
-    "photo": "https://majorette-toys.com/media/porsche-930-turbo-grey.jpg"
-    "type": "mythique"
+    "photo": "https://majorette-toys.com/media/porsche-930-turbo-grey.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Porsche",
@@ -373,8 +373,8 @@
     "notes": "La 911 GT3 RS est l’ultime version atmosphérique orientée circuit. Elle combine aérodynamique extrême et précision de pilotage.",
     "fabricant": "Mini GT",
     "reference_fabricant": "GT3 RS",
-    "photo": "https://cdn.shopify.com/s/files/911-gt3-rs-white-green-mini-gt.jpg"
-    "type": "mythique"
+    "photo": "https://cdn.shopify.com/s/files/911-gt3-rs-white-green-mini-gt.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Renault",
@@ -386,8 +386,8 @@
     "notes": "La Renault 5 Turbo est une légende du rallye avec son architecture moteur central arrière. Son design extrême la rend immédiatement reconnaissable.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "Renault 5 Turbo",
-    "photo": "https://tarmacworks.com/cdn/r5-turbo-red-164.jpg"
-    "type": "mythique"
+    "photo": "https://tarmacworks.com/cdn/r5-turbo-red-164.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Saab",
@@ -399,8 +399,8 @@
     "notes": "La Saab 900 Turbo est une icône suédoise innovante avec son turbo précoce et son design atypique. Elle symbolise l’ingénierie originale Saab.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "Saab 900 Turbo",
-    "photo": "https://tarmacworks.com/cdn/saab-900-black.jpg"
-    "type": "mythique"
+    "photo": "https://tarmacworks.com/cdn/saab-900-black.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Shelby",
@@ -412,8 +412,8 @@
     "notes": "La Shelby Cobra associe un châssis léger britannique à un V8 américain. Résultat: une voiture brute devenue mythique.",
     "fabricant": "Shelby Collectibles",
     "reference_fabricant": "Cobra 427",
-    "photo": "https://cdn.shelbycollectibles.com/cobra-427-blue.jpg"
-    "type": "mythique"
+    "photo": "https://cdn.shelbycollectibles.com/cobra-427-blue.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Subaru",
@@ -425,8 +425,8 @@
     "notes": "La Subaru WRX STI est une icône du rallye moderne, connue pour sa transmission intégrale et son moteur turbo boxer.",
     "fabricant": "Hobby Japan",
     "reference_fabricant": "WRX STI",
-    "photo": "https://hobbyjapan.co.jp/cdn/wrx-sti-blue-164.jpg"
-    "type": "mythique"
+    "photo": "https://hobbyjapan.co.jp/cdn/wrx-sti-blue-164.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Toyota",
@@ -438,8 +438,8 @@
     "notes": "Le Toyota Land Cruiser LC76 est un 4x4 légendaire reconnu pour sa fiabilité et sa robustesse dans les conditions extrêmes.",
     "fabricant": "BM Creations",
     "reference_fabricant": "LC76",
-    "photo": "https://bmcreations.com/cdn/lc76-red-164.jpg"
-    "type": "mythique"
+    "photo": "https://bmcreations.com/cdn/lc76-red-164.jpg",
+    "type": "mythique",
   },
   {
     "marque": "Triumph",
@@ -451,61 +451,63 @@
     "notes": "La Triumph Spitfire est un roadster britannique léger et accessible. Elle incarne le plaisir de conduite simple et classique.",
     "fabricant": "Majorette",
     "reference_fabricant": "Triumph Spitfire",
-    "photo": "https://majorette-toys.com/media/triumph-spitfire-green.jpg"
-    "type": "mythique"
+    "photo": "https://majorette-toys.com/media/triumph-spitfire-green.jpg",
+    "type": "mythique",
   },
+
+  // ================= LE MANS =================
   {
-    "marque": "Ferrari",
-    "modele": "250 GTO #19",
-    "annees": "1962–1964",
-    "categorie": "Endurance (GT)",
-    "couleur": "Rouge",
-    "prix": null,
-    "notes": "Phil Hill, Stirling Moss",
-    "fabricant": "Hot Wheels",
-    "reference_fabricant": "#22",
-    "photo": "",
-    "type": "course"
-  },
+  "marque": "Ferrari",
+  "modele": "250 GTO #19",
+  "annees": "1962–1964",
+  "categorie": "Endurance (GT)",
+  "couleur": "Rouge",
+  "prix": null,
+  "notes": "Modèle Hot Wheels issu des séries 'Ferrari 2-Car Set' (2005) ou 'HW Premiere 2009'. Réplique fidèle de la 250 GTO engagée en course, avec capot ouvrant sur certaines versions.",
+  "fabricant": "Hot Wheels",
+  "reference_fabricant": "H6979 / HW Premiere #05",
+  "photo": "",
+  "type": "course"
+},
   {
-    "marque": "Ford",
-    "modele": "GT40 #2",
-    "annees": "1966–1969",
-    "categorie": "Endurance (Le Mans)",
-    "couleur": "Noir",
-    "prix": null,
-    "notes": "Bruce McLaren, Chris Amon, Jacky Ickx",
-    "fabricant": "AutoWorld",
-    "reference_fabricant": "",
-    "photo": "",
-    "type": "course"
-  },
+  "marque": "Ford",
+  "modele": "GT40 #2 Winner Le Mans",
+  "annees": "1966",
+  "categorie": "Endurance (Le Mans)",
+  "couleur": "Noir",
+  "prix": null,
+  "notes": "AutoWorld 'True 1:64' reproduction de la GT40 MkII gagnante du Mans 1966 (McLaren / Amon). Modèle avec pneus gomme et haut niveau de détail.",
+  "fabricant": "AutoWorld",
+  "reference_fabricant": "AWCP7922",
+  "photo": "",
+  "type": "course"
+},
   {
-    "marque": "Porsche",
-    "modele": "917K Gulf #20",
-    "annees": "1970–1971",
-    "categorie": "Endurance (Le Mans)",
-    "couleur": "Bleu / Orange",
-    "prix": null,
-    "notes": "Hans Herrmann, Richard Attwood, Helmut Marko",
-    "fabricant": "Hot Wheels",
-    "reference_fabricant": "",
-    "photo": "",
-    "type": "course"
-  },
+  "marque": "Porsche",
+  "modele": "917K Gulf #20",
+  "annees": "1970–1971",
+  "categorie": "Endurance (Le Mans)",
+  "couleur": "Bleu / Orange",
+  "prix": null,
+  "notes": "Hot Wheels Premium Car Culture 'Vintage Racing'. Livrée Gulf #20 reproduisant la 917K du Mans 1970. Modèle avec roues Real Riders et châssis métal.",
+  "fabricant": "Hot Wheels",
+  "reference_fabricant": "Car Culture Vintage Racing (2026)",
+  "photo": "",
+  "type": "course"
+},
   {
-    "marque": "Mazda",
-    "modele": "787B #55",
-    "annees": "1991",
-    "categorie": "Endurance (Le Mans)",
-    "couleur": "Orange / Vert",
-    "prix": null,
-    "notes": "Johnny Herbert, Bertrand Gachot, Volker Weidler",
-    "fabricant": "",
-    "reference_fabricant": "Ordered",
-    "photo": "",
-    "type": "course"
-  },
+  "marque": "Mazda",
+  "modele": "787B #55 Winner Le Mans",
+  "annees": "1991",
+  "categorie": "Endurance (Le Mans)",
+  "couleur": "Orange / Vert",
+  "prix": null,
+  "notes": "Reproduction 1:64 du vainqueur des 24h du Mans 1991. Disponible chez plusieurs fabricants (MotorHelix, Kyosho, Spark). Livrée Renown iconique.",
+  "fabricant": "Pop Race / MotorHelix",
+  "reference_fabricant": "PR640301 / M60101",
+  "photo": "",
+  "type": "course"
+},
   {
     "marque": "Audi",
     "modele": "R8 #8",
@@ -562,18 +564,18 @@
   // ================= RALLY =================
 
   {
-    "marque": "Audi",
-    "modele": "Quattro S1 #2",
-    "annees": "1985–1986",
-    "categorie": "Rallye Group B",
-    "couleur": "Blanc / Jaune",
-    "prix": null,
-    "notes": "Röhrl, Mikkola, Mouton",
-    "fabricant": "",
-    "reference_fabricant": "prio",
-    "photo": "",
-    "type": "course"
-  },
+  "marque": "Audi",
+  "modele": "Sport Quattro S1",
+  "annees": "1985–1986",
+  "categorie": "Rallye Group B",
+  "couleur": "Blanc / Jaune",
+  "prix": null,
+  "notes": "Modèle Tarmac Works 1:64 reprenant l’Audi Quattro légendaire du Groupe B. Version modern tooling avec base vitrine et finition premium.",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "T64S-025-SL",
+  "photo": "",
+  "type": "course"
+},
   {
     "marque": "Peugeot",
     "modele": "205 T16 #1",
