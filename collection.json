@@ -216,6 +216,78 @@
     "photo": "https://www.4hw.lt/images/uploader/pr/388x388.g/pre-order-hot-wheels-premium-timeless-icons-modeliukas-lexus-lfa-white-1.jpg"
   },
   {
+    "marque": "Mazda",
+    "modele": "RX-7 (FD3S)",
+    "annees": "1992–2002",
+    "categorie": "Sport / JDM",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "La Mazda RX-7 FD est une icône du tuning japonais, célèbre pour son moteur rotatif bi-rotor. Son design léger et ses performances en font une référence du JDM des années 90.",
+    "fabricant": "Tarmac Works",
+    "reference_fabricant": "Mazda RX-7 FD3S",
+    "photo": ""
+  },
+  {
+    "marque": "Mazda",
+    "modele": "MX-5 (NA)",
+    "annees": "1989–1997",
+    "categorie": "Cabriolet / Classique",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "La Mazda MX-5 est le roadster le plus vendu au monde, inspiré des sportives britanniques classiques. Légère, simple et fun à conduire, elle incarne le plaisir automobile accessible.",
+    "fabricant": "Hobby Japan",
+    "reference_fabricant": "Mazda MX-5 NA",
+    "photo": ""
+  },
+  {
+    "marque": "McLaren",
+    "modele": "F1",
+    "annees": "1992–1998",
+    "categorie": "Supercar / Iconique",
+    "couleur": "Orange",
+    "prix": null,
+    "notes": "La McLaren F1 est l’une des supercars les plus mythiques jamais construites, avec son V12 atmosphérique et sa position de conduite centrale. Elle a détenu le record de vitesse pour une voiture de série.",
+    "fabricant": "Pop Race",
+    "reference_fabricant": "McLaren F1",
+    "photo": ""
+  },
+  {
+    "marque": "Mercedes-Benz",
+    "modele": "300 SL Roadster",
+    "annees": "1957–1963",
+    "categorie": "Classique / Cabriolet",
+    "couleur": "Argent",
+    "prix": null,
+    "notes": "La Mercedes 300 SL Roadster est dérivée de la célèbre Gullwing et conserve son innovation technique. Elle reste une icône du design et du luxe automobile des années 50.",
+    "fabricant": "YS Models",
+    "reference_fabricant": "Mercedes-Benz 300 SL Roadster",
+    "photo": ""
+  },
+  {
+    "marque": "Mercedes-Benz",
+    "modele": "G63 AMG",
+    "annees": "2018–présent",
+    "categorie": "SUV / Luxe",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "Le Mercedes G63 AMG est une version ultra performante du mythique Classe G. Mélange de capacités tout-terrain et de luxe extrême, il est devenu un symbole de statut moderne.",
+    "fabricant": "Para64",
+    "reference_fabricant": "G63 AMG",
+    "photo": ""
+  },
+  {
+    "marque": "Mitsubishi",
+    "modele": "Lancer Evolution VI TME",
+    "annees": "1999",
+    "categorie": "Rallye / JDM",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "La Lancer Evolution VI Tommi Mäkinen Edition célèbre les titres WRC du pilote finlandais. Version ultime de l’Evo VI, elle est une icône absolue du rallye japonais.",
+    "fabricant": "Hobby Japan",
+    "reference_fabricant": "Lancer Evolution VI TME",
+    "photo": ""
+  },
+  {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
     "modele": "",
