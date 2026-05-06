@@ -455,6 +455,210 @@
     "type": "mythique"
   },
   {
+    "marque": "Ferrari",
+    "modele": "250 GTO #19",
+    "annees": "1962–1964",
+    "categorie": "Endurance (GT)",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Phil Hill, Stirling Moss",
+    "fabricant": "Hot Wheels",
+    "reference_fabricant": "#22",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Ford",
+    "modele": "GT40 #2",
+    "annees": "1966–1969",
+    "categorie": "Endurance (Le Mans)",
+    "couleur": "Noir",
+    "prix": null,
+    "notes": "Bruce McLaren, Chris Amon, Jacky Ickx",
+    "fabricant": "AutoWorld",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Porsche",
+    "modele": "917K Gulf #20",
+    "annees": "1970–1971",
+    "categorie": "Endurance (Le Mans)",
+    "couleur": "Bleu / Orange",
+    "prix": null,
+    "notes": "Hans Herrmann, Richard Attwood, Helmut Marko",
+    "fabricant": "Hot Wheels",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Mazda",
+    "modele": "787B #55",
+    "annees": "1991",
+    "categorie": "Endurance (Le Mans)",
+    "couleur": "Orange / Vert",
+    "prix": null,
+    "notes": "Johnny Herbert, Bertrand Gachot, Volker Weidler",
+    "fabricant": "",
+    "reference_fabricant": "Ordered",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Audi",
+    "modele": "R8 #8",
+    "annees": "2000–2005",
+    "categorie": "Endurance (Le Mans)",
+    "couleur": "Argent",
+    "prix": null,
+    "notes": "Tom Kristensen, Pirro, Biela",
+    "fabricant": "",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
+  {
+    "marque": "Jaguar",
+    "modele": "Type D #3",
+    "annees": "1955–1957",
+    "categorie": "Endurance",
+    "couleur": "Vert",
+    "prix": null,
+    "notes": "Hawthorn, Bueb",
+    "fabricant": "",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
+  {
+    "marque": "Ferrari",
+    "modele": "499P #51",
+    "annees": "2025",
+    "categorie": "Endurance Le Mans",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Kubica",
+    "fabricant": "",
+    "reference_fabricant": "Ordered",
+    "photo": "",
+    "type": "wanted"
+  },
+  {
+    "marque": "McLaren",
+    "modele": "F1 GTR #59",
+    "annees": "1995",
+    "categorie": "Endurance (Le Mans)",
+    "couleur": "Gris",
+    "prix": null,
+    "notes": "Victoire au Mans (Lehto, Dalmas, Sekiya)",
+    "fabricant": "",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "course"
+  },
+
+  // ================= RALLY =================
+
+  {
+    "marque": "Audi",
+    "modele": "Quattro S1 #2",
+    "annees": "1985–1986",
+    "categorie": "Rallye Group B",
+    "couleur": "Blanc / Jaune",
+    "prix": null,
+    "notes": "Röhrl, Mikkola, Mouton",
+    "fabricant": "",
+    "reference_fabricant": "prio",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Peugeot",
+    "modele": "205 T16 #1",
+    "annees": "1984–1986",
+    "categorie": "Rallye Group B",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "Vatanen, Kankkunen",
+    "fabricant": "",
+    "reference_fabricant": "prio",
+    "photo": "",
+    "type": "wanted"
+  },
+
+  // ================= F1 =================
+
+  {
+    "marque": "McLaren",
+    "modele": "MP4/4 #12",
+    "annees": "1988",
+    "categorie": "Formule 1",
+    "couleur": "Rouge / Blanc",
+    "prix": null,
+    "notes": "Senna, Prost",
+    "fabricant": "",
+    "reference_fabricant": "ordered",
+    "photo": "",
+    "type": "wanted"
+  },
+  {
+    "marque": "Ferrari",
+    "modele": "F2004 #1",
+    "annees": "2004",
+    "categorie": "Formule 1",
+    "couleur": "Rouge",
+    "prix": null,
+    "notes": "Schumacher",
+    "fabricant": "",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
+
+  // ================= AUTRES =================
+
+  {
+    "marque": "Nissan",
+    "modele": "R32 GT-R Calsonic #12",
+    "annees": "1990–1993",
+    "categorie": "JGTC",
+    "couleur": "Bleu",
+    "prix": null,
+    "notes": "Hasemi",
+    "fabricant": "Mini GT",
+    "reference_fabricant": "MGT00165",
+    "photo": "",
+    "type": "course"
+  },
+  {
+    "marque": "Toyota",
+    "modele": "Supra Castrol #36",
+    "annees": "1995–2000",
+    "categorie": "JGTC",
+    "couleur": "Blanc / Rouge / Vert",
+    "prix": null,
+    "notes": "Sekiya, Krumm",
+    "fabricant": "",
+    "reference_fabricant": "prio",
+    "photo": "",
+    "type": "wanted"
+  },
+  {
+    "marque": "BMW",
+    "modele": "M3 E30 #15",
+    "annees": "1987–1992",
+    "categorie": "DTM",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "Reine du DTM",
+    "fabricant": "",
+    "reference_fabricant": "prio",
+    "photo": "",
+    "type": "wanted"
+  },
+   {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
     "modele": "",
