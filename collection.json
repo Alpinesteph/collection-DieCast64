@@ -156,6 +156,66 @@
   "photo": "https://www.modellautocenter.de/media/image/product/27126/lg/ford-shelby-mustang-gt500-1967-grau-metallic-modellauto-164-pop-race.jpg"
 },
   {
+    "marque": "Dodge",
+    "modele": "Viper GTS",
+    "annees": "1996–2002",
+    "categorie": "Supercar / Sport US",
+    "couleur": "Bleu",
+    "prix": null,
+    "notes": "La Dodge Viper est une supercar américaine brute et iconique, connue pour son V10 et son absence d’assistances électroniques. La version GTS des années 90, avec ses bandes blanches, incarne l’esprit muscle et performance US.",
+    "fabricant": "Hot Wheels",
+    "reference_fabricant": "’96 Dodge Viper GTS",
+    "photo": "https://164custom.com/images/HW/8888/2025-Case-H-Hot-Wheels-96-Dodge-Viper-GTS-01.jpg"
+  },
+  {
+    "marque": "Honda",
+    "modele": "NSX",
+    "annees": "1990–2005",
+    "categorie": "Sport / JDM",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "La Honda NSX est la première supercar japonaise moderne, développée avec l’aide d’Ayrton Senna. Elle combine performance et fiabilité, révolutionnant l’approche des supercars dans les années 90.",
+    "fabricant": "Micro Turbo",
+    "reference_fabricant": "Custom NSX Wide Body",
+    "photo": ""
+  },
+  {
+    "marque": "Lancia",
+    "modele": "Stratos HF Stradale",
+    "annees": "1973–1978",
+    "categorie": "Rallye / Classique",
+    "couleur": "Noir",
+    "prix": null,
+    "notes": "La Lancia Stratos est une légende du rallye, conçue uniquement pour la compétition. Triple championne du monde WRC, elle est reconnaissable à son design radical et son moteur Ferrari.",
+    "fabricant": "Mini GT",
+    "reference_fabricant": "MGT00846",
+    "photo": "https://www.traincraftr.com/wp-content/uploads/2025/11/1763091937/mini-gt-1-64-lancia-stratos-hf-stradale-black-1763091944.webp"
+  },
+  {
+    "marque": "Land Rover",
+    "modele": "Range Rover (1975)",
+    "annees": "1970–1981",
+    "categorie": "4x4 / Classique",
+    "couleur": "Bleu",
+    "prix": null,
+    "notes": "Le Range Rover est un pionnier du SUV moderne, combinant capacités tout-terrain et confort. Les premiers modèles des années 70 sont devenus des icônes du luxe utilitaire britannique.",
+    "fabricant": "Matchbox",
+    "reference_fabricant": "Moving Parts 1975 Range Rover",
+    "photo": "https://www.picclickimg.com/atQAAeSwaXtofPLg/Matchbox-1975-Range-Rover-Blue-Moving-parts-Mix.webp"
+  },
+  {
+    "marque": "Lexus",
+    "modele": "LFA",
+    "annees": "2010–2012",
+    "categorie": "Supercar / Moderne",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "La Lexus LFA est une supercar japonaise ultra exclusive, produite à seulement 500 exemplaires. Son V10 atmosphérique au son unique et sa construction en carbone en font une icône moderne.",
+    "fabricant": "Hot Wheels",
+    "reference_fabricant": "JBK57 Timeless Icons 2025",
+    "photo": "https://www.4hw.lt/images/uploader/pr/388x388.g/pre-order-hot-wheels-premium-timeless-icons-modeliukas-lexus-lfa-white-1.jpg"
+  },
+  {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
     "modele": "",
