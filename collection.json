@@ -221,6 +221,19 @@
     "type": "mythique"
   },
   {
+    "marque": "BMW",
+    "modele": "3.0 CSL 1975",
+    "annees": "1975",
+    "categorie": "coupé",
+    "couleur": "Blanc",
+    "prix": null,
+    "notes": "",
+    "fabricant": "Majorette",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "mythique"
+  },
+  {
     "marque": "Lexus",
     "modele": "LFA",
     "annees": "2010–2012",
@@ -322,7 +335,7 @@
     "fabricant": "Hot Wheels",
     "reference_fabricant": "Renault Espace F1",
     "photo": "https://media.cdnws.com/_i/221376/541/406/14/hot-wheels-renault-espace-f1-black.jpg",
-    "type": "mythique"
+    "type": "tuning"
   },
   {
     "marque": "Peugeot",
