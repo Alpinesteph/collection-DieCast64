@@ -560,9 +560,6 @@
     "photo": "",
     "type": "course"
   },
-
-  // ================= RALLY =================
-
   {
   "marque": "Audi",
   "modele": "Sport Quattro S1",
@@ -589,9 +586,6 @@
     "photo": "",
     "type": "wanted"
   },
-
-  // ================= F1 =================
-
   {
     "marque": "McLaren",
     "modele": "MP4/4 #12",
