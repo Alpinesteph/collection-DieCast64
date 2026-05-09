@@ -5,7 +5,7 @@
     "annees": "1967",
     "categorie": "Supercar / Classique",
     "couleur": "Rouge",
-    "prix": null,
+    "prix": "22.71",
     "notes": "La 33 Stradale est directement issue de la compétition (Tipo 33). Produite en très petite série, elle incarne l’âge d’or du design italien et l’esprit course d’Alfa Romeo.",
     "fabricant": "Laudoracing",
     "reference_fabricant": "Minilaudo MLCP0001",
@@ -44,7 +44,7 @@
     "annees": "1980–1991",
     "categorie": "Rallye / Sport classique",
     "couleur": "Gris",
-    "prix": null,
+    "prix": "19.99 ordered",
     "notes": "La Quattro a révolutionné le sport auto en popularisant la transmission intégrale en performance. Son héritage en rallye a changé la discipline et a durablement défini l’ADN sportif d’Audi.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "T64S-025-SL",
@@ -1102,7 +1102,7 @@
   "fabricant": "Pop Race / MotorHelix",
   "reference_fabricant": "PR640301 / M60101",
   "photo": "",
-  "type": "course"
+  "type": "wanted"
 },
   {
     "marque": "Audi",
@@ -1119,16 +1119,16 @@
   },
   {
     "marque": "Ferrari",
-    "modele": "499P #51",
+    "modele": "499P #83",
     "annees": "2025",
     "categorie": "Endurance Le Mans",
-    "couleur": "Rouge",
-    "prix": null,
+    "couleur": "Jaune",
+    "prix": "14.49",
     "notes": "Kubica",
     "fabricant": "",
     "reference_fabricant": "Ordered",
     "photo": "",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "McLaren",
@@ -1154,7 +1154,7 @@
   "fabricant": "Tarmac Works",
   "reference_fabricant": "T64S-025-SL",
   "photo": "",
-  "type": "course"
+  "type": "wanted"
 },
   {
     "marque": "Peugeot",
@@ -1188,8 +1188,8 @@
     "annees": "1988",
     "categorie": "Formule 1",
     "couleur": "Rouge / Blanc",
-    "prix": null,
-    "notes": "Senna, Prost",
+    "prix": "15.99 ordered",
+    "notes": "Senna, ",
     "fabricant": "",
     "reference_fabricant": "ordered",
     "photo": "",
