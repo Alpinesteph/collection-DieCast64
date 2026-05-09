@@ -35,7 +35,7 @@
     "notes": "Symbole de l’élégance britannique, la DB5 est devenue mythique grâce à son association avec James Bond. Elle représente l’archétype du grand tourisme des sixties, entre luxe et performance.",
     "fabricant": "Mini GT",
     "reference_fabricant": "MGT00901",
-    "photo": "hhttps://www.toms.nl/images/artikelen/.341/341012_2_lg.jpg",
+    "photo": "https://minigt.tsm-models.com/upload/picfile_list/6c20075d0621e23260e44da050129df020240810082851687.JPG",
     "type": "mythique"
   },
   {
@@ -83,7 +83,7 @@
   "annees": "1991–1995",
   "categorie": "Supercar",
   "couleur": "Bleu",
-  "prix": null,
+  "prix": "11.95",
   "notes": "Supercar visionnaire des années 90, l’EB110 combinait transmission intégrale, quatre turbos et un châssis carbone. Elle a marqué le renouveau technologique de Bugatti avant l’ère moderne.",
   "fabricant": "Hot Wheels",
   "reference_fabricant": null,
@@ -204,7 +204,7 @@
     "notes": "L.",
     "fabricant": "Hotwheels",
     "reference_fabricant": "hwmvHRV90  ",
-    "photo": "http://mt-model.com/cdn/shop/files/MT6412A1.jpg",
+    "photo": "https://images.mattel.net/image/upload/w_646,f_auto,c_scale/shop-us-prod/files/avrjguhduh9vari7ysuf_7de5b224-47a9-495a-92f7-d86ff3840dd1.jpg",
     "type": "mythique"
   },
   {
@@ -217,8 +217,8 @@
     "notes": "L’E-Type est considérée comme l’une des plus belles voitures jamais créées, symbole du design britannique. Sa silhouette fluide et son élégance intemporelle en ont fait une icône mondiale.",
     "fabricant": "Norev",
     "reference_fabricant": null,
-    "photo": null,
-    "type": "mythique"
+    "photo": "https://static.ideeundspiel.com/images/w_1280/57b03c1a-0d54-6353-99a5-d40d8d4da291/schuco-452034300-1-64-jaguar-e-type-grun.jpeg",
+    "type": "wanted"
   },
   {
     "marque": "Jeep",
@@ -395,11 +395,11 @@
     "annees": "1989–1997",
     "categorie": "Cabriolet / Classique",
     "couleur": "Vert",
-    "prix": null,
+    "prix": "22.95",
     "notes": "La Mazda MX-5 est le roadster le plus vendu au monde, inspiré des sportives britanniques classiques. Légère, simple et fun à conduire, elle incarne le plaisir automobile accessible.",
     "fabricant": "Hobby Japan",
     "reference_fabricant": "HJ641019GR",
-    "photo": "",
+    "photo": "https://bucket.carmodel.com/images/cm-lg/174298.jpg",
     "type": "mythique"
   },
   {
@@ -408,7 +408,7 @@
     "annees": "1992–1998",
     "categorie": "Supercar / Iconique",
     "couleur": "Orange",
-    "prix": null,
+    "prix": "16.95",
     "notes": "La McLaren F1 est l’une des supercars les plus mythiques jamais construites, avec son V12 atmosphérique et sa position de conduite centrale. Elle a détenu le record de vitesse pour une voiture de série.",
     "fabricant": "Pop Race",
     "reference_fabricant": "McLaren F1",
@@ -438,7 +438,7 @@
   "notes": "La CLK GTR est une hypercar homologuée dérivée d’une voiture de course GT1. Sa rareté et son pedigree en font l’une des Mercedes les plus extrêmes.",
   "fabricant": "Pop Race",
   "reference_fabricant": "PR640158",
-  "photo": null,
+  "photo": "https://static.ticimax.cloud/67852/uploads/urunresimleri/buyuk/pop-race-164-clk-gtr-silver-pr640158-0dbc12.jpg",
   "type": "mythique"
 },
   {
@@ -477,7 +477,7 @@
   "notes": "Un utilitaire tout-terrain emblématique, robuste et polyvalent.",
   "fabricant": "Schuco",
   "reference_fabricant": "452037900",
-  "photo": "",
+  "photo": "https://nasshan.com/media/72/63/22/1760504394/452037900-schuco-mercedes-benz-unimog-u406-pritscheplane-u84-1971_0.jpg?ts=1760511594",
   "type": "mythique"
 },
   {
@@ -499,7 +499,7 @@
     "annees": "1999",
     "categorie": "Rallye / JDM",
     "couleur": "Blanc",
-    "prix": null,
+    "prix": "32.95",
     "notes": "La Lancer Evolution VI Tommi Mäkinen Edition célèbre les titres WRC du pilote finlandais. Version ultime de l’Evo VI, elle est une icône absolue du rallye japonais.",
     "fabricant": "Hobby Japan",
     "reference_fabricant": "HJ641021W",
@@ -529,7 +529,7 @@
   "notes": "Le Hakosuka est la première GT‑R de l’histoire et le début d’une légende japonaise. Son style carré et son pedigree sportif en font un modèle culte.",
   "fabricant": "Tarmac Works",
   "reference_fabricant": "107230",
-  "photo": null,
+  "photo": "https://anthonysdiecasts.com.au/cdn/shop/files/T64G-043-SL_a2_1024x1024_6844f598-7c54-4e7d-b5c9-f2f51b651846_1024x1024.jpg?v=1710567609",
   "type": "mythique"
 }, 
 {
@@ -542,7 +542,7 @@
   "notes": "Le Kenmeri est extrêmement rare et n’a été produit qu’à quelques dizaines d’exemplaires. Son design plus doux et son aura en font un graal pour collectionneurs.",
   "fabricant": "Inno64",
   "reference_fabricant": "in64-KPGC110-SIL",
-  "photo": null,
+  "photo": "https://superfastdiecast.co.uk/cdn/shop/files/s-l1600_09018368-2a93-4e54-8183-413725c24e4d.webp?v=1732025904&width=2048",
   "type": "mythique"
 },
 {
@@ -555,7 +555,7 @@
   "notes": "La R30 a introduit les moteurs turbo performants dans la lignée Skyline. Son style anguleux en fait une icône des années 80.",
   "fabricant": "Inno64",
   "reference_fabricant": "in64-R30-SLBL",
-  "photo": null,
+  "photo": "https://www.pitstopmodelcars.com.au/cdn/shop/files/IN64-R30-SLBL.jpg?v=1709075328",
   "type": "mythique"
 },
 {
@@ -568,7 +568,7 @@
   "notes": "La R31 GTS‑R est une série limitée conçue pour la compétition. Elle annonce l’arrivée de la légendaire R32 GT‑R.",
   "fabricant": "Inno64",
   "reference_fabricant": "IN64-NIS-R31-GTSR-BL",
-  "photo": null,
+  "photo": "https://www.inno-models.com/wp-content/uploads/2025/07/IN64-R31-DB-1.png",
   "type": "mythique"
 },
  {
@@ -592,9 +592,9 @@
   "couleur": "Bleu LM",
   "prix": null,
   "notes": "1ere GTR Nürb <8min. Sa puissance et son exclusivité en font un modèle mythique.",
-  "fabricant": "Pop Race ",
+  "fabricant": "Inno64 ",
   "reference_fabricant": "PR64-400R-BL",
-  "photo": null,
+  "photo": "https://www.einszu64.de/cdn/shop/files/LTDF9104.jpg?v=1682671820",
   "type": "mythique"
 },
   {
@@ -606,8 +606,8 @@
   "prix": "16.99",
   "notes": "La 400R est une version extrême et très rare de la R33. Sa puissance et son exclusivité en font un modèle mythique.",
   "fabricant": "Pop Race ",
-  "reference_fabricant": "PR640051 ",
-  "photo": null,
+  "reference_fabricant": "PR640051",
+  "photo": "https://i5.walmartimages.com/seo/GTR-Nismo-400R-RHD-Right-Hand-Drive-Purple-Metallic-1-64-Diecast-Model-Car-by-Pop-Race_e9071897-d454-475b-94cd-e86674b10643.1aa1a46c33507bf2b71d4a30524247ad.jpeg",
   "type": "mythique"
 },
 {
@@ -620,12 +620,12 @@
   "notes": "La R34 est l’une des GT‑R les plus vénérées, notamment grâce à la culture JDM. La Z‑Tune, ultra‑rare, est considérée comme l’apogée de la Skyline.",
   "fabricant": "Tomica Premium",
   "reference_fabricant": "TP-34-BL",
-  "photo": null,
+  "photo": "https://www.hiltawaytoyhk.com/cdn/shop/files/2023-07-2919.33.37_2048x.jpg?v=1690637658",
   "type": "mythique"
 },
   {
     "marque": "Nissan",
-    "modele": "Skyline GT-R R34 Z-Tune",
+    "modele": "Skyline GT-R R34 Nismo",
     "annees": "2000s",
     "categorie": "JDM / Sportive",
     "couleur": "Argent",
@@ -633,7 +633,7 @@
     "notes": "Version ultra rare et ultime du R34, produite en très petite série par Nismo.",
     "fabricant": "Schuco",
     "reference_fabricant": "452033800",
-    "photo": "",
+    "photo": "https://nasshan.com/media/95/2e/77/1760504364/452033800-schuco-nissan-skyline-gtr-r34-nismo-2002_0.jpg?ts=1760511564",
     "type": "mythique"
   },
   {
@@ -646,7 +646,7 @@
   "notes": "Version ultime de la R34, produite à seulement 19 exemplaires.",
   "fabricant": "MotorHelix",
   "reference_fabricant": "M63416",
-  "photo": "",
+  "photo": "https://boostgear.shop/cdn/shop/files/2_000000146005.jpg?v=1756912360&width=713",
   "type": "mythique"
 },
   {
@@ -751,7 +751,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Porsche",
@@ -774,9 +774,9 @@
   "couleur": "Gris/Noir",
   "prix": null,
   "notes": "La GT2 RS est la 911 la plus extrême, axée sur la performance pure. Son mélange de puissance et d’aérodynamique en fait une référence moderne.",
-  "fabricant": "CCA / Mini GT",
-  "reference_fabricant": null,
-  "photo": null,
+  "fabricant": "PopRace",
+  "reference_fabricant": "PR640017",
+  "photo": "https://bransdiecast.com/cdn/shop/files/62DE2C43-9C64-4952-A4D8-EF825575EB7C.jpg?v=1703094982",
   "type": "mythique"
 },
   {
@@ -841,7 +841,7 @@
   "notes": "Le RUF CTR2 est une supercar extrême dérivée de la Porsche 911, connue pour ses performances impressionnantes. Cette version jaune met en avant son caractère radical et son design unique.",
   "fabricant": "Para64",
   "reference_fabricant": "55372",
-  "photo": "",
+  "photo": "https://modelcars-passion.de/cdn/shop/products/PA-55372-1_1024x1024_2x_7b36ac9e-bfff-485e-9cab-33164be84c16_1424x1424.jpg?v=1650363105",
   "type": "mythique"
 },
   {
@@ -881,7 +881,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
     {
     "marque": "Subaru",
@@ -984,7 +984,7 @@
   "notes": "Le célèbre Combi VW, symbole de liberté et de voyage.",
   "fabricant": "Schuco",
   "reference_fabricant": "452017100",
-  "photo": "",
+  "photo": "https://nasshan.com/media/be/53/65/1760504199/452017100-schuco-vw-t1-bulli-bus-1963_5.jpg?ts=1760511399",
   "type": "mythique"
 },
 {
@@ -997,7 +997,7 @@
   "notes": "La GTI Mk1 est la première hot‑hatch moderne. Sa légèreté et son dynamisme en font une référence.",
   "fabricant": "Majorette",
   "reference_fabricant": "MAJ-GTI-MK1-RD",
-  "photo": null,
+  "photo": "https://images.prod.ecom.mueller.de/_next/image/?url=https%3A%2F%2Fstatic.prod.ecom.mueller.de%2Fproducts%2F3467452074312%2F3467452074312_1.jpg&w=1920&q=75",
   "type": "mythique"
 },
 {
@@ -1036,7 +1036,7 @@
   "notes": "Le Volvo 240 GL Estate est un break emblématique connu pour sa robustesse et son design carré. Cette version Majorette met en valeur son style simple et intemporel.",
   "fabricant": "Majorette",
   "reference_fabricant": "",
-  "photo": "",
+  "photo": "https://www.kidzstation.co.id/cdn/shop/files/0888-MAJ120267A020-1.jpg?v=1750047493&width=416",
   "type": "mythique"
 },
 {
@@ -1080,7 +1080,7 @@
 },
   {
   "marque": "Porsche",
-  "modele": "917K Gulf #20",
+  "modele": "917K Gulf #17",
   "annees": "1970–1971",
   "categorie": "Endurance (Le Mans)",
   "couleur": "Bleu / Orange",
@@ -1088,7 +1088,7 @@
   "notes": "Livrée Gulf de la 917K du Mans 1970 #20 avec Hans Herrmann, Richard Attwood, Helmut Marko.",
   "fabricant": "Hot Wheels",
   "reference_fabricant": "Car Culture Vintage Racing (2026)",
-  "photo": "",
+  "photo": "https://www.kroger.com/product/images/large/left/0019473501760",
   "type": "course"
 },
   {
@@ -1125,9 +1125,9 @@
     "couleur": "Jaune",
     "prix": "14.49",
     "notes": "Kubica",
-    "fabricant": "",
+    "fabricant": "Polistil",
     "reference_fabricant": "Ordered",
-    "photo": "",
+    "photo": "https://d2j6dbq0eux0bg.cloudfront.net/images/78339180/4983599300.jpg",
     "type": "course"
   },
   {
