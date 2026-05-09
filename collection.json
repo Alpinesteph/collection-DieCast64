@@ -892,7 +892,7 @@
   "prix": null,
   "notes": "La Supra Mk4 est une icône JDM rendue célèbre par son potentiel de préparation. Son moteur 2JZ en fait une légende mondiale.",
   "fabricant": "Mini GT" ,
-  "reference_fabricant": MGT00452-RDnull,
+  "reference_fabricant": "MGT00452-RD",
   "photo": null,
   "type": "wanted"
 },
@@ -1167,7 +1167,7 @@
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "",
-  "type": "course"
+  "type": "wanted"
 },
 {
   "marque": "Citroën",
@@ -1297,7 +1297,7 @@
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00104",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Toyota",
