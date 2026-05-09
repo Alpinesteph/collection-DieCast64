@@ -197,12 +197,12 @@
   {
     "marque": "Jaguar",
     "modele": "E-Type",
-    "annees": null,
+    "annees": "1961",
     "categorie": "Sportive classique",
     "couleur": "Vert",
     "prix": null,
     "notes": "L’E-Type est considérée comme l’une des plus belles voitures jamais créées, symbole du design britannique. Sa silhouette fluide et son élégance intemporelle en ont fait une icône mondiale.",
-    "fabricant": null,
+    "fabricant": "Norev",
     "reference_fabricant": null,
     "photo": null,
     "type": "mythique"
@@ -210,7 +210,7 @@
   {
     "marque": "Jeep",
     "modele": "Wrangler",
-    "annees": "1986",
+    "annees": "1986–1995",
     "categorie": "Tout-terrain",
     "couleur": "Vert",
     "prix": null,
@@ -218,7 +218,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Jeep",
@@ -231,7 +231,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Kia",
@@ -244,7 +244,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Koenigsegg",
@@ -257,7 +257,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Lamborghini",
@@ -270,7 +270,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Lamborghini",
@@ -283,7 +283,7 @@
     "fabricant": null,
     "reference_fabricant": null,
     "photo": null,
-    "type": "mythique"
+    "type": "wanted"
   },
   {
     "marque": "Lancia",
@@ -335,7 +335,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Maserati",
@@ -348,7 +348,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Maserati",
@@ -361,7 +361,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Mazda",
@@ -372,7 +372,7 @@
     "prix": null,
     "notes": "La Mazda RX-7 FD est une icône du tuning japonais, célèbre pour son moteur rotatif bi-rotor. Son design léger et ses performances en font une référence du JDM des années 90.",
     "fabricant": "Tarmac Works",
-    "reference_fabricant": "Mazda RX-7 FD3S",
+    "reference_fabricant": "T64-020-RD",
     "photo": "https://www.toms.nl/images/artikelen/.334/334289_1_lg.jpg",
     "type": "mythique"
   },
@@ -385,7 +385,7 @@
     "prix": null,
     "notes": "La Mazda MX-5 est le roadster le plus vendu au monde, inspiré des sportives britanniques classiques. Légère, simple et fun à conduire, elle incarne le plaisir automobile accessible.",
     "fabricant": "Hobby Japan",
-    "reference_fabricant": "Mazda MX-5 NA",
+    "reference_fabricant": "HJ641019GR",
     "photo": "",
     "type": "mythique"
   },
@@ -411,7 +411,7 @@
     "prix": null,
     "notes": "La Mercedes 300 SL Roadster est dérivée de la célèbre Gullwing et conserve son innovation technique. Elle reste une icône du design et du luxe automobile des années 50.",
     "fabricant": "YS Models",
-    "reference_fabricant": "Mercedes-Benz 300 SL Roadster",
+    "reference_fabricant": "YS64-300SL-SL ",
     "photo": "https://jaimantoys.com/cdn/shop/files/Image_20241011225626132.jpg",
     "type": "mythique"
   },
@@ -424,7 +424,7 @@
   "prix": null,
   "notes": "La CLK GTR est une hypercar homologuée dérivée d’une voiture de course GT1. Sa rareté et son pedigree en font l’une des Mercedes les plus extrêmes.",
   "fabricant": "Pop Race",
-  "reference_fabricant": null,
+  "reference_fabricant": "PR64-CLKGTR-SV",
   "photo": null,
   "type": "mythique"
 },
@@ -437,7 +437,7 @@
     "prix": null,
     "notes": "Le Mercedes G63 AMG est une version ultra performante du mythique Classe G. Mélange de capacités tout-terrain et de luxe extrême, il est devenu un symbole de statut moderne.",
     "fabricant": "Para64",
-    "reference_fabricant": "92999055161",
+    "reference_fabricant": "92999055161 or 64P-G63-BRABUS-WH  ",
     "photo": "https://www.toms.nl/images/artikelen/.291/291539_2_lg.jpg",
     "type": "mythique"
   },
@@ -450,7 +450,7 @@
     "prix": "17.99",
     "notes": "Berline sportive de DTM, très iconique en course automobile allemande.",
     "fabricant": "Tarmac Works",
-    "reference_fabricant": "115817",
+    "reference_fabricant": "115817 or T64-032-EVO1-GR",
     "photo": "https://www.toms.nl/images/artikelen/.345/345621_1_lg.jpg",
     "type": "mythique"
   },
@@ -476,7 +476,7 @@
     "prix": null,
     "notes": "La Lancer Evolution VI Tommi Mäkinen Edition célèbre les titres WRC du pilote finlandais. Version ultime de l’Evo VI, elle est une icône absolue du rallye japonais.",
     "fabricant": "Hobby Japan",
-    "reference_fabricant": "Lancer Evolution VI TME",
+    "reference_fabricant": "HJ641021W",
     "photo": "http://ig-model.online/cdn/shop/files/HJ643033AW_F_1200x1200.jpg",
     "type": "mythique"
   },
@@ -491,7 +491,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Nissan",
@@ -502,7 +502,7 @@
   "prix": "13.90",
   "notes": "Le Hakosuka est la première GT‑R de l’histoire et le début d’une légende japonaise. Son style carré et son pedigree sportif en font un modèle culte.",
   "fabricant": "Tarmac Works",
-  "reference_fabricant": "107230",
+  "reference_fabricant": "107230 or T64-005-GR ",
   "photo": null,
   "type": "mythique"
 }, 
@@ -515,7 +515,7 @@
   "prix": null,
   "notes": "Le Kenmeri est extrêmement rare et n’a été produit qu’à quelques dizaines d’exemplaires. Son design plus doux et son aura en font un graal pour collectionneurs.",
   "fabricant": "Inno64",
-  "reference_fabricant": null,
+  "reference_fabricant": "IN64-NIS-KEN-GR",
   "photo": null,
   "type": "mythique"
 },
@@ -528,7 +528,7 @@
   "prix": null,
   "notes": "La R30 a introduit les moteurs turbo performants dans la lignée Skyline. Son style anguleux en fait une icône des années 80.",
   "fabricant": "Inno64",
-  "reference_fabricant": null,
+  "reference_fabricant": "IN64-NIS-R30-RSX",
   "photo": null,
   "type": "mythique"
 },
@@ -541,7 +541,7 @@
   "prix": null,
   "notes": "La R31 GTS‑R est une série limitée conçue pour la compétition. Elle annonce l’arrivée de la légendaire R32 GT‑R.",
   "fabricant": "Inno64",
-  "reference_fabricant": null,
+  "reference_fabricant": "IN64-NIS-R31-GTSR-BL",
   "photo": null,
   "type": "mythique"
 },
@@ -554,11 +554,24 @@
   "prix": null,
   "notes": "La R32 GT‑R, surnommée Godzilla, a dominé les circuits grâce à sa technologie avancée. Son moteur RB26 et sa transmission ATTESA en font une légende.",
   "fabricant": "Pop Race",
-  "reference_fabricant": null,
+  "reference_fabricant": "PR64-R32-WH",
   "photo": null,
   "type": "mythique"
 },
 {
+  "marque": "Nissan",
+  "modele": "Skyline R33 GT-R",
+  "annees": "1995–1998",
+  "categorie": "JDM / Sportive",
+  "couleur": "Bleu LM",
+  "prix": null,
+  "notes": "1ere GTR Nürb <8min. Sa puissance et son exclusivité en font un modèle mythique.",
+  "fabricant": "Pop Race ",
+  "reference_fabricant": "PR64-400R-BL",
+  "photo": null,
+  "type": "mythique"
+},
+  {
   "marque": "Nissan",
   "modele": "Skyline R33 GT-R Nismo 400R",
   "annees": "1995–1998",
@@ -580,7 +593,7 @@
   "prix": null,
   "notes": "La R34 est l’une des GT‑R les plus vénérées, notamment grâce à la culture JDM. La Z‑Tune, ultra‑rare, est considérée comme l’apogée de la Skyline.",
   "fabricant": "Tomica Premium",
-  "reference_fabricant": null,
+  "reference_fabricant": "TP-34-BL",
   "photo": null,
   "type": "mythique"
 },
@@ -606,7 +619,7 @@
   "prix": null,
   "notes": "La R35 est une supercar moderne réputée pour ses performances imbattables. Sa technologie et son efficacité en ont fait un supercar killer.",
   "fabricant": "Tomica",
-  "reference_fabricant": null,
+  "reference_fabricant": "LV-N234a",
   "photo": null,
   "type": "mythique"
 },
@@ -621,7 +634,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Pagani",
@@ -634,7 +647,7 @@
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00305",
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Peugeot",
@@ -660,7 +673,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Pontiac",
@@ -673,7 +686,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Porsche",
@@ -736,7 +749,7 @@
     "prix": null,
     "notes": "La 911 GT3 RS est l’ultime version atmosphérique orientée circuit. Elle combine aérodynamique extrême et précision de pilotage.",
     "fabricant": "Mini GT",
-    "reference_fabricant": "GT3 RS",
+    "reference_fabricant": "MGT00312-WHGR ",
     "photo": "https://cdn.shopify.com/s/files/911-gt3-rs-white-green-mini-gt.jpg",
     "type": "mythique"
   },
@@ -775,9 +788,9 @@
   "prix": null,
   "notes": "La Phantom incarne le luxe absolu et le raffinement britannique. Son confort et sa présence imposante en font une référence du prestige.",
   "fabricant": null,
-  "reference_fabricant": null,
+  "reference_fabricant": "TINY-RR-PH-WH",
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Saab",
@@ -788,7 +801,7 @@
     "prix": null,
     "notes": "La Saab 900 Turbo est une icône suédoise innovante avec son turbo précoce et son design atypique. Elle symbolise l’ingénierie originale Saab.",
     "fabricant": "Tarmac Works",
-    "reference_fabricant": "Saab 900 Turbo",
+    "reference_fabricant": "T64-050-SAAB-BK",
     "photo": "https://www.toms.nl/images/artikelen/.340/340201_1_lg.jpg",
     "type": "mythique"
   },
@@ -827,7 +840,7 @@
     "prix": null,
     "notes": "La Subaru WRX STI est une icône du rallye moderne, connue pour sa transmission intégrale et son moteur turbo boxer.",
     "fabricant": "Hobby Japan",
-    "reference_fabricant": "WRX STI",
+    "reference_fabricant": "HJ641022BL",
     "photo": "https://hobbyjapan.co.jp/cdn/wrx-sti-blue-164.jpg",
     "type": "mythique"
   },
@@ -842,7 +855,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Tesla",
@@ -855,7 +868,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Toyota",
@@ -866,7 +879,7 @@
     "prix": null,
     "notes": "Le Toyota Land Cruiser LC76 est un 4x4 légendaire reconnu pour sa fiabilité et sa robustesse dans les conditions extrêmes.",
     "fabricant": "BM Creations",
-    "reference_fabricant": "LC76",
+    "reference_fabricant": "BMC-LC76-LD",
     "photo": "https://www.toms.nl/images/artikelen/.327/327384_1_lg.jpg",
     "type": "mythique"
   },
@@ -878,10 +891,10 @@
   "couleur": "Rouge",
   "prix": null,
   "notes": "La Supra Mk4 est une icône JDM rendue célèbre par son potentiel de préparation. Son moteur 2JZ en fait une légende mondiale.",
-  "fabricant": null,
-  "reference_fabricant": null,
+  "fabricant": "Mini GT" ,
+  "reference_fabricant": MGT00452-RDnull,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
     "marque": "Triumph",
@@ -907,7 +920,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Volkswagen",
@@ -918,7 +931,7 @@
   "prix": null,
   "notes": "La GTI Mk1 est la première hot‑hatch moderne. Sa légèreté et son dynamisme en font une référence.",
   "fabricant": "Majorette",
-  "reference_fabricant": null,
+  "reference_fabricant": "MAJ-GTI-MK1-RD",
   "photo": null,
   "type": "mythique"
 },
@@ -933,7 +946,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
   "marque": "Volvo",
@@ -946,7 +959,7 @@
   "fabricant": null,
   "reference_fabricant": null,
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Volvo",
@@ -959,7 +972,7 @@
   "fabricant": "PR64",
   "reference_fabricant": "850-CYL",
   "photo": null,
-  "type": "mythique"
+  "type": "wanted"
 },
   {
   "marque": "Ferrari",
