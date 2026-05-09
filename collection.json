@@ -106,13 +106,13 @@
 {
   "marque": "Chevrolet",
   "modele": "Corvette 1961",
-  "annees": "1963",
+  "annees": "1961",
   "categorie": "Sport / US Classic",
-  "couleur": "Bleu",
-  "prix": null,
+  "couleur": "Bleu ciel",
+  "prix": "8.99",
   "notes": "La Corvette a introduit un design radical et une vraie identité sportive américaine. Elle reste une référence absolue des muscle cars élégants.",
   "fabricant": "Greenlight",
-  "reference_fabricant": "",
+  "reference_fabricant": "37230-A",
   "photo": "https://www.toms.nl/images/artikelen/.303/303999_2_lg.jpg",
   "type": "mythique"
 },
@@ -135,7 +135,7 @@
   "annees": "1980–1990",
   "categorie": "Citadine classique",
   "couleur": "Noir / Bordeaux",
-  "prix": 3.99,
+  "prix": "3.99",
   "notes": "Version emblématique de la 2CV, la Charleston symbolise la voiture populaire française. Elle incarne la simplicité mécanique, l’accessibilité et la liberté automobile.",
   "fabricant": "Norev",
   "reference_fabricant": "AMC0191352",
@@ -468,15 +468,28 @@
     "type": "mythique"
   },
   {
+  "marque": "Mercedes",
+  "modele": "Unimog U406",
+  "annees": "1966",
+  "categorie": "Utilitaire / 4x4",
+  "couleur": "Vert / Gris",
+  "prix": "12.25",
+  "notes": "Un utilitaire tout-terrain emblématique, robuste et polyvalent.",
+  "fabricant": "Schuco",
+  "reference_fabricant": "452037900",
+  "photo": "",
+  "type": "mythique"
+},
+  {
   "marque": "Mini",
   "modele": "Cooper",
   "annees": "1961–1971",
   "categorie": "Classique / Citadine",
   "couleur": "Vert",
-  "prix": null,
+  "prix": "3.90",
   "notes": "La Mini Cooper est une icône britannique des années 60, célèbre pour son design compact et son agilité. Elle s’est illustrée en compétition, notamment en remportant le Rallye de Monte-Carlo à plusieurs reprises.",
   "fabricant": "Norev",
-  "reference_fabricant": "Mini Cooper",
+  "reference_fabricant": "108185",
   "photo": "https://www.norev.com/cdn/shop/files/310523.jpg",
   "type": "mythique"
 },
@@ -515,7 +528,7 @@
   "prix": "13.90",
   "notes": "Le Hakosuka est la première GT‑R de l’histoire et le début d’une légende japonaise. Son style carré et son pedigree sportif en font un modèle culte.",
   "fabricant": "Tarmac Works",
-  "reference_fabricant": "107230 or T64-005-GR ",
+  "reference_fabricant": "107230",
   "photo": null,
   "type": "mythique"
 }, 
@@ -623,6 +636,19 @@
     "photo": "",
     "type": "mythique"
   },
+  {
+  "marque": "Nissan",
+  "modele": "Skyline GT-R R34 Z-Tune",
+  "annees": "2002",
+  "categorie": "JDM / Supercar",
+  "couleur": "Bleu",
+  "prix": 22.09,
+  "notes": "Version ultime de la R34, produite à seulement 19 exemplaires.",
+  "fabricant": "MotorHelix",
+  "reference_fabricant": "M63416",
+  "photo": "",
+  "type": "mythique"
+},
   {
   "marque": "Nissan",
   "modele": "GT-R R35",
@@ -806,6 +832,19 @@
   "type": "wanted"
 },
   {
+  "marque": "RUF",
+  "modele": "CTR2",
+  "annees": "1995",
+  "categorie": "Supercar",
+  "couleur": "Jaune",
+  "prix": "17.99",
+  "notes": "Le RUF CTR2 est une supercar extrême dérivée de la Porsche 911, connue pour ses performances impressionnantes. Cette version jaune met en avant son caractère radical et son design unique.",
+  "fabricant": "Para64",
+  "reference_fabricant": "55372",
+  "photo": "",
+  "type": "mythique"
+},
+  {
     "marque": "Saab",
     "modele": "900 Turbo",
     "annees": "1978–1993",
@@ -824,10 +863,10 @@
     "annees": "1965–1967",
     "categorie": "Sport / Classique",
     "couleur": "Bleu",
-    "prix": null,
+    "prix": "9.99,
     "notes": "La Shelby Cobra associe un châssis léger britannique à un V8 américain. Résultat: une voiture brute devenue mythique.",
-    "fabricant": "Shelby Collectibles",
-    "reference_fabricant": "Cobra 427",
+    "fabricant": "Greenlight",
+    "reference_fabricant": "37250-B",
     "photo": "https://www.toms.nl/images/artikelen/.333/333734_1_lg.jpg",
     "type": "mythique"
   },
@@ -934,6 +973,19 @@
   "reference_fabricant": null,
   "photo": null,
   "type": "wanted"
+}, 
+  {
+  "marque": "Volkswagen",
+  "modele": "T1 Minibus",
+  "annees": "1962",
+  "categorie": "Van classique",
+  "couleur": "Rouge / Blanc",
+  "prix": "10.62",
+  "notes": "Le célèbre Combi VW, symbole de liberté et de voyage.",
+  "fabricant": "Schuco",
+  "reference_fabricant": "452017100",
+  "photo": "",
+  "type": "mythique"
 },
 {
   "marque": "Volkswagen",
@@ -1195,18 +1247,18 @@
   "photo": "",
   "type": "wanted"
 },
-{
+  {
   "marque": "Renault",
-  "modele": "R5 Turbo #9",
-  "annees": "1980–1986",
+  "modele": "5 Turbo Monte Carlo #9",
+  "annees": "1981",
   "categorie": "Rallye",
-  "couleur": "",
-  "prix": null,
-  "notes": "Jean Ragnotti",
-  "fabricant": "",
-  "reference_fabricant": "",
+  "couleur": "Jaune / Blanc / Noir",
+  "prix": "19.90",
+  "notes": "La Renault 5 Turbo Monte Carlo 1981 est une légende du rallye grâce à ses performances spectaculaires et son style agressif.  Jean Ragnotti.",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "108788",
   "photo": "",
-  "type": "course"
+  "type": "mythique"
 },
 {
   "marque": "Lancia",
@@ -1261,15 +1313,15 @@
   "type": "course"
 },
 {
-  "marque": "Red Bull",
-  "modele": "RB19",
-  "annees": "2023",
+  "marque": "Red Bull Racing",
+  "modele": "RB18",
+  "annees": "2022",
   "categorie": "Formule 1",
-  "couleur": "",
-  "prix": null,
-  "notes": "Max Verstappen",
-  "fabricant": "",
-  "reference_fabricant": "",
+  "couleur": "Bleu mat / Jaune / Rouge",
+  "prix": "14.71",
+  "notes": "La monoplace championne du monde 2022 pilotée par Max Verstappen.",
+  "fabricant": "Spark",
+  "reference_fabricant": "Y254",
   "photo": "",
   "type": "course"
 },
@@ -1343,11 +1395,24 @@
   "modele": "Silvia S15 LB-Super Silhouette LB Kuma",
   "annees": "1999",
   "categorie": "LBWK",
-  "couleur": "bleu viel/jaune",
+  "couleur": "bleu ciel/jaune",
   "prix": "16.99",
   "notes": "",
   "fabricant": "MiniGT",
   "reference_fabricant": "MGT00743rhd",
+  "photo": "",
+  "type": "tuning"
+},
+  {
+  "marque": "Nissan",
+  "modele": "Skyline Kenmeri Liberty Walk",
+  "annees": "1973",
+  "categorie": "JDM / Tuning",
+  "couleur": "bleu ciel/jaune",
+  "prix": "13.89",
+  "notes": "Version Liberty Walk du célèbre Kenmeri, style bosozoku modernisé.",
+  "fabricant": "Mini GT",
+  "reference_fabricant": "MGT00698-R",
   "photo": "",
   "type": "tuning"
 },
@@ -1358,7 +1423,7 @@
     "annees": "",
     "categorie": "",
     "couleur": "",
-    "prix": null,
+    "prix": "",
     "notes": "",
     "fabricant": "",
     "reference_fabricant": "",
