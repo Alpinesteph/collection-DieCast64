@@ -330,7 +330,7 @@
     "annees": "2010–2012",
     "categorie": "Supercar / Moderne",
     "couleur": "Blanc",
-    "prix": "11.99" ,
+    "prix": "11.99",
     "notes": "La Lexus LFA est une supercar japonaise ultra exclusive, produite à seulement 500 exemplaires. Son V10 atmosphérique au son unique et sa construction en carbone en font une icône moderne.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "JBK57",
@@ -943,7 +943,7 @@
   "couleur": "Rouge",
   "prix": null,
   "notes": "La Supra Mk4 est une icône JDM rendue célèbre par son potentiel de préparation. Son moteur 2JZ en fait une légende mondiale.",
-  "fabricant": "Mini GT" ,
+  "fabricant": "Mini GT",
   "reference_fabricant": "MGT00452-RD",
   "photo": null,
   "type": "wanted"
