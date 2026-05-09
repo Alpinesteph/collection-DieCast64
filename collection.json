@@ -308,7 +308,7 @@
     "notes": "La Lancia Stratos est une légende du rallye, conçue uniquement pour la compétition. Triple championne du monde WRC, elle est reconnaissable à son design radical et son moteur Ferrari.",
     "fabricant": "Mini GT",
     "reference_fabricant": "MGT00846",
-    "photo": "https://www.traincraftr.com/wp-content/uploads/2025/11/1763091937/mini-gt-1-64-lancia-stratos-hf-stradale-black-1763091944.webp",
+    "photo": "https://minigt.tsm-models.com/upload/picfile_list/48c3d505f5c05badfaca723aee5f41b920250130190408038.JPG",
     "type": "mythique"
   },
   {
@@ -581,7 +581,7 @@
   "notes": "La R32 GT‑R, surnommée Godzilla, a dominé les circuits grâce à sa technologie avancée. Son moteur RB26 et sa transmission ATTESA en font une légende.",
   "fabricant": "Pop Race",
   "reference_fabricant": "PR64-R32-WH",
-  "photo": null,
+  "photo": "https://toycarbox.com/cdn/shop/files/s-l1600_68_b02966ac-ecc4-4515-a473-db9c37b3505d.webp?v=1763635868&width=1445",
   "type": "mythique"
 },
 {
@@ -651,7 +651,7 @@
 },
   {
   "marque": "Nissan",
-  "modele": "GT-R R35",
+  "modele": "Skyline GT-R R35",
   "annees": "2007–2025",
   "categorie": "Supercar",
   "couleur": "Gris foncé",
@@ -737,7 +737,7 @@
     "notes": "La 911 Carrera RS est une version allégée et radicale de la 911 classique. Elle est devenue une icône pour les puristes et les amateurs de conduite sportive.",
     "fabricant": "Hot Wheels",
     "reference_fabricant": "hwmvHRW57 ",
-    "photo": "https://i.ebayimg.com/images/g/2ZAAAOSwHotWheels911RSorange.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_T9vymEJ_TfbhTsFlqoCxyYNgih--_BmP_Q&s",
     "type": "mythique"
   },
   {
@@ -788,8 +788,8 @@
     "prix": null,
     "notes": "La 911 GT3 RS est l’ultime version atmosphérique orientée circuit. Elle combine aérodynamique extrême et précision de pilotage.",
     "fabricant": "Mini GT",
-    "reference_fabricant": "MGT00312-WHGR ",
-    "photo": "https://cdn.shopify.com/s/files/911-gt3-rs-white-green-mini-gt.jpg",
+    "reference_fabricant": "MGT00827",
+    "photo": "https://minigt.tsm-models.com/upload/picfile_list/48beb701a72572b7ff4fc9f856d22e0320250510055916836.JPG",
     "type": "mythique"
   },
   {
@@ -1270,8 +1270,8 @@
   "notes": "La Renault 5 Turbo Monte Carlo 1981 est une légende du rallye grâce à ses performances spectaculaires et son style agressif.  Jean Ragnotti.",
   "fabricant": "Tarmac Works",
   "reference_fabricant": "108788",
-  "photo": "",
-  "type": "mythique"
+  "photo": "https://modellautos-dresden.de/media/image/0b/4b/a3/T64-TL060-81MCR09-1_600x600.jpg",
+  "type": "course"
 },
 {
   "marque": "Lancia",
@@ -1296,7 +1296,7 @@
   "notes": "Nigel Mansell, Riccardo Patrese",
   "fabricant": "",
   "reference_fabricant": "",
-  "photo": "",
+  "photo": "https://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/DE8AAOSw3T1n7AE8/$_12.JPG?set_id=880000500F",
   "type": "course"
 },
 {
@@ -1426,8 +1426,8 @@
   "notes": "Cette BMW M3 GT V2 est une création Kaido House au style très marqué et inspiré du monde du tuning japonais. La livrée violette met en valeur les lignes agressives et les détails spécifiques de cette version.",
   "fabricant": "Mini GT / Kaido House",
   "reference_fabricant": "",
-  "photo": "",
-  "type": "mythique"
+  "photo": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ4lSK-BmLXQvtZwBG8XDxc9DRkwwlUby8QbPhoabQYvKlgkSoxlP5ZTV2nPpQorDIUk5N6-ZuDBe9yNboL6fV_9bYcupj7MQ",
+  "type": "tuning"
 },
   {
   "marque": "Nissan",
@@ -1439,7 +1439,7 @@
   "notes": "",
   "fabricant": "MiniGT",
   "reference_fabricant": "MGT00743rhd",
-  "photo": "",
+  "photo": "https://overnight.es/2457-large_default/mini-gt-1999-nissan-silvia-s15-lb-super-silhouette-lb-kuma-mgt00743rhd-escala-1-64.jpg",
   "type": "tuning"
 },
   {
@@ -1452,7 +1452,7 @@
   "notes": "Version Liberty Walk du célèbre Kenmeri, style bosozoku modernisé.",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00698-R",
-  "photo": "",
+  "photo": "https://minigt.tsm-models.com/upload/picfile_list/e4f95e4165638e35b16f0025e205bcca20240908072550686.JPG",
   "type": "tuning"
 },
    {
