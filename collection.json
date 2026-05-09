@@ -674,7 +674,7 @@
   "reference_fabricant": null,
   "photo": null,
   "type": "mythique"
-}
+},
   {
     "marque": "Porsche",
     "modele": "911 Carrera RS",
@@ -700,7 +700,7 @@
   "reference_fabricant": null,
   "photo": null,
   "type": "mythique"
-}
+},
   {
     "marque": "Porsche",
     "modele": "930 Turbo",
@@ -960,7 +960,7 @@
   "reference_fabricant": "850-CYL",
   "photo": null,
   "type": "mythique"
-}
+},
   {
   "marque": "Ferrari",
   "modele": "250 GTO #19",
@@ -1064,7 +1064,8 @@
   "reference_fabricant": "T64S-025-SL",
   "photo": "",
   "type": "course"
-},{
+},
+  {
     "marque": "Peugeot",
     "modele": "205 T16 #1",
     "annees": "1984–1986",
