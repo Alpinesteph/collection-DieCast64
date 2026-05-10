@@ -625,7 +625,7 @@
 },
   {
     "marque": "Nissan",
-    "modele": "Skyline GT-R R34 Nismo",
+    "modele": "Skyline R34 GT-R Nismo",
     "annees": "2000s",
     "categorie": "JDM / Sportive",
     "couleur": "Argent",
@@ -638,7 +638,7 @@
   },
   {
   "marque": "Nissan",
-  "modele": "Skyline GT-R R34 Z-Tune",
+  "modele": "Skyline R34 GT-R Z-Tune",
   "annees": "2002",
   "categorie": "JDM / Supercar",
   "couleur": "Bleu",
@@ -651,15 +651,15 @@
 },
   {
   "marque": "Nissan",
-  "modele": "Skyline GT-R R35",
+  "modele": "Skyline R35 GT-R ",
   "annees": "2007–2025",
   "categorie": "Supercar",
   "couleur": "Gris foncé",
   "prix": null,
   "notes": "La R35 est une supercar moderne réputée pour ses performances imbattables. Sa technologie et son efficacité en ont fait un supercar killer.",
   "fabricant": "Tomica",
-  "reference_fabricant": "LV-N234a",
-  "photo": null,
+  "reference_fabricant": "No.60",
+  "photo": "https://minitoysensei.co.uk/cdn/shop/files/60NissanGT-RNismo_1.jpg?v=1702656500",
   "type": "mythique"
 },
   {
@@ -763,7 +763,7 @@
     "notes": "La Porsche 930 Turbo est la première 911 turbocompressée, célèbre pour son caractère brutal et son fameux ‘turbo lag’. Une icône des années 80.",
     "fabricant": "Majorette",
     "reference_fabricant": "Porsche 930 Turbo",
-    "photo": "https://majorette-toys.com/media/porsche-930-turbo-grey.jpg",
+    "photo": "https://image-cache.simba-dickie.com/a7rOr6rtQD2fLce3OpV9yADpxsifIcpdRw-ijgsEYqU/max_bytes:500000/fn:Y29sbGVjdGlvbi0xOTc1LXBvcnNjaGUtOTMwLXR1cmJvLTg1MDUwMDEwMDMtZGVfMDA:1/cb:MTc1NDA2MzYyOA/aHR0cHM6Ly9jZG4uc2ltYmEtZGlja2llLWdyb3VwLmRlL21lZGlhX25ldy9zaG9wLW1ham9yZXR0ZS9wcm9kdWN0cy84NTA1MDAxMDAzLzAwL2RldGFpbF96b29tXzIwMjAvY29sbGVjdGlvbi0xOTc1LXBvcnNjaGUtOTMwLXR1cmJvLTg1MDUwMDEwMDMtZGVfMDAuanBlZz92PTE3NTQwNjM2Mjg/collection-1975-porsche-930-turbo-8505001003-de_00.v1.avif",
     "type": "mythique"
   },
   {
@@ -802,7 +802,7 @@
     "notes": "La Renault 5 Turbo est une légende du rallye avec son architecture moteur central arrière. Son design extrême la rend immédiatement reconnaissable.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "Renault 5 Turbo",
-    "photo": "https://tarmacworks.com/cdn/r5-turbo-red-164.jpg",
+    "photo": "https://i.ebayimg.com/images/g/XfsAAOSwbSxlusu0/s-l400.png",
     "type": "mythique"
   },  
   {
@@ -892,8 +892,8 @@
     "prix": null,
     "notes": "La Subaru WRX STI est une icône du rallye moderne, connue pour sa transmission intégrale et son moteur turbo boxer.",
     "fabricant": "Hobby Japan",
-    "reference_fabricant": "HJ641022BL",
-    "photo": "https://hobbyjapan.co.jp/cdn/wrx-sti-blue-164.jpg",
+    "reference_fabricant": "HJDM003A-9",
+    "photo": "https://onlineshoplink.de/2024/artikelbilder/866265o.jpg",
     "type": "mythique"
   },
 {
