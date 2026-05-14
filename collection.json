@@ -154,7 +154,20 @@
   "reference_fabricant": "AMC0191352",
   "photo": "",
   "type": "wanted"
-}, 
+},  
+  {
+    "marque": "DeLorean",
+    "modele": "DMC-12",
+    "annees": "1981",
+    "categorie": "Coupé",
+    "couleur": "Acier inox",
+    "prix": "60 000 €",
+    "notes": "Rendue immortelle par Retour vers le Futur, c’est une icône pop. Sa carrosserie en inox et ses portes papillon sont uniques.",
+    "fabricant": "Hot Wheels Premium",
+    "reference_fabricant": "N/A",
+    "photo": "delorean_dmc12_stainless.jpg",
+    "type": "wanted"
+  }, 
   {
     "marque": "Dodge",
     "modele": "Viper GTS",
@@ -259,17 +272,17 @@
     "photo": null,
     "type": "wanted"
   },
-  {
+    {
     "marque": "Kia",
-    "modele": "Sportage",
-    "annees": null,
-    "categorie": "SUV",
-    "couleur": "Blanc",
-    "prix": null,
-    "notes": "Le Sportage est un SUV compact apprécié pour son rapport qualité-prix et sa polyvalence. Il incarne la montée en gamme de Kia vers des modèles plus modernes et attractifs.",
-    "fabricant": null,
-    "reference_fabricant": null,
-    "photo": null,
+    "modele": "Stinger GT",
+    "annees": "2018",
+    "categorie": "Sport Sedan",
+    "couleur": "Rouge HiChroma Red",
+    "prix": "50 000 €",
+    "notes": "Première vraie sportive de l’histoire de Kia, elle a changé l’image de la marque. Son V6 biturbo et son châssis européen en font une référence inattendue.",
+    "fabricant": "Mini GT",
+    "reference_fabricant": "MGT004",
+    "photo": "kia_stinger_gt_red.jpg",
     "type": "wanted"
   },
   {
@@ -363,32 +376,32 @@
   "photo": null,
   "type": "wanted"
 },
-{
-  "marque": "Maserati",
-  "modele": "GranTurismo",
-  "annees": "2007–2019",
-  "categorie": "GT",
-  "couleur": "Bleu",
-  "prix": null,
-  "notes": "La GranTurismo incarne l’élégance italienne avec son V8 mélodieux et son style raffiné. Elle combine confort et sportivité dans une GT moderne.",
-  "fabricant": null,
-  "reference_fabricant": null,
-  "photo": null,
-  "type": "wanted"
-},
-{
-  "marque": "Maserati",
-  "modele": "3500 GT",
-  "annees": "1957–1964",
-  "categorie": "GT classique",
-  "couleur": "Bleu",
-  "prix": null,
-  "notes": "La 3500 GT a marqué l’entrée de Maserati dans le grand tourisme de luxe. Son design classique et son raffinement en font une icône des années 60.",
-  "fabricant": null,
-  "reference_fabricant": null,
-  "photo": null,
-  "type": "wanted"
-},
+  {
+    "marque": "Lotus",
+    "modele": "Esprit Turbo",
+    "annees": "1981",
+    "categorie": "Sportive",
+    "couleur": "Blanc (James Bond)",
+    "prix": "45 000 €",
+    "notes": "Icône des années 80, rendue célèbre par James Bond. Sa ligne anguleuse signée Giugiaro est devenue un symbole du design futuriste.",
+    "fabricant": "Hot Wheels Premium",
+    "reference_fabricant": "N/A",
+    "photo": "lotus_esprit_turbo_white.jpg",
+    "type": "wanted"
+  },  
+  {
+    "marque": "Maserati",
+    "modele": "3500 GT",
+    "annees": "1957–1964",
+    "categorie": "Grand Tourer",
+    "couleur": "Bleu Azzurro",
+    "prix": "250 000 €",
+    "notes": "Première GT moderne de Maserati, elle a lancé la marque dans le luxe routier. Élégante et rare, elle symbolise l’âge d’or italien.",
+    "fabricant": "N/A",
+    "reference_fabricant": "N/A",
+    "photo": "maserati_3500gt_blue.jpg",
+    "type": "wanted"
+  },
   {
     "marque": "Mazda",
     "modele": "RX-7",
@@ -520,18 +533,18 @@
     "type": "mythique"
   },
   {
-  "marque": "Morgan",
-  "modele": "Plus 8",
-  "annees": "1968–2004",
-  "categorie": "Roadster",
-  "couleur": "Vert",
-  "prix": null,
-  "notes": "La Plus 8 est un roadster artisanal mêlant tradition et moteur V8. Son charme rétro et son caractère brut en font une voiture unique.",
-  "fabricant": null,
-  "reference_fabricant": null,
-  "photo": null,
-  "type": "wanted"
-},
+    "marque": "Morgan",
+    "modele": "Plus 8",
+    "annees": "1968–2004",
+    "categorie": "Roadster",
+    "couleur": "Vert British Racing Green",
+    "prix": "80 000 €",
+    "notes": "Un roadster artisanal au V8 Rover, mélange unique de tradition et de puissance. C’est l’un des modèles les plus emblématiques de Morgan.",
+    "fabricant": "Oxford Diecast",
+    "reference_fabricant": "N/A",
+    "photo": "morgan_plus8_green.jpg",
+    "type": "wanted"
+  },
 {
   "marque": "Nissan",
   "modele": "Skyline GT-R Hakosuka KPGC10",
@@ -1469,58 +1482,6 @@
   "type": "tuning"
 },
   {
-    "marque": "Kia",
-    "modele": "Stinger GT",
-    "annees": "2018",
-    "categorie": "Sport Sedan",
-    "couleur": "Rouge HiChroma Red",
-    "prix": "50 000 €",
-    "notes": "Première vraie sportive de l’histoire de Kia, elle a changé l’image de la marque. Son V6 biturbo et son châssis européen en font une référence inattendue.",
-    "fabricant": "Mini GT",
-    "reference_fabricant": "MGT004",
-    "photo": "kia_stinger_gt_red.jpg",
-    "type": "wanted"
-  },
-  {
-    "marque": "Lotus",
-    "modele": "Esprit Turbo",
-    "annees": "1981",
-    "categorie": "Sportive",
-    "couleur": "Blanc (James Bond)",
-    "prix": "45 000 €",
-    "notes": "Icône des années 80, rendue célèbre par James Bond. Sa ligne anguleuse signée Giugiaro est devenue un symbole du design futuriste.",
-    "fabricant": "Hot Wheels Premium",
-    "reference_fabricant": "N/A",
-    "photo": "lotus_esprit_turbo_white.jpg",
-    "type": "wanted"
-  },
-  {
-    "marque": "Maserati",
-    "modele": "3500 GT",
-    "annees": "1957",
-    "categorie": "Grand Tourer",
-    "couleur": "Bleu Azzurro",
-    "prix": "250 000 €",
-    "notes": "Première GT moderne de Maserati, elle a lancé la marque dans le luxe routier. Élégante et rare, elle symbolise l’âge d’or italien.",
-    "fabricant": "N/A",
-    "reference_fabricant": "N/A",
-    "photo": "maserati_3500gt_blue.jpg",
-    "type": "wanted"
-  },
-  {
-    "marque": "Morgan",
-    "modele": "Plus 8",
-    "annees": "1968",
-    "categorie": "Roadster",
-    "couleur": "Vert British Racing Green",
-    "prix": "80 000 €",
-    "notes": "Un roadster artisanal au V8 Rover, mélange unique de tradition et de puissance. C’est l’un des modèles les plus emblématiques de Morgan.",
-    "fabricant": "Oxford Diecast",
-    "reference_fabricant": "N/A",
-    "photo": "morgan_plus8_green.jpg",
-    "type": "wanted"
-  },
-  {
     "marque": "Singer",
     "modele": "964 DLS",
     "annees": "2021",
@@ -1572,19 +1533,7 @@
     "photo": "detomaso_pantera_yellow.jpg",
     "type": "wanted"
   },
-  {
-    "marque": "DeLorean",
-    "modele": "DMC-12",
-    "annees": "1981",
-    "categorie": "Coupé",
-    "couleur": "Acier inox",
-    "prix": "60 000 €",
-    "notes": "Rendue immortelle par Retour vers le Futur, c’est une icône pop. Sa carrosserie en inox et ses portes papillon sont uniques.",
-    "fabricant": "Hot Wheels Premium",
-    "reference_fabricant": "N/A",
-    "photo": "delorean_dmc12_stainless.jpg",
-    "type": "wanted"
-  },
+ 
   {
     "marque": "Fisker",
     "modele": "Karma",
