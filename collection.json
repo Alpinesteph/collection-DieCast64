@@ -1021,10 +1021,10 @@
   "couleur": "Rouge",
   "prix": null,
   "notes": "La GTI Mk1 est la première hot‑hatch moderne. Sa légèreté et son dynamisme en font une référence.",
-  "fabricant": "Majorette",
+  "fabricant": "",
   "reference_fabricant": "MAJ-GTI-MK1-RD",
   "photo": "https://images.prod.ecom.mueller.de/_next/image/?url=https%3A%2F%2Fstatic.prod.ecom.mueller.de%2Fproducts%2F3467452074312%2F3467452074312_1.jpg&w=1920&q=75",
-  "type": "mythique"
+  "type": "wanted"
 },
 {
   "marque": "Volkswagen",
@@ -1335,7 +1335,7 @@
   "notes": "La monoplace championne du monde 2022 pilotée par Max Verstappen. Vu au Grand Prix de Spa 2022",
   "fabricant": "Spark",
   "reference_fabricant": "Y254",
-  "photo": "",
+  "photo": "https://www.raceland.de/$WS/raceland/websale8_shop-raceland/produkte/medien/bilder/gross/20-84255.jpg",
   "type": "course"
 },
 {
@@ -1387,7 +1387,7 @@
   "notes": "Hasemi, Hoshino, Matsuda",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00165",
-  "photo": "",
+  "photo": "https://www.1999.co.jp/itbig69/10693190a.jpg",
   "type": "course"
 },
 {
@@ -1409,11 +1409,11 @@
   "annees": "",
   "categorie": "JGTC",
   "couleur": "16",
-  "prix": null,
+  "prix": "15,00",
   "notes": "",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00104",
-  "photo": "",
+  "photo": "https://minigt.tsm-models.com/upload/picfile_list/4e271461c3df28879ed4175a471f11d120231114020943252.JPG",
   "type": "course"
 },
 {
@@ -1452,7 +1452,7 @@
   "notes": "La Maserati MC12 Competition est une machine redoutable engagée en GT1, ici dans la livrée Vitaphone. Cette version reproduit la voiture victorieuse des 24 Heures de Spa 2008.",
   "fabricant": "BBR Models",
   "reference_fabricant": "BBRDIE6421",
-  "photo": "",
+  "photo": "https://diecasthunter.de/cdn/shop/files/BBRDIE6421-83_1920x1920_62393e3c-4d9e-4544-98b7-325012173199.jpg?v=1764700424",
   "type": "course"
 },
   {
