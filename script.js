@@ -4,7 +4,11 @@ fetch("collection.json")
 
     const sections = {
       mythique: document.getElementById("list-mythiques"),
-      course: document.getElementById("list-course"),
+      course_lemans: document.getElementById("list-course-lemans"),
+      course_rallye: document.getElementById("list-course-rallye"),
+      course_f1: document.getElementById("list-course-f1"),
+      course_jgtc: document.getElementById("list-course-jgtc"),
+      course_autres: document.getElementById("list-course-autres"),
       tuning: document.getElementById("list-tuning"),
       wanted: document.getElementById("list-wanted")
     };
