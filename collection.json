@@ -351,6 +351,19 @@
     "type": "mythique"
   },
   {
+  "marque": "Lincoln",
+  "modele": "Capri",
+  "annees": "1954",
+  "categorie": "Mythique",
+  "type": "mythique",
+  "couleur": "Parklane Green / Bloomfield Green",
+  "prix": 0,
+  "fabricant": "Mini GT",
+  "reference_fabricant": "MGT00623",
+  "photo": "https://minigt.tsm-models.com/upload/picfile_list/d20fee28177d3a94227a7e6dd39bab7220240127003619928.JPG",
+  "notes": "La Lincoln Capri 1954 est considérée comme mythique parce qu’elle incarne l’âge d’or du style américain, avec ses lignes élégantes, son chrome abondant et sa peinture bicolore emblématique."
+},
+  {
     "marque": "Lexus",
     "modele": "LFA",
     "annees": "2010–2012",
@@ -1088,7 +1101,7 @@
   "notes": "250 GTO + Fiat 642N Transporter. 1962- Phil Hill, Stirling Moss.",
   "fabricant": "Hot Wheels",
   "reference_fabricant": "H6979 / HW Premiere #05",
-  "photo": "https://www.toms.nl/images/artikelen/.342/342683_1_lg.jpg",
+  "photo": "https://i0.wp.com/lamleygroup.com/wp-content/uploads/2025/04/unnamed2.jpg?resize=768%2C695&ssl=1",
   "type": "course"
 },
   {
@@ -1123,7 +1136,7 @@
   "annees": "1991",
   "categorie": "Endurance (Le Mans)",
   "couleur": "Orange / Vert",
-  "prix": null,
+  "prix": "ordered",
   "notes": "Vainqueur des 24h du Mans 1991. Johnny Herbert, Bertrand Gachot, Volker Weidler.",
   "fabricant": "Pop Race / MotorHelix",
   "reference_fabricant": "PR640301 / M60101",
@@ -1160,7 +1173,7 @@
     "marque": "Audi",
     "modele": "R8 #8",
     "annees": "2000–2005",
-    "categorie": "LeMans",
+    "categorie": "Le Mans",
     "couleur": "Argent",
     "prix": null,
     "notes": "Tom Kristensen, Pirro, Biela",
@@ -1234,6 +1247,19 @@
   "photo": "",
   "type": "course"
 },
+   {
+  "marque": "Ford",
+  "modele": "Focus RS",
+  "annees": "2016",
+  "categorie": "Rallye",
+  "couleur": "Nitrous Blue (DCM Edition)",
+  "prix": "N/A",
+  "notes": "La Focus RS est devenue culte grâce Ken Block. Vu au Rallye d'Allemagne en 2010",
+  "fabricant": "DCM x MiniStation",
+  "reference_fabricant": "DCM64-MON-FOC",
+  "photo": "dcm_ministation_focus_rs_nitrous_blue.jpg",
+  "type": "course"
+},
   {
   "marque": "Lancia",
   "modele": "Delta #4",
@@ -1266,11 +1292,11 @@
     "annees": "1984–1986",
     "categorie": "Rallye Group B",
     "couleur": "Blanc",
-    "prix": null,
-    "notes": "Vatanen, Kankkunen",
-    "fabricant": "",
-    "reference_fabricant": "prio",
-    "photo": "",
+    "prix": "N/A",
+    "notes": "La reine du Groupe B, championne du monde 1985-86. Rendue mythique par les exploits d'Ari Vatanen.",
+    "fabricant": "Inno64 (annoncé) / conversions artisanales",
+    "reference_fabricant": "N/A",
+    "photo": "peugeot_205_t16_evo2_white.jpg",
     "type": "course"
   },
   {
@@ -1287,19 +1313,6 @@
   "type": "course"
 },
    {
-  "marque": "Ford",
-  "modele": "Focus RS",
-  "annees": "2016",
-  "categorie": "Hatchback Sportive",
-  "couleur": "Nitrous Blue (DCM Edition)",
-  "prix": "N/A",
-  "notes": "La Focus RS est devenue culte grâce Ken Block. Vu au Rallye d'Allemagne en 2010",
-  "fabricant": "DCM x MiniStation",
-  "reference_fabricant": "DCM64-MON-FOC",
-  "photo": "dcm_ministation_focus_rs_nitrous_blue.jpg",
-  "type": "course"
-},
-   {
     "marque": "McLaren",
     "modele": "MP4/4 #12",
     "annees": "1988",
@@ -1307,9 +1320,9 @@
     "couleur": "Rouge / Blanc",
     "prix": "15.99 ordered",
     "notes": "Senna, ",
-    "fabricant": "",
-    "reference_fabricant": "ordered",
-    "photo": "",
+    "fabricant": "MiniGT",
+    "reference_fabricant": "MGT01099",
+    "photo": "https://minigt.tsm-models.com/upload/picfile_list/11e53be404c58a8c3dffa45deecf220820250828203531417.JPG",
     "type": "course"
   },
   {
@@ -1351,19 +1364,6 @@
   "photo": "https://i.ebayimg.com/00/s/OTAwWDE2MDA=/z/DE8AAOSw3T1n7AE8/$_12.JPG?set_id=880000500F",
   "type": "course"
 },
-{
-  "marque": "Williams",
-  "modele": "FW15 #2",
-  "annees": "",
-  "categorie": "Formule 1",
-  "couleur": "",
-  "prix": null,
-  "notes": "",
-  "fabricant": "",
-  "reference_fabricant": "",
-  "photo": "",
-  "type": "course"
-},
   {
   "marque": "Lotus",
   "modele": "49",
@@ -1387,6 +1387,19 @@
   "notes": "Jochen Rindt, Emerson Fittipaldi, Ronnie Peterson",
   "fabricant": "Hot Wheels",
   "reference_fabricant": "’64 #4",
+  "photo": "",
+  "type": "course"
+},
+  {
+  "marque": "Williams",
+  "modele": "FW15 #2",
+  "annees": "",
+  "categorie": "Formule 1",
+  "couleur": "",
+  "prix": null,
+  "notes": "",
+  "fabricant": "",
+  "reference_fabricant": "",
   "photo": "",
   "type": "course"
 },
@@ -1473,14 +1486,66 @@
   "modele": "M3 E30 DTM #15 Warsteiner",
   "annees": "1987–1992",
   "categorie": "DTM",
-  "couleur": "",
-  "prix": "",
-  "notes": "La reine du DTM.",
-  "fabricant": "",
-  "reference_fabricant": "",
-  "photo": "",
+  "couleur": "blanc",
+  "prix": "N/A",
+  "notes": "La voiture la plus emblématique du DTM, agile et victorieuse. Rendue légendaire par Roberto Ravaglia.",
+  "fabricant": "Tarmac Works / Minichamps (1:64)",
+  "reference_fabricant": "N/A",
+  "photo": "bmw_m3_e30_dtm_warsteiner.jpg",
   "type": "course"
-},
+},  
+   {
+    "marque": "Mitsubishi",
+    "modele": "Pajero Evolution #208 Playstation",
+    "annees": "1999",
+    "categorie": "Paris-Dakar",
+    "couleur": "Rouge",
+    "prix": "N/A",
+    "notes": "Le 4x4 le plus dominant de l’histoire du Dakar. Victoire mythique avec Kenjiro Shinozuka.",
+    "fabricant": "Hobby Japan / BM Creations",
+    "reference_fabricant": "N/A",
+    "photo": "pajero_evolution_dakar_1998.jpg",
+    "type": "course"
+  },
+  {
+    "marque": "Suzuki",
+    "modele": "Escudo Pikes Peak",
+    "annees": "1998",
+    "categorie": "Pikes Peak / Hillclimb",
+    "couleur": "Rouge Monster Sport",
+    "prix": "N/A",
+    "notes": "Prototype de 1000 ch conçu pour Pikes Peak. Devenu culte grâce à Monster Tajima et Gran Turismo.",
+    "fabricant": "Tomica Limited Vintage",
+    "reference_fabricant": "TLV-ESCUDO-98",
+    "photo": "suzuki_escudo_pikes_peak_1998.jpg",
+    "type": "course"
+  },
+  {
+    "marque": "Dodge",
+    "modele": "Charger Daytona",
+    "annees": "1969",
+    "categorie": "NASCAR",
+    "couleur": "Hemi Orange",
+    "prix": "N/A",
+    "notes": "Première voiture NASCAR à dépasser 200 mph. Rendue mythique par Buddy Baker et son record historique.",
+    "fabricant": "Auto World / Hot Wheels Premium",
+    "reference_fabricant": "AW-DAYTONA-69",
+    "photo": "dodge_charger_daytona_1969_orange.jpg",
+    "type": "course"
+  },
+  {
+    "marque": "Plymouth",
+    "modele": "Hemi Cuda",
+    "annees": "1970",
+    "categorie": "Muscle Car",
+    "couleur": "Plum Crazy Purple",
+    "prix": "N/A",
+    "notes": "Une des muscle cars les plus recherchées, équipée du mythique HEMI 426. Popularisée par de nombreux pilotes de drag des années 70.",
+    "fabricant": "Auto World / Greenlight",
+    "reference_fabricant": "AW-HEMI-CUDA-70",
+    "photo": "plymouth_hemi_cuda_1970_purple.jpg",
+    "type": "course"
+  },
   {
   "marque": "BMW",
   "modele": "M3 GT V2",
@@ -1572,7 +1637,7 @@
     "photo": "detomaso_pantera_yellow.jpg",
     "type": "wanted"
   },
- 
+
   {
     "marque": "Fisker",
     "modele": "Karma",
@@ -1611,84 +1676,6 @@
     "reference_fabricant": "N/A",
     "photo": "tvr_sagaris_purple.jpg",
     "type": "wanted"
-  },
-  {
-    "marque": "Peugeot",
-    "modele": "205 T16 Evo 2",
-    "annees": "1985",
-    "categorie": "Groupe B",
-    "couleur": "Blanc Peugeot Talbot",
-    "prix": "N/A",
-    "notes": "La reine du Groupe B, championne du monde 1985-86. Rendue mythique par les exploits d'Ari Vatanen.",
-    "fabricant": "Inno64 (annoncé) / conversions artisanales",
-    "reference_fabricant": "N/A",
-    "photo": "peugeot_205_t16_evo2_white.jpg",
-    "type": "course"
-  },
-  {
-    "marque": "BMW",
-    "modele": "M3 E30 DTM",
-    "annees": "1987",
-    "categorie": "DTM",
-    "couleur": "Blanc Warsteiner",
-    "prix": "N/A",
-    "notes": "La voiture la plus emblématique du DTM, agile et victorieuse. Rendue légendaire par Roberto Ravaglia.",
-    "fabricant": "Tarmac Works / Minichamps (1:64)",
-    "reference_fabricant": "N/A",
-    "photo": "bmw_m3_e30_dtm_warsteiner.jpg",
-    "type": "wanted"
-  },
-  {
-    "marque": "Mitsubishi",
-    "modele": "Pajero Evolution #208 Playstation",
-    "annees": "1999",
-    "categorie": "Paris-Dakar",
-    "couleur": "Rouge",
-    "prix": "N/A",
-    "notes": "Le 4x4 le plus dominant de l’histoire du Dakar. Victoire mythique avec Kenjiro Shinozuka.",
-    "fabricant": "Hobby Japan / BM Creations",
-    "reference_fabricant": "N/A",
-    "photo": "pajero_evolution_dakar_1998.jpg",
-    "type": "course"
-  },
-  {
-    "marque": "Suzuki",
-    "modele": "Escudo Pikes Peak",
-    "annees": "1998",
-    "categorie": "Pikes Peak / Hillclimb",
-    "couleur": "Rouge Monster Sport",
-    "prix": "N/A",
-    "notes": "Prototype de 1000 ch conçu pour Pikes Peak. Devenu culte grâce à Monster Tajima et Gran Turismo.",
-    "fabricant": "Tomica Limited Vintage",
-    "reference_fabricant": "TLV-ESCUDO-98",
-    "photo": "suzuki_escudo_pikes_peak_1998.jpg",
-    "type": "course"
-  },
-  {
-    "marque": "Dodge",
-    "modele": "Charger Daytona",
-    "annees": "1969",
-    "categorie": "NASCAR",
-    "couleur": "Hemi Orange",
-    "prix": "N/A",
-    "notes": "Première voiture NASCAR à dépasser 200 mph. Rendue mythique par Buddy Baker et son record historique.",
-    "fabricant": "Auto World / Hot Wheels Premium",
-    "reference_fabricant": "AW-DAYTONA-69",
-    "photo": "dodge_charger_daytona_1969_orange.jpg",
-    "type": "course"
-  },
-  {
-    "marque": "Plymouth",
-    "modele": "Hemi Cuda",
-    "annees": "1970",
-    "categorie": "Muscle Car",
-    "couleur": "Plum Crazy Purple",
-    "prix": "N/A",
-    "notes": "Une des muscle cars les plus recherchées, équipée du mythique HEMI 426. Popularisée par de nombreux pilotes de drag des années 70.",
-    "fabricant": "Auto World / Greenlight",
-    "reference_fabricant": "AW-HEMI-CUDA-70",
-    "photo": "plymouth_hemi_cuda_1970_purple.jpg",
-    "type": "course"
   },
   {
     "marque": "MicroTurbo",
