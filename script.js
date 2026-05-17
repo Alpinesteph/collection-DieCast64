@@ -63,16 +63,38 @@ fetch("collection.json")
       // group by categorie (type)
       const byType = {
         mythique: [],
-        course: [],
         tuning: [],
-        wanted: []
+        wanted: [],
+
+        // sous-sections course
+        course_lemans: [],
+        course_rallye: [],
+        course_f1: [],
+        course_jgtc: [],
+        course_autres: []
       };
 
       list.forEach(car => {
-        const type = car.type || "mythique";
-        if (byType[type]) {
-          byType[type].push(car);
+
+        if (car.type === "course") {
+
+          let key = "course_autres";
+          const cat = (car.categorie || "").toLowerCase();
+
+          if (cat.includes("le mans") || cat.includes("endurance")) key = "course_lemans";
+          else if (cat.includes("rallye")) key = "course_rallye";
+          else if (cat.includes("f1") || cat.includes("formule")) key = "course_f1";
+          else if (cat.includes("jgtc") || cat.includes("super gt")) key = "course_jgtc";
+
+          byType[key].push(car);
+
+        } else {
+
+          const type = car.type || "mythique";
+          if (byType[type]) byType[type].push(car);
+
         }
+
       });
 
       // render chaque section
@@ -90,8 +112,7 @@ fetch("collection.json")
           byBrand.get(brand).push(car);
         });
 
-        const brands = Array.from(byBrand.keys());//.sort((a, b) =>
-          //a.localeCompare(b, "fr"))
+        const brands = Array.from(byBrand.keys());
 
         brands.forEach(brand => {
 
@@ -132,11 +153,7 @@ fetch("collection.json")
           const right = document.createElement("div");
           right.className = "models";
 
-          const models = byBrand.get(brand)
-            .slice()
-            .sort((a, b) =>
-              (a.modele || "").localeCompare(b.modele || "", "fr")
-            );
+          const models = byBrand.get(brand).slice();
 
           models.forEach(car => {
 
@@ -252,4 +269,3 @@ fetch("collection.json")
   .catch(err => {
     console.error("Erreur chargement JSON:", err);
   });
-
