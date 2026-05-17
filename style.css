@@ -1,80 +1,184 @@
-body{
+/* =========================
+   BASE
+========================= */
+:root {
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #111;
+  --border: #ddd;
+  --accent: #111;
+}
+
+body.dark {
+  --bg: #111;
+  --card: #1c1c1c;
+  --text: #eee;
+  --border: #333;
+  --accent: #fff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
   font-family: Arial, sans-serif;
   padding: 20px;
-  background: #fafafa;
-  color: #111;
+  transition: 0.3s;
 }
 
-h2{
-  margin-top: 40px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #ddd;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.brand-row{
+#darkToggle {
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* =========================
+   SEARCH
+========================= */
+#search {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin: 20px 0;
+  background: var(--card);
+  color: var(--text);
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+.summary {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.summary a {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* =========================
+   BRAND ROW (mythiques/tuning/wanted)
+========================= */
+.brand-row {
   display: grid;
   grid-template-columns: 180px 1fr;
   gap: 16px;
-  padding: 14px;
-  margin-bottom: 16px;
-  background: #fff;
-  border: 1px solid #eee;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 14px;
+  margin-bottom: 20px;
 }
 
-.brand-cell{
-  padding-top: 6px;
+/* =========================
+   BRAND CELL
+========================= */
+.brand-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.models{
+.brand-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* =========================
+   MODELS LIST
+========================= */
+.models {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.model-row{
+/* =========================
+   MODEL CARD
+========================= */
+.model-row {
   display: grid;
   grid-template-columns: 240px 1fr;
   gap: 12px;
-  border: 1px solid #eee;
+  background: var(--card);
+  border: 1px solid var(--border);
   border-radius: 12px;
-  background: #fff;
+  padding: 12px;
 }
 
-.model-left{}
-
-.model-photo{
+.model-photo {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  background: #eaeaea;
   border-radius: 8px;
+  background: #ccc;
 }
 
-.model-right{
-  padding: 12px 14px;
+.model-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.model-title{
+.model-title {
   font-size: 18px;
-  font-weight: 900;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.meta-line{
-  margin: 5px 0;
-}
-
-.meta-label{
-  font-weight: 800;
-}
-
-.notes{
-  margin-top: 10px;
-  font-style: italic;
-  color: #333;
-}
-
-.fake-brand{
+/* =========================
+   COURSE ALIGNMENT
+========================= */
+.fake-brand {
   width: 180px;
+}
+
+.course-row-wrapper {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 700px) {
+
+  .brand-row,
+  .course-row-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .model-row {
+    grid-template-columns: 1fr;
+  }
+
+  .model-photo {
+    height: 220px;
+  }
+
+  .fake-brand {
+    display: none;
+  }
 }
