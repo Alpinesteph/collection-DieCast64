@@ -1,4 +1,218 @@
 /* =========================
+   VARIABLES (LIGHT MODE)
+========================= */
+:root {
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #111;
+  --border: #ddd;
+  --accent: #111;
+}
+
+/* =========================
+   DARK MODE
+========================= */
+body.dark {
+  --bg: #111;
+  --card: #1c1c1c;
+  --text: #eee;
+  --border: #333;
+  --accent: #fff;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#darkToggle {
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* =========================
+   SEARCH
+========================= */
+#search {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin: 20px 0;
+  background: var(--card);
+  color: var(--text);
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+.summary {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.summary a {
+  background: var(--accent);
+  color: var(--bg);
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* =========================
+   BRAND ROW (mythiques/tuning/wanted)
+========================= */
+.brand-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 16px;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+/* =========================
+   BRAND CELL
+========================= */
+.brand-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+}
+
+.brand-name {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* =========================
+   MODELS LIST
+========================= */
+.models {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* =========================
+   MODEL CARD
+========================= */
+.model-row {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.model-photo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #ccc;
+}
+
+.model-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.model-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* =========================
+   COURSE ALIGNMENT
+========================= */
+.fake-brand {
+  width: 180px;
+}
+
+/* =========================
+   FABRICANT
+========================= */
+.fabricant-line {
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.ref-fabricant {
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: var(--border);
+  font-size: 11px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 700px) {
+
+  .brand-row {
+    grid-template-columns: 1fr;
+  }
+
+  .model-row {
+    grid-template-columns: 1fr;
+  }
+
+  .model-photo {
+    height: 220px;
+  }
+
+  .fake-brand {
+    display: none;
+  }
+}
+/* =========================
    BASE
 ========================= */
 :root {
