@@ -68,13 +68,6 @@ h2.course-title {
   letter-spacing: 0.5px;
 }
 
-/* Couleurs par discipline */
-h2.course-lemans { background: linear-gradient(90deg, #ffcc00, #ffdd44); color: #222; }
-h2.course-rallye { background: linear-gradient(90deg, #ff4444, #ff7777); }
-h2.course-f1     { background: linear-gradient(90deg, #0077ff, #3399ff); }
-h2.course-jgtc   { background: linear-gradient(90deg, #00aa55, #33cc77); }
-h2.course-autres { background: linear-gradient(90deg, #666, #999); }
-
 /* =========================
    Brand block
 ========================= */
