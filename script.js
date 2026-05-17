@@ -86,9 +86,8 @@ fetch("collection.json")
           byBrand.get(brand).push(car);
         });
 
-        const brands = Array.from(byBrand.keys()).sort((a, b) =>
-          a.localeCompare(b, "fr")
-        );
+        const brands = Array.from(byBrand.keys());//.sort((a, b) =>
+          //a.localeCompare(b, "fr"))
 
         brands.forEach(brand => {
 
