@@ -1160,7 +1160,7 @@
     "marque": "Audi",
     "modele": "R8 #8",
     "annees": "2000–2005",
-    "categorie": "alternative",
+    "categorie": "LeMans",
     "couleur": "Argent",
     "prix": null,
     "notes": "Tom Kristensen, Pirro, Biela",
@@ -1364,6 +1364,19 @@
   "photo": "",
   "type": "course"
 },
+  {
+  "marque": "Lotus",
+  "modele": "49",
+  "annees": "1967",
+  "categorie": "Formule 1",
+  "type": "course",
+  "couleur": "Vert British Racing / Jaune",
+  "prix": 0,
+  "fabricant": "Hot Wheels",
+  "reference_fabricant": "HWC RLC 2020",
+  "photo": "https://i0.wp.com/lamleygroup.com/wp-content/uploads/2024/09/2024-09-23-15.38.43.jpg?resize=2000%2C1200&ssl=1",
+  "notes": "Voiture mythique de Jim Clark et Graham Hill, première F1 avec moteur porteur."
+},
 {
   "marque": "Lotus",
   "modele": "72 #2",
@@ -1401,7 +1414,7 @@
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00166-167",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Nissan",
@@ -1482,8 +1495,8 @@
   "type": "tuning"
 },
   {
-  "marque": "Nissan",
-  "modele": "Silvia S15 LB-Super Silhouette LB Kuma",
+  "marque": "LBWK",
+  "modele": " Nissan Silvia S15 LB-Super Silhouette LB Kuma",
   "annees": "1999",
   "categorie": "LBWK",
   "couleur": "bleu ciel/jaune",
@@ -1495,8 +1508,8 @@
   "type": "tuning"
 },
   {
-  "marque": "Nissan",
-  "modele": "Skyline Kenmeri Liberty Walk",
+  "marque": "LBWK",
+  "modele": "Nissan Skyline Kenmeri Liberty Walk",
   "annees": "1973",
   "categorie": "JDM / Tuning",
   "couleur": "bleu ciel/jaune",
@@ -1518,7 +1531,7 @@
     "fabricant": "N/A",
     "reference_fabricant": "N/A",
     "photo": "singer_dls_carbon_orange.jpg",
-    "type": "wanted"
+    "type": "tuning"
   },
   {
     "marque": "AMG",
@@ -1629,7 +1642,7 @@
     "marque": "Mitsubishi",
     "modele": "Pajero Evolution #208 Playstation",
     "annees": "1999",
-    "categorie": "Rallye-Raid / Dakar",
+    "categorie": "Paris-Dakar",
     "couleur": "Rouge",
     "prix": "N/A",
     "notes": "Le 4x4 le plus dominant de l’histoire du Dakar. Victoire mythique avec Kenjiro Shinozuka.",
@@ -1662,7 +1675,7 @@
     "fabricant": "Auto World / Hot Wheels Premium",
     "reference_fabricant": "AW-DAYTONA-69",
     "photo": "dodge_charger_daytona_1969_orange.jpg",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "Plymouth",
@@ -1675,7 +1688,7 @@
     "fabricant": "Auto World / Greenlight",
     "reference_fabricant": "AW-HEMI-CUDA-70",
     "photo": "plymouth_hemi_cuda_1970_purple.jpg",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "MicroTurbo",
@@ -1691,7 +1704,7 @@
     "type": "tuning"
   },
   {
-    "marque": "Tarmac Works",
+    "marque": "LBWK",
     "modele": "Mitsubishi Fuso Super Great",
     "annees": "2022",
     "categorie": "Transport / LB-TRUCKS",
@@ -1715,6 +1728,6 @@
     "fabricant": "",
     "reference_fabricant": "",
     "photo": "",
-    "type": ""
+    "type": "wanted"
   }
 ]
