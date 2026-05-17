@@ -15,10 +15,6 @@ fetch("collection.json")
 
     const searchInput = document.getElementById("search");
 
-    if (!Array.isArray(cars)) return;
-
-    cars = cars.filter(c => !c._commentaire);
-
     const normalize = s => (s || "").toLowerCase().trim();
 
     const NO_PHOTO =
@@ -55,7 +51,7 @@ fetch("collection.json")
 
         } else {
           const type = car.type || "mythique";
-          if (byType[type]) byType[type].push(car);
+          byType[type].push(car);
         }
 
       });
@@ -63,63 +59,60 @@ fetch("collection.json")
       Object.keys(byType).forEach(type => {
 
         const container = sections[type];
-        if (!container) return;
-
         const carsList = byType[type];
         const isCourse = type.startsWith("course_");
 
         if (isCourse) {
 
-          // même structure que mythiques : brand-row → models → model-row
-          const brandRow = document.createElement("div");
-          brandRow.className = "brand-row";
+          const wrapper = document.createElement("div");
+          wrapper.className = "course-row-wrapper";
 
           const fakeBrand = document.createElement("div");
-          fakeBrand.className = "brand-cell fake-brand";
-          brandRow.appendChild(fakeBrand);
+          fakeBrand.className = "fake-brand";
+          wrapper.appendChild(fakeBrand);
 
           const models = document.createElement("div");
           models.className = "models";
 
           carsList.forEach(car => {
 
-            const rowModel = document.createElement("div");
-            rowModel.className = "model-row";
+            const row = document.createElement("div");
+            row.className = "model-row";
 
-            const leftBlock = document.createElement("div");
-            leftBlock.className = "model-left";
+            const left = document.createElement("div");
+            left.className = "model-left";
 
             const img = document.createElement("img");
             img.className = "model-photo";
             img.src = (car.photo || "").trim() || NO_PHOTO;
             img.onerror = () => img.src = NO_PHOTO;
 
-            leftBlock.appendChild(img);
+            left.appendChild(img);
 
-            const rightBlock = document.createElement("div");
-            rightBlock.className = "model-right";
+            const right = document.createElement("div");
+            right.className = "model-right";
 
-            rightBlock.innerHTML = `
+            right.innerHTML = `
               <div class="model-title">${car.marque} ${car.modele}</div>
-              <div class="meta-line"><span class="meta-label">Années :</span> ${car.annees || ""}</div>
-              <div class="meta-line"><span class="meta-label">Catégorie :</span> ${car.categorie || ""}</div>
-              <div class="meta-line"><span class="meta-label">Couleur :</span> ${car.couleur || ""}</div>
-              <div class="meta-line"><span class="meta-label">Prix :</span> ${car.prix || 0} €</div>
+              <div><b>Années :</b> ${car.annees || ""}</div>
+              <div><b>Catégorie :</b> ${car.categorie || ""}</div>
+              <div><b>Couleur :</b> ${car.couleur || ""}</div>
+              <div><b>Prix :</b> ${car.prix || 0} €</div>
               ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
             `;
 
-            rowModel.appendChild(leftBlock);
-            rowModel.appendChild(rightBlock);
-            models.appendChild(rowModel);
+            row.appendChild(left);
+            row.appendChild(right);
+            models.appendChild(row);
           });
 
-          brandRow.appendChild(models);
-          container.appendChild(brandRow);
+          wrapper.appendChild(models);
+          container.appendChild(wrapper);
 
           return;
         }
 
-        // sections normales (mythiques/tuning/wanted)
+        // sections normales
         const byBrand = new Map();
         carsList.forEach(car => {
           const brand = car.marque || "Sans marque";
@@ -134,12 +127,7 @@ fetch("collection.json")
 
           const left = document.createElement("div");
           left.className = "brand-cell";
-
-          const brandName = document.createElement("div");
-          brandName.className = "brand-name";
-          brandName.textContent = brand;
-
-          left.appendChild(brandName);
+          left.innerHTML = `<div class="brand-name">${brand}</div>`;
 
           const models = document.createElement("div");
           models.className = "models";
@@ -164,10 +152,10 @@ fetch("collection.json")
 
             rightBlock.innerHTML = `
               <div class="model-title">${car.modele}</div>
-              <div class="meta-line"><span class="meta-label">Années :</span> ${car.annees || ""}</div>
-              <div class="meta-line"><span class="meta-label">Catégorie :</span> ${car.categorie || ""}</div>
-              <div class="meta-line"><span class="meta-label">Couleur :</span> ${car.couleur || ""}</div>
-              <div class="meta-line"><span class="meta-label">Prix :</span> ${car.prix || 0} €</div>
+              <div><b>Années :</b> ${car.annees || ""}</div>
+              <div><b>Catégorie :</b> ${car.categorie || ""}</div>
+              <div><b>Couleur :</b> ${car.couleur || ""}</div>
+              <div><b>Prix :</b> ${car.prix || 0} €</div>
               ${car.notes ? `<div class="notes">${car.notes}</div>` : ""}
             `;
 
@@ -204,6 +192,12 @@ fetch("collection.json")
       });
 
       render(filtered);
+    });
+
+    // DARK MODE
+    const toggle = document.getElementById("darkToggle");
+    toggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
     });
 
   });
