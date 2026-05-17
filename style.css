@@ -130,11 +130,11 @@ h2{
 }
 
 /* =========================
-   Model card (structure unifiée)
+   Model card (Mythiques)
 ========================= */
 .model-row{
   display: grid;
-  grid-template-columns: 180px 240px 1fr; /* marque + image + infos */
+  grid-template-columns: 240px 1fr; /* image + texte */
   gap: 12px;
   border: 1px solid #eee;
   border-radius: 12px;
@@ -149,8 +149,19 @@ h2{
 }
 
 /* =========================
-   Fake brand column for COURSE
+   Model card (Course)
 ========================= */
+.course-row{
+  display: grid;
+  grid-template-columns: 180px 240px 1fr; /* fake marque + image + texte */
+  gap: 12px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  transition: 0.2s;
+}
+
 .fake-brand{
   width: 180px;
 }
@@ -242,291 +253,8 @@ h2{
     text-align: left;
   }
 
-  .model-row{
-    grid-template-columns: 1fr;
-  }
-
-  .model-photo{
-    height: 200px;
-  }
-
-}
-/* =========================
-   Base
-========================= */
-body{
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background: #fafafa;
-  color: #111;
-}
-
-h1{
-  margin: 0 0 10px 0;
-}
-
-h2{
-  margin-top: 40px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid #ddd;
-}
-
-/* =========================
-   Search
-========================= */
-#search{
-  width: min(650px, 100%);
-  padding: 10px 12px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin: 0 0 18px 0;
-  background: #fff;
-}
-
-/* =========================
-   Summary Navigation
-========================= */
-.summary{
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-}
-
-.summary a{
-  text-decoration: none;
-  color: white;
-  background: #111;
-  padding: 8px 14px;
-  border-radius: 8px;
-  font-size: 14px;
-  transition: 0.25s;
-}
-
-.summary a:hover{
-  background: #444;
-}
-
-/* =========================
-   TITRES DES SECTIONS COURSE
-========================= */
-
-h2.course-title {
-  margin-top: 50px;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 22px;
-  font-weight: 900;
-  color: #fff;
-  letter-spacing: 0.5px;
-}
-
-/* =========================
-   Brand block
-========================= */
-.brand-row{
-  display: grid;
-  grid-template-columns: 180px 1fr;
-  gap: 16px;
-  padding: 14px;
-  margin-bottom: 16px;
-  background: #fff;
-  border: 1px solid #eee;
-  border-radius: 14px;
-  transition: 0.2s;
-}
-
-.brand-row:hover{
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
-
-/* Couleurs de bordure par discipline */
-#list-course-lemans .brand-row { border-left: 6px solid #ffcc00; }
-#list-course-rallye .brand-row { border-left: 6px solid #ff4444; }
-#list-course-f1     .brand-row { border-left: 6px solid #0077ff; }
-#list-course-jgtc   .brand-row { border-left: 6px solid #00aa55; }
-#list-course-autres .brand-row { border-left: 6px solid #666; }
-
-/* Hover dynamique */
-#list-course-lemans .brand-row:hover,
-#list-course-rallye .brand-row:hover,
-#list-course-f1 .brand-row:hover,
-#list-course-jgtc .brand-row:hover,
-#list-course-autres .brand-row:hover {
-  transform: translateX(4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* =========================
-   Brand left
-========================= */
-.brand-cell{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding-top: 6px;
-}
-
-.brand-logo{
-  width: 72px;
-  height: 72px;
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid #eee;
-  background: #fff;
-  display: grid;
-  place-items: center;
-}
-
-.brand-logo img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  padding: 10px;
-}
-
-/* fallback */
-.brand-badge{
-  width: 72px;
-  height: 72px;
-  border-radius: 16px;
-  background: #111;
-  color: #fff;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  font-weight: 800;
-  font-size: 18px;
-}
-
-.brand-name{
-  font-weight: 800;
-  text-align: center;
-}
-
-/* =========================
-   Models list
-========================= */
-.models{
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-/* =========================
-   Model card
-========================= */
-.model-row{
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 12px;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #fff;
-  transition: 0.2s;
-}
-
-.model-row:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-}
-
-/* Bordures colorées */
-#list-course-lemans .model-row { border-left: 4px solid #ffcc00; }
-#list-course-rallye .model-row { border-left: 4px solid #ff4444; }
-#list-course-f1     .model-row { border-left: 4px solid #0077ff; }
-#list-course-jgtc   .model-row { border-left: 4px solid #00aa55; }
-#list-course-autres .model-row { border-left: 4px solid #666; }
-
-/* =========================
-   Model left (image)
-========================= */
-.model-left{
-  background: #fff;
-}
-
-.model-photo{
-  width: 100%;
-  height: 260px;
-  object-fit: contain;
-  background: #f2f2f2;
-}
-
-/* =========================
-   Model info
-========================= */
-.model-right{
-  padding: 12px 14px;
-  font-size: 13.5px;
-}
-
-.model-title{
-  font-size: 18px;
-  font-weight: 900;
-  margin-bottom: 10px;
-}
-
-.meta-line{
-  margin: 5px 0;
-}
-
-.meta-label{
-  font-weight: 800;
-}
-
-/* =========================
-   Notes
-========================= */
-.notes{
-  margin-top: 10px;
-  font-style: italic;
-  color: #333;
-  line-height: 1.35;
-}
-
-/* =========================
-   Fabricant
-========================= */
-.fabricant-line{
-  margin-top: 10px;
-}
-
-.fabricant{
-  font-weight: 700;
-  color: #222;
-}
-
-.ref-fabricant{
-  font-size: 12px;
-  color: #777;
-  padding: 2px 6px;
-  border: 1px solid #e6e6e6;
-  border-radius: 999px;
-  background: #fafafa;
-  margin-left: 8px;
-}
-
-/* =========================
-   Responsive
-========================= */
-@media (max-width: 700px){
-
-  .brand-row{
-    grid-template-columns: 1fr;
-  }
-
-  .brand-cell{
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .brand-name{
-    text-align: left;
-  }
-
-  .model-row{
+  .model-row,
+  .course-row{
     grid-template-columns: 1fr;
   }
 
