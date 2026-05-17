@@ -1128,20 +1128,20 @@
   "fabricant": "Pop Race / MotorHelix",
   "reference_fabricant": "PR640301 / M60101",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
   {
     "marque": "Audi",
     "modele": "R8 #8",
     "annees": "2000–2005",
-    "categorie": "Endurance (Le Mans)",
+    "categorie": "alternative",
     "couleur": "Argent",
     "prix": null,
     "notes": "Tom Kristensen, Pirro, Biela",
     "fabricant": "",
     "reference_fabricant": "",
     "photo": "",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "Ferrari",
@@ -1180,7 +1180,7 @@
   "fabricant": "Tarmac Works",
   "reference_fabricant": "T64S-025-SL",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
   {
     "marque": "Peugeot",
@@ -1193,7 +1193,7 @@
     "fabricant": "",
     "reference_fabricant": "prio",
     "photo": "",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "Subaru",
@@ -1219,7 +1219,7 @@
     "fabricant": "",
     "reference_fabricant": "ordered",
     "photo": "",
-    "type": "wanted"
+    "type": "course"
   },
   {
     "marque": "Ferrari",
@@ -1232,20 +1232,20 @@
     "fabricant": "",
     "reference_fabricant": "",
     "photo": "",
-    "type": "wanted"
+    "type": "course"
   },
 {
   "marque": "Lancia",
   "modele": "Delta #4",
   "annees": "1987–1992",
-  "categorie": "Rallye",
+  "categorie": "alternative",
   "couleur": "",
   "prix": null,
   "notes": " Miki Biasion",
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "1988 MonteCarlo Martini",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Toyota",
@@ -1271,20 +1271,20 @@
   "fabricant": "BMC",
   "reference_fabricant": "64B0410",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Citroën",
   "modele": "Xsara WRC #1",
   "annees": "2003–2006",
-  "categorie": "Rallye",
+  "categorie": "alternative",
   "couleur": "",
   "prix": null,
   "notes": "Sébastien Loeb",
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
   {
   "marque": "Renault",
@@ -1310,7 +1310,7 @@
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00422",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Williams",
@@ -1336,7 +1336,7 @@
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "Lotus",
@@ -1414,7 +1414,7 @@
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
 {
   "marque": "BMW",
@@ -1427,7 +1427,7 @@
   "fabricant": "",
   "reference_fabricant": "",
   "photo": "",
-  "type": "wanted"
+  "type": "course"
 },
   {
   "marque": "Maserati",
@@ -1649,7 +1649,7 @@
   "fabricant": "DCM x MiniStation",
   "reference_fabricant": "DCM64-MON-FOC",
   "photo": "dcm_ministation_focus_rs_nitrous_blue.jpg",
-  "type": "wanted"
+  "type": "course"
 },
   {
   "marque": "Nissan",
@@ -1662,7 +1662,7 @@
   "fabricant": "Tomica Limited Vintage Neo",
   "reference_fabricant": "TPR-935872",
   "photo": "nissan_r34_pennzoil_tlvn.jpg",
-  "type": "wanted"
+  "type": "course"
 },
   {
     "marque": "Plymouth",
