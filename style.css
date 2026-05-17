@@ -55,6 +55,27 @@ h2{
 }
 
 /* =========================
+   TITRES DES SECTIONS COURSE
+========================= */
+
+h2.course-title {
+  margin-top: 50px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+/* Couleurs par discipline */
+h2.course-lemans { background: linear-gradient(90deg, #ffcc00, #ffdd44); color: #222; }
+h2.course-rallye { background: linear-gradient(90deg, #ff4444, #ff7777); }
+h2.course-f1     { background: linear-gradient(90deg, #0077ff, #3399ff); }
+h2.course-jgtc   { background: linear-gradient(90deg, #00aa55, #33cc77); }
+h2.course-autres { background: linear-gradient(90deg, #666, #999); }
+
+/* =========================
    Brand block
 ========================= */
 .brand-row{
@@ -71,6 +92,23 @@ h2{
 
 .brand-row:hover{
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Couleurs de bordure par discipline */
+#list-course-lemans .brand-row { border-left: 6px solid #ffcc00; }
+#list-course-rallye .brand-row { border-left: 6px solid #ff4444; }
+#list-course-f1     .brand-row { border-left: 6px solid #0077ff; }
+#list-course-jgtc   .brand-row { border-left: 6px solid #00aa55; }
+#list-course-autres .brand-row { border-left: 6px solid #666; }
+
+/* Hover dynamique */
+#list-course-lemans .brand-row:hover,
+#list-course-rallye .brand-row:hover,
+#list-course-f1 .brand-row:hover,
+#list-course-jgtc .brand-row:hover,
+#list-course-autres .brand-row:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* =========================
@@ -149,7 +187,16 @@ h2{
   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
 }
 
-/* IMAGE */
+/* Bordures colorées */
+#list-course-lemans .model-row { border-left: 4px solid #ffcc00; }
+#list-course-rallye .model-row { border-left: 4px solid #ff4444; }
+#list-course-f1     .model-row { border-left: 4px solid #0077ff; }
+#list-course-jgtc   .model-row { border-left: 4px solid #00aa55; }
+#list-course-autres .model-row { border-left: 4px solid #666; }
+
+/* =========================
+   Model left (image)
+========================= */
 .model-left{
   background: #fff;
 }
@@ -157,7 +204,7 @@ h2{
 .model-photo{
   width: 100%;
   height: 260px;
-  object-fit: contain; /* ✅ mieux que cover pour diecast */
+  object-fit: contain;
   background: #f2f2f2;
 }
 
@@ -213,13 +260,6 @@ h2{
   border-radius: 999px;
   background: #fafafa;
   margin-left: 8px;
-}
-
-/* =========================
-   Polish
-========================= */
-.model-right strong{
-  font-weight: 800;
 }
 
 /* =========================
