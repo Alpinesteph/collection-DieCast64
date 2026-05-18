@@ -104,8 +104,8 @@ header {
 }
 
 .brand-logo {
-  width: 100px;
-  height: 80px;
+  width: 120px;
+  height: 100px;
   border-radius: 12px;
   background: var(--card);
   border: 1px solid var(--border);
