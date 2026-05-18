@@ -168,6 +168,19 @@
   "photo": "",
   "type": "wanted"
 },  
+   {
+  "marque": "Datsun",
+  "modele": "240Z",
+  "annees": "",
+  "categorie": "",
+  "couleur": "",
+  "prix": "",
+  "notes": ".",
+  "fabricant": "Tomica",
+  "reference_fabricant": "",
+  "photo": "https://www.164cars.com/photos/NISS/nissan_295.jpg",
+  "type": "wanted"
+},  
   {
     "marque": "DMC",
     "modele": "DeLorean DMC-12",
@@ -206,6 +219,19 @@
     "reference_fabricant": "’96 Dodge Viper GTS",
     "photo": "https://static.wikia.nocookie.net/hotwheels/images/5/52/DodgeViperGTS.jpg/revision/latest?cb=20250416124551",
     "type": "mythique"
+  },
+  {
+    "marque": "Fiat",
+    "modele": "500",
+    "annees": "",
+    "categorie": "",
+    "couleur": "",
+    "prix": "€",
+    "notes": ".",
+    "fabricant": "Tomica",
+    "reference_fabricant": "N/A",
+    "photo": "https://www.164cars.com/photos/FIAT/fiat_024.jpg",
+    "type": "wanted"
   },
     {
     "marque": "Fisker",
@@ -339,15 +365,15 @@
   },
   {
     "marque": "Koenigsegg",
-    "modele": "CCX",
+    "modele": "CC850",
     "annees": "2006",
     "categorie": "Hypercar",
     "couleur": "Orange",
     "prix": null,
-    "notes": "La CCX a propulsé Koenigsegg sur la scène mondiale grâce à ses performances extrêmes. Son design futuriste et son innovation technique en font une hypercar emblématique.",
+    "notes": "La CC850 a propulsé Koenigsegg sur la scène mondiale grâce à ses performances extrêmes. Son design futuriste et son innovation technique en font une hypercar emblématique.",
     "fabricant": null,
     "reference_fabricant": null,
-    "photo": null,
+    "photo": "https://www.164cars.com/photos/miscJKL/koenig_012.jpg",
     "type": "wanted"
   },
   {
@@ -358,9 +384,9 @@
     "couleur": "Blanc/Vert",
     "prix": null,
     "notes": "La Miura est souvent considérée comme la première supercar moderne grâce à son moteur central V12. Son style révolutionnaire a redéfini l’esthétique des voitures de sport.",
-    "fabricant": null,
+    "fabricant": "kyosho",
     "reference_fabricant": null,
-    "photo": null,
+    "photo": "https://www.164cars.com/photos/LAMBO/lambo_016_zps0e4e488e.jpg",
     "type": "wanted"
   },
   {
@@ -776,7 +802,7 @@
   "notes": "La Manta est un coupé emblématique des années 70 apprécié pour son style sportif. Elle est devenue un symbole de la culture automobile allemande.",
   "fabricant": null,
   "reference_fabricant": null,
-  "photo": null,
+  "photo": "https://www.164cars.com/photos/VAUX/vaux_062.jpg",
   "type": "wanted"
 },
 {
@@ -789,7 +815,7 @@
   "notes": "La Zonda F est une hypercar artisanale mêlant art et performance. Son design sculptural et son V12 AMG en font une œuvre d’ingénierie.",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00305",
-  "photo": null,
+  "photo": "https://www.164cars.com/photos/miscPQR/paga_017.jpg",
   "type": "wanted"
 },
   {
@@ -1125,22 +1151,22 @@
   "couleur": "Rouge",
   "prix": null,
   "notes": "La Coccinelle est l’une des voitures les plus célèbres de l’histoire. Son design rond et sa simplicité en font une icône mondiale.",
-  "fabricant": null,
+  "fabricant": "Greenlight",
   "reference_fabricant": null,
-  "photo": null,
+  "photo": "https://www.164cars.com/photos/VW/vw_169_zpskmpt29vm.jpg",
   "type": "wanted"
 },
   {
   "marque": "Volvo",
-  "modele": "P1800",
+  "modele": "Amazone",
   "annees": "1961–1973",
-  "categorie": "Coupé",
+  "categorie": "",
   "couleur": "Blanc",
   "prix": null,
   "notes": "La P1800 est une élégante sportive suédoise rendue célèbre par la série Le Saint. Son style raffiné en fait une icône des années 60.",
-  "fabricant": null,
+  "fabricant": "Hot Wheels",
   "reference_fabricant": null,
-  "photo": null,
+  "photo": "https://www.164cars.com/photos/VOLVO/volvo_040.jpg",
   "type": "wanted"
 },
   {
@@ -1270,7 +1296,7 @@
   "notes": "L’Audi Quattro légendaire du Groupe B. Walter Röhrl, Hannu Mikkola, Michèle Mouton",
   "fabricant": "Tarmac Works",
   "reference_fabricant": "T64S-025-SL",
-  "photo": "",
+  "photo": "https://www.164cars.com/photos/AUDI/audi_105.jpg",
   "type": "course"
 },
    {
@@ -1385,9 +1411,9 @@
   "couleur": "",
   "prix": null,
   "notes": "Sébastien Loeb",
-  "fabricant": "",
-  "reference_fabricant": "",
-  "photo": "https://static.wixstatic.com/media/649475_99c6a0da3161432fb14e4d19e94c821c~mv2.jpg/v1/fill/w_498,h_665,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/649475_99c6a0da3161432fb14e4d19e94c821c~mv2.jpg",
+  "fabricant": "norev",
+  "reference_fabricant": "norev",
+  "photo": "https://www.164cars.com/photos/CITR/citroen_014_zpsc4e01869.jpg",
   "type": "course"
 },
    {
@@ -1411,9 +1437,9 @@
     "couleur": "Rouge",
     "prix": null,
     "notes": "Schumacher",
-    "fabricant": "",
+    "fabricant": "Kyosho",
     "reference_fabricant": "",
-    "photo": "https://thumbs.worthpoint.com/zoom/images1/1/0311/16/64-ferrari-f1-1st-f2004-no1_1_bc30242633dcfd0a2fffeb9ca72b225b.jpg",
+    "photo": "https://www.164cars.com/photos/GEN/F1-26007.jpg",
     "type": "course"
   },
   {
