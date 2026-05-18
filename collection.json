@@ -130,7 +130,7 @@
   "type": "mythique"
 },
 {
-  "marque": "Citroën",
+  "marque": "Citroen",
   "modele": "HY",
   "annees": "1947–1981",
   "categorie": "Utilitaire",
@@ -143,7 +143,7 @@
   "type": "mythique"
 },
 {
-  "marque": "Citroën",
+  "marque": "Citroen",
   "modele": "2CV Charleston",
   "annees": "1980–1990",
   "categorie": "Citadine classique",
@@ -169,8 +169,8 @@
   "type": "wanted"
 },  
   {
-    "marque": "DeLorean",
-    "modele": "DMC-12",
+    "marque": "DMC",
+    "modele": "DeLorean DMC-12",
     "annees": "1981",
     "categorie": "Coupé",
     "couleur": "Acier inox",
@@ -182,7 +182,7 @@
     "type": "wanted"
   }, 
   {
-    "marque": "De Tomaso",
+    "marque": "De-Tomaso",
     "modele": "Pantera",
     "annees": "1971",
     "categorie": "Supercar",
@@ -507,7 +507,7 @@
     "type": "mythique"
   },
   {
-    "marque": "Mercedes-Benz",
+    "marque": "Mercedes-benz",
     "modele": "300 SL Roadster",
     "annees": "1957–1963",
     "categorie": "Classique / Cabriolet",
@@ -520,7 +520,7 @@
     "type": "mythique"
   },
   {
-  "marque": "Mercedes-Benz",
+  "marque": "Mercedes-benz",
   "modele": "CLK GTR",
   "annees": "1997–1998",
   "categorie": "GT1 homologuée",
@@ -533,7 +533,7 @@
   "type": "mythique"
 },
   {
-    "marque": "Mercedes-Benz",
+    "marque": "Mercedes-benz",
     "modele": "G63 AMG",
     "annees": "2018–2026",
     "categorie": "SUV / Luxe",
@@ -546,7 +546,7 @@
     "type": "mythique"
   },
    {
-    "marque": "Mercedes-Benz",
+    "marque": "Mercedes-benz",
     "modele": "190 E 2.5-16 EVO 1",
     "annees": "1980s-1990s",
     "categorie": "Touring / Sport",
@@ -559,7 +559,7 @@
     "type": "mythique"
   },
   {
-    "marque": "Mercedes-Benz",
+    "marque": "Mercedes-benz",
     "modele": "AMG - GT Black Series",
     "annees": "2021",
     "categorie": "Supercar",
@@ -581,7 +581,7 @@
   "notes": "Un utilitaire tout-terrain emblématique, robuste et polyvalent.",
   "fabricant": "Schuco",
   "reference_fabricant": "452037900",
-  "photo": "https://nasshan.com/media/72/63/22/1760504394/452037900-schuco-mercedes-benz-unimog-u406-pritscheplane-u84-1971_0.jpg?ts=1760511594",
+  "photo": "https://nasshan.com/media/72/63/22/1760504394/452037900-schuco-Mercedes-benz-unimog-u406-pritscheplane-u84-1971_0.jpg?ts=1760511594",
   "type": "mythique"
 },
   {
