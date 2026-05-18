@@ -20,6 +20,24 @@ fetch("collection.json")
     const NO_PHOTO =
       "https://t4.ftcdn.net/jpg/04/70/29/97/360_F_470299797_UD0eoVMMSUbHCcNJCdv2t8B2g1GVqYgs.jpg";
 
+    /* =========================
+       LOGO AUTO FROM GITHUB 🚀
+    ========================= */
+    function getLogo(brand) {
+      const special = {
+        "Mercedes-Benz": "mercedes",
+        "Land Rover": "land-rover",
+        "Alfa Romeo": "alfa-romeo",
+        "Aston Martin": "aston-martin"
+      };
+
+      let slug = (special[brand] || brand)
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-");
+
+      return `https://raw.githubusercontent.com/filippofilip95/car-logos-dataset/master/logos/optimized/${slug}.png`;
+    }
+
     function render(list) {
 
       Object.values(sections).forEach(sec => sec.innerHTML = "");
@@ -63,7 +81,7 @@ fetch("collection.json")
         const isCourse = type.startsWith("course_");
 
         /* =========================
-           COURSE : même structure que mythiques
+           COURSE
         ========================= */
         if (isCourse) {
 
@@ -116,14 +134,14 @@ fetch("collection.json")
 
           wrapper.appendChild(models);
           container.appendChild(wrapper);
-
           return;
         }
 
         /* =========================
-           SECTIONS NORMALES
+           NORMAL SECTIONS
         ========================= */
         const byBrand = new Map();
+
         carsList.forEach(car => {
           const brand = car.marque || "Sans marque";
           if (!byBrand.has(brand)) byBrand.set(brand, []);
@@ -140,7 +158,7 @@ fetch("collection.json")
 
           left.innerHTML = `
             <div class="brand-logo">
-              <img src="logos/${brand.toLowerCase().replace(/[^a-z0-9]+/g, "-")}.png"
+              <img src="${getLogo(brand)}"
                    onerror="this.style.display='none'">
             </div>
             <div class="brand-name">${brand}</div>
@@ -196,6 +214,9 @@ fetch("collection.json")
 
     render(cars);
 
+    /* =========================
+       SEARCH
+    ========================= */
     searchInput.addEventListener("input", () => {
       const q = normalize(searchInput.value);
       if (!q) return render(cars);
