@@ -259,6 +259,32 @@
     "photo": "https://www.bcnstockcars.com/112111-thickbox_default/ferrari-f40-red-162-tomica-premium-31.jpg",
     "type": "mythique"
   },
+    {
+    "marque": "Ferrari",
+    "modele": "F50",
+    "annees": "",
+    "categorie": "Supercar",
+    "couleur": "Rouge",
+    "prix": "N/A",
+    "notes": "",
+    "fabricant": "Tomica Premium",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
+   {
+    "marque": "Ferrari",
+    "modele": "Enzo",
+    "annees": "",
+    "categorie": "Supercar",
+    "couleur": "Rouge",
+    "prix": "N/A",
+    "notes": "",
+    "fabricant": "Tomica Premium",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
 {
   "marque": "Ford",
   "modele": "Shelby Mustang",
@@ -322,19 +348,6 @@
     "fabricant": "Norev",
     "reference_fabricant": null,
     "photo": "https://static.ideeundspiel.com/images/w_1280/57b03c1a-0d54-6353-99a5-d40d8d4da291/schuco-452034300-1-64-jaguar-e-type-grun.jpeg",
-    "type": "wanted"
-  },
-  {
-    "marque": "Jeep",
-    "modele": "Wrangler",
-    "annees": "1986–1995",
-    "categorie": "Tout-terrain",
-    "couleur": "Vert",
-    "prix": "N/A",
-    "notes": "Le Wrangler perpétue l’esprit tout-terrain pur de la Jeep originelle avec une robustesse légendaire. Son style carré et son architecture simple en font un mythe du 4x4 moderne.",
-    "fabricant": null,
-    "reference_fabricant": null,
-    "photo": null,
     "type": "wanted"
   },
   {
@@ -772,7 +785,7 @@
   "annees": "2002",
   "categorie": "JDM / Supercar",
   "couleur": "Bleu",
-  "prix": 22.09,
+  "prix": "22.09",
   "notes": "Version ultime de la R34, produite à seulement 19 exemplaires.",
   "fabricant": "MotorHelix",
   "reference_fabricant": "M63416",
@@ -781,7 +794,20 @@
 },
   {
   "marque": "Nissan",
-  "modele": "Skyline R35 GT-R ",
+  "modele": "Skyline R34 GT-R Nismo",
+  "annees": "2002",
+  "categorie": "JDM / Supercar",
+  "couleur": "Midnight purple",
+  "prix": "",
+  "notes": "Version ultime de la R34",
+  "fabricant": "MotorHelix",
+  "reference_fabricant": "",
+  "photo": "",
+  "type": "wanted"
+},
+  {
+  "marque": "Nissan",
+  "modele": "GT-R R35 ",
   "annees": "2007–2025",
   "categorie": "Supercar",
   "couleur": "Gris foncé",
@@ -792,6 +818,19 @@
   "photo": "https://www.164cars.com/photos/NISS/nissan_285.jpg",
   "type": "mythique"
 },
+   {
+   "marque": "Nissan",
+  "modele": "GT-R R35 ",
+  "annees": "2007–2025",
+  "categorie": "Supercar",
+     "couleur": "Blanc",
+    "prix": "N/A",
+    "notes": "",
+    "fabricant": "Tomica Premium",
+    "reference_fabricant": "",
+    "photo": "",
+    "type": "wanted"
+  },
   {
   "marque": "Opel",
   "modele": "Manta",
