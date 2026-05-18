@@ -1729,7 +1729,7 @@
     "type": "tuning"
   },
   {
-    "marque": "MicroTurbo",
+    "marque": "Rexy",
     "modele": "H300 Custom Tow Flatbed Truck Dinosaur",
     "annees": "2023",
     "categorie": "Dépanneuse / Custom Truck",
@@ -1741,6 +1741,19 @@
     "photo": "https://erp-image.sgliteasset.com/_next/image?url=https%3A%2F%2Fcdn1.sgliteasset.com%2Fdreamcus%2Fimages%2Fproduct%2Fproduct-7393689%2F9tA263SN6981a0c5c4ddb_1770102981.jpg&w=1920&q=100",
     "type": "tuning"
   },
+  {
+  "marque": "Rexy",
+  "modele": "Porsche 911 GT3 R - AO Racing ",
+  "annees": "2023–2024",
+  "categorie": "Course / IMSA / WEC",
+  "couleur": "Rose",
+  "prix": "",
+  "notes": "Livrée 'Rexy' de AO Racing, très populaire en IMSA. Look dinosaure unique, devenue iconique.",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "TW-AO-911-RXY",
+  "photo": "",
+  "type": "wtuning"
+},
   {
     "marque": "LBWK",
     "modele": "Mitsubishi Fuso Super Great",
@@ -1754,6 +1767,32 @@
     "photo": "https://www.tarmacworks.com/cdn/shop/files/T64T-TL001-LBS_M01.jpg?v=1749440537&width=1400",
     "type": "tuning"
   },
+  {
+  "marque": "Toyota",
+  "modele": "Sprinter Trueno AE86 Initial D",
+  "annees": "1983–1987",
+  "categorie": "JDM / Culture / Anime",
+  "couleur": "Blanc & Noir (Panda Trueno)",
+  "prix": "",
+  "notes": "Version emblématique de Initial D, livrée Fujiwara Tofu Shop. Voiture culte de Takumi, symbole de la culture drift.",
+  "fabricant": "Hobby Japan (HJ64)",
+  "reference_fabricant": "HJ64-TOFU-01",
+  "photo": "",
+  "type": "tuning"
+},
+  {
+  "marque": "Nissan",
+  "modele": "Skyline GT-R R34 Advan",
+  "annees": "1999–2002",
+  "categorie": "JDM / Tuning",
+  "couleur": "Noir & Rouge (Advan Yokohama)",
+  "prix": "",
+  "notes": "Livrée Advan Yokohama emblématique, très utilisée en drift et time attack. Modèle culte du tuning japonais.",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "TW-ADV-R34",
+  "photo": "",
+  "type": "tuning"
+},
    {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
