@@ -104,8 +104,8 @@ header {
 }
 
 .brand-logo {
-  width: 120px;
-  height: 100px;
+  width: 140px;
+  height: 120px;
   border-radius: 12px;
   background: var(--card);
   border: 1px solid var(--border);
@@ -149,7 +149,7 @@ header {
 }
 
 .model-photo {
-  width: 100%;
+  width: 95%;
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
