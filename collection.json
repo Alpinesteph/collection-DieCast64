@@ -448,11 +448,12 @@
   "categorie": "Mythique",
   "type": "mythique",
   "couleur": "Parklane Green / Bloomfield Green",
-  "prix": 0,
+  "prix": "",
+  "notes": "La Lincoln Capri 1954 est considérée comme mythique parce qu’elle incarne l’âge d’or du style américain, avec ses lignes élégantes, son chrome abondant et sa peinture bicolore emblématique.",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00623",
   "photo": "https://minigt.tsm-models.com/upload/picfile_list/d20fee28177d3a94227a7e6dd39bab7220240127003619928.JPG",
-  "notes": "La Lincoln Capri 1954 est considérée comme mythique parce qu’elle incarne l’âge d’or du style américain, avec ses lignes élégantes, son chrome abondant et sa peinture bicolore emblématique."
+  "type": "mythique"
 },
   {
     "marque": "Lexus",
@@ -1752,7 +1753,7 @@
   "fabricant": "Tarmac Works",
   "reference_fabricant": "TW-AO-911-RXY",
   "photo": "",
-  "type": "wtuning"
+  "type": "tuning"
 },
   {
     "marque": "LBWK",
