@@ -572,7 +572,7 @@
     "type": "wanted"
   },
   {
-  "marque": "Mercedes",
+  "marque": "Mercedes-benz",
   "modele": "Unimog U406",
   "annees": "1966",
   "categorie": "Utilitaire / 4x4",
@@ -1179,7 +1179,7 @@
   "notes": "250 GTO + Fiat 642N Transporter. 1962- Phil Hill, Stirling Moss.",
   "fabricant": "Hot Wheels",
   "reference_fabricant": "H6979 / HW Premiere #05",
-  "photo": "https://i0.wp.com/lamleygroup.com/wp-content/uploads/2025/04/unnamed2.jpg?resize=768%2C695&ssl=1",
+  "photo": "https://preview.redd.it/ferrari-250-gto-and-fiat-642-by-hot-wheels-v0-rn3fr5nuo33g1.jpg?width=640&crop=smart&auto=webp&s=70a2c5aa8e6bbc3bb27edbc23b6369f0a7a42274",
   "type": "course"
 },
   {
@@ -1218,7 +1218,7 @@
   "notes": "Vainqueur des 24h du Mans 1991. Johnny Herbert, Bertrand Gachot, Volker Weidler.",
   "fabricant": "Pop Race / MotorHelix",
   "reference_fabricant": "PR640301 / M60101",
-  "photo": "",
+  "photo": "https://shopdiecasttalk.com/cdn/shop/files/PR640301.jpg?v=1755714991",
   "type": "course"
 },
   {
@@ -1322,7 +1322,7 @@
   "notes": "Tommi Mäkinen - Malboro – Monte Carlo 1999",
   "fabricant": "BMC",
   "reference_fabricant": "64B0410",
-  "photo": "",
+  "photo": "https://cdn11.bigcommerce.com/s-mk46bkk/images/stencil/640w/products/12167/148269/s-l1600__87190.1768073150.png?c=2",
   "type": "course"
 },
    {
@@ -1335,7 +1335,7 @@
   "notes": "La Focus RS est devenue culte grâce Ken Block. Vu au Rallye d'Allemagne en 2010",
   "fabricant": "DCM x MiniStation",
   "reference_fabricant": "DCM64-MON-FOC",
-  "photo": "dcm_ministation_focus_rs_nitrous_blue.jpg",
+  "photo": "https://www.einszu64.de/cdn/shop/files/DCM64-MON-FOC_1.jpg?v=1747727008",
   "type": "course"
 },
   {
@@ -1348,7 +1348,7 @@
   "notes": " Miki Biasion",
   "fabricant": "",
   "reference_fabricant": "",
-  "photo": "1988 MonteCarlo Martini",
+  "photo": "https://boutiqueautomoto.com/img/p/4/1/7/1/5/41715.jpg",
   "type": "course"
 },
 {
@@ -1361,7 +1361,7 @@
   "notes": " #1 – Munari – Rallye Monte Carlo 1975 - Alitalia",
   "fabricant": "Mini GT",
   "reference_fabricant": "MGT00422",
-  "photo": "",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdV1RcSQ-sZ3-J3Basd5WAW9Kf59ZCSbqIrg&s",
   "type": "course"
 },
   {
@@ -1374,7 +1374,7 @@
     "notes": "La reine du Groupe B, championne du monde 1985-86. Rendue mythique par les exploits d'Ari Vatanen.",
     "fabricant": "Inno64 (annoncé) / conversions artisanales",
     "reference_fabricant": "N/A",
-    "photo": "peugeot_205_t16_evo2_white.jpg",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKyWAojK1aBOuzPWGhkd7p6G400YVbvGhwXg&s"
     "type": "course"
   },
   {
@@ -1387,7 +1387,7 @@
   "notes": "Sébastien Loeb",
   "fabricant": "",
   "reference_fabricant": "",
-  "photo": "",
+  "photo": "https://static.wixstatic.com/media/649475_99c6a0da3161432fb14e4d19e94c821c~mv2.jpg/v1/fill/w_498,h_665,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/649475_99c6a0da3161432fb14e4d19e94c821c~mv2.jpg",
   "type": "course"
 },
    {
@@ -1413,7 +1413,7 @@
     "notes": "Schumacher",
     "fabricant": "",
     "reference_fabricant": "",
-    "photo": "",
+    "photo": "https://thumbs.worthpoint.com/zoom/images1/1/0311/16/64-ferrari-f1-1st-f2004-no1_1_bc30242633dcfd0a2fffeb9ca72b225b.jpg",
     "type": "course"
   },
   {
@@ -1496,19 +1496,6 @@
 },
 {
   "marque": "Nissan",
-  "modele": "R34 GT-R Pennzoil #1",
-  "annees": "1990s",
-  "categorie": "JGTC",
-  "couleur": "",
-  "prix": null,
-  "notes": "",
-  "fabricant": "Mini GT",
-  "reference_fabricant": "MGT00166-167",
-  "photo": "",
-  "type": "course"
-},
-{
-  "marque": "Nissan",
   "modele": "R35 Nismo Motul #23",
   "annees": "",
   "categorie": "JGTC",
@@ -1543,7 +1530,7 @@
   "notes": "Version iconique du championnat JGTC, rendue mythique par la livrée Pennzoil. Pilotée notamment par Érik Comas, elle est devenue l’une des R34 de course les plus célèbres.",
   "fabricant": "Tomica Limited Vintage Neo",
   "reference_fabricant": "TPR-935872",
-  "photo": "nissan_r34_pennzoil_tlvn.jpg",
+  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrN1UZK8wstGZec4hEVxrUHpP28noCqYIlNg&s",
   "type": "course"
 },
   {
@@ -1595,7 +1582,7 @@
     "notes": "Prototype de 1000 ch conçu pour Pikes Peak. Devenu culte grâce à Monster Tajima et Gran Turismo.",
     "fabricant": "Tomica Limited Vintage",
     "reference_fabricant": "TLV-ESCUDO-98",
-    "photo": "suzuki_escudo_pikes_peak_1998.jpg",
+    "photo": "https://dmodelkits.store/cdn/shop/files/05.jpg?v=1714557157&width=493",
     "type": "course"
   },
   {
@@ -1621,7 +1608,7 @@
     "notes": "Une des muscle cars les plus recherchées, équipée du mythique HEMI 426. Popularisée par de nombreux pilotes de drag des années 70.",
     "fabricant": "Auto World / Greenlight",
     "reference_fabricant": "AW-HEMI-CUDA-70",
-    "photo": "plymouth_hemi_cuda_1970_purple.jpg",
+    "photo": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQG2mcl0Usu5-ZVenh6td3QUZYU4pVzCMu054eQFS8GNHjfdTcELeC4VG2BqjOF5THDtAtg_OcPtqbgYnffqr8EmZAH0LuAru5VbRo21MQ",
     "type": "course"
   },
   {
@@ -1673,7 +1660,7 @@
     "notes": "La 911 ultime, reconstruite sans limite avec Williams F1. Chaque pièce est repensée pour atteindre la perfection mécanique et esthétique.",
     "fabricant": "N/A",
     "reference_fabricant": "N/A",
-    "photo": "singer_dls_carbon_orange.jpg",
+    "photo": "https://horizondiecast.com/cdn/shop/files/Image_20240609142938.jpg?v=1717957815&width=1800",
     "type": "tuning"
   },
   {
@@ -1699,7 +1686,7 @@
     "notes": "Camion porte-voiture officiel LB-Works, parfait pour exposer des modèles Liberty Walk. Très apprécié des collectionneurs pour son niveau de détail et sa présence en vitrine.",
     "fabricant": "Tarmac Works",
     "reference_fabricant": "T64T-TL001-LBS",
-    "photo": "tarmacworks_fuso_super_great_lbtrucks.jpg",
+    "photo": "https://www.tarmacworks.com/cdn/shop/files/T64T-TL001-LBS_M01.jpg?v=1749440537&width=1400",
     "type": "tuning"
   },
    {
