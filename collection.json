@@ -507,6 +507,18 @@
     "photo": "maserati_3500gt_blue.jpg",
     "type": "wanted"
   },
+ {
+     "marque": "Maserati",
+  "modele": "MC12 ",
+  "annees": "2008",
+  "categorie": "GT / Compétition",
+  "couleur": "Bleu / Blanc",
+  "prix": "20.90",
+  "notes": "La Maserati MC12  est une machine redoutable engagée en GT.",
+  "fabricant": "BBR Models",
+  "reference_fabricant": "BBRDIE6414",
+    "photo": "https://anthonysdiecasts.com.au/cdn/shop/files/BBRDIE6414-1__03937_1024x1024.jpg?v=1726210984",
+    "type": "wanted" 
   {
     "marque": "Mazda",
     "modele": "RX-7",
