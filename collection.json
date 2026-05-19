@@ -25,19 +25,6 @@
     "photo": "https://www.norev.com/cdn/shop/files/517826.jpg",
     "type": "mythique"
   },
-   {
-    "marque": "Ariel",
-    "modele": "Atom V8",
-    "annees": "2010",
-    "categorie": "Track Car",
-    "couleur": "Noir / Orange",
-    "prix": "200 000 €",
-    "notes": "Une fusée sur roues, 0–100 en 2,3 s grâce à un V8 de moto. C’est l’une des voitures de route les plus extrêmes jamais construites.",
-    "fabricant": "N/A",
-    "reference_fabricant": "N/A",
-    "photo": "",
-    "type": "wanted"
-  },
   {
     "marque": "Aston Martin",
     "modele": "DB5",
@@ -376,6 +363,19 @@
     "photo": "kia_stinger_gt_red.jpg",
     "type": "wanted"
   },
+  {
+  "marque": "Kimera",
+  "modele": "EVO37",
+  "annees": "2021–2024",
+  "categorie": "Rally / Restomod",
+  "couleur": "Rouge",
+  "prix": "",
+  "notes": "Version Tarmac Works de la Kimera EVO37, restomod inspiré de la Lancia 037. Modèle très recherché en 1:64.",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "TW-KIM-EVO37-RED",
+  "photo": "https://www.164hunters.com/wp-content/uploads/2026/05/Tarmac-Works-Kimera-EVO37-Red-001.webp",
+  "type": "wanted"
+},
   {
     "marque": "Koenigsegg",
     "modele": "CC850",
@@ -815,7 +815,7 @@
   "notes": "Version ultime de la R34",
   "fabricant": "MotorHelix",
   "reference_fabricant": "",
-  "photo": "",
+  "photo": "https://www.164hunters.com/wp-content/uploads/2025/11/Ignition-Model-x-Tarmac-Works-Nismo-R34-GT-R-Z-tune-Purple-Metallic-001.webp",
   "type": "wanted"
 },
   {
@@ -1452,7 +1452,7 @@
     "notes": "La reine du Groupe B, championne du monde 1985-86. Rendue mythique par les exploits d'Ari Vatanen.",
     "fabricant": "Inno64 (annoncé) / conversions artisanales",
     "reference_fabricant": "N/A",
-    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKyWAojK1aBOuzPWGhkd7p6G400YVbvGhwXg&s",
+    "photo": "https://www.164hunters.com/wp-content/uploads/2025/12/Tarmac-Works-Tokyo-Auto-Salon-Hong-Kong-2025-Peugeot-205-Turbo-16-Evo.jpg",
     "type": "course"
   },
   {
