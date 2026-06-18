@@ -975,6 +975,19 @@
     "photo": "https://minigt.tsm-models.com/upload/picfile_list/48beb701a72572b7ff4fc9f856d22e0320250510055916836.JPG",
     "type": "mythique"
   },
+    {
+  "marque": "Ram",
+  "modele": "ProMaster 2500 Cargo High Roof",
+  "annees": "2019",
+  "categorie": "Utilitaire / Route Runners",
+  "couleur": "Bright White",
+  "prix": "€9.99",
+  "notes": "Le Fiat Ducato US est l’un des utilitaires les plus utilisés en Amérique du Nord pour les livraisons urbaines.",
+  "fabricant": "GreenLight",
+  "reference_fabricant": "64022",
+  "photo": "",
+  "type": "mythique"
+},
   {
     "marque": "Renault",
     "modele": "R5 Turbo",
@@ -1293,7 +1306,7 @@
   "annees": "1991",
   "categorie": "Endurance (Le Mans)",
   "couleur": "Orange / Vert",
-  "prix": "ordered",
+  "prix": "19.99",
   "notes": "Vainqueur des 24h du Mans 1991. Johnny Herbert, Bertrand Gachot, Volker Weidler.",
   "fabricant": "Pop Race / MotorHelix",
   "reference_fabricant": "PR640301 / M60101",
@@ -1337,7 +1350,7 @@
     "fabricant": "",
     "reference_fabricant": "",
     "photo": "",
-    "type": "course"
+    "type": "wanted"
   },
   {
   "marque": "Audi",
@@ -1396,8 +1409,8 @@
   "modele": "Lancer Evolution VI #1",
   "annees": "1999",
   "categorie": "Rallye",
-  "couleur": "",
-  "prix": "N/A",
+  "couleur": "rouge / blanc",
+  "prix": "20.99",
   "notes": "Tommi Mäkinen - Malboro – Monte Carlo 1999",
   "fabricant": "BMC",
   "reference_fabricant": "64B0410",
@@ -1421,7 +1434,7 @@
   "marque": "Lancia",
   "modele": "Delta #4",
   "annees": "1987–1992",
-  "categorie": "alternative",
+  "categorie": "Rallye",
   "couleur": "",
   "prix": "N/A",
   "notes": " Miki Biasion",
@@ -1447,7 +1460,7 @@
     "marque": "Peugeot",
     "modele": "205 T16 #1",
     "annees": "1984–1986",
-    "categorie": "Rallye Group B",
+    "categorie": "Rallye",
     "couleur": "Blanc",
     "prix": "N/A",
     "notes": "La reine du Groupe B, championne du monde 1985-86. Rendue mythique par les exploits d'Ari Vatanen.",
@@ -1460,7 +1473,7 @@
   "marque": "Citroën",
   "modele": "Xsara WRC #1",
   "annees": "2003–2006",
-  "categorie": "alternative",
+  "categorie": "Rallye",
   "couleur": "Rouge",
   "prix": "N/A",
   "notes": "Sébastien Loeb",
@@ -1616,7 +1629,7 @@
   "marque": "Maserati",
   "modele": "MC12 Competition",
   "annees": "2008",
-  "categorie": "GT / Compétition",
+  "categorie": "DTM",
   "couleur": "Bleu / Noir",
   "prix": "20.90",
   "notes": "La Maserati MC12 Competition est une machine redoutable engagée en GT1, ici dans la livrée Vitaphone. Cette version reproduit la voiture victorieuse des 24 Heures de Spa 2008.",
@@ -1807,6 +1820,33 @@
   "photo": "",
   "type": "tuning"
 },
+  {
+  "marque": "Toyota",
+  "modele": "Supra GT300 Top Secret",
+  "annees": "1999–2003",
+  "categorie": "JDM / Tuning / GT300",
+  "couleur": "Gold",
+  "prix": "€17.99",
+  "notes": "La Supra GT300 Top Secret est mythique grâce au travail de Smokey Nagata, fondateur de Top Secret. Sa livrée or est devenue une signature visuelle, et ses performances extrêmes — dont des runs illégaux à plus de 300 km/h — ont forgé sa légende dans la culture JDM.",
+  "fabricant": "Pop Race",
+  "reference_fabricant": "PR640229",
+  "photo": "",
+  "type": "tuning"
+},
+  {
+  "marque": "Kimera",
+  "modele": "EVO37",
+  "annees": "2021–2024",
+  "categorie": "Rally / Restomod",
+  "couleur": "Rouge",
+  "prix": "",
+  "notes": "La Kimera EVO37 réinvente la légendaire Lancia 037 du Groupe B. Construite artisanalement, son statut de restomod exclusif et son lien direct avec l’une des voitures de rallye les plus iconiques de l’histoire en font un modèle culte. ",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "TW-KIM-EVO37-RED",
+  "photo": "https://www.164hunters.com/wp-content/uploads/2026/05/Tarmac-Works-Kimera-EVO37-Red-001.webp",
+  "type": "wanted"
+},
+  
    {
     "_commentaire": "COPIER CE BLOC POUR AJOUTER UNE NOUVELLE AUTO (JSON valide)",
     "marque": "",
