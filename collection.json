@@ -634,7 +634,7 @@
   "notes": "Un utilitaire tout-terrain emblématique, robuste et polyvalent.",
   "fabricant": "Schuco",
   "reference_fabricant": "452037900",
-  "photo": "https://nasshan.com/media/72/63/22/1760504394/452037900-schuco-Mercedes-benz-unimog-u406-pritscheplane-u84-1971_0.jpg?ts=1760511594",
+  "photo": "https://www.eilbote-onlineshop.de/media/f9/59/56/1710936500/ma67739-1.jpg?ts=1728041814",
   "type": "mythique"
 },
   {
@@ -985,7 +985,7 @@
   "notes": "Le Fiat Ducato US est l’un des utilitaires les plus utilisés en Amérique du Nord pour les livraisons urbaines.",
   "fabricant": "GreenLight",
   "reference_fabricant": "64022",
-  "photo": "",
+  "photo": "https://modellautos-dresden.de/media/image/4c/51/cc/53020-F-RAM-Promaster-weiss.jpg",
   "type": "mythique"
 },
   {
@@ -1154,7 +1154,7 @@
     "notes": "La Triumph Spitfire est un roadster britannique léger et accessible. Elle incarne le plaisir de conduite simple et classique.",
     "fabricant": "Matchbox",
     "reference_fabricant": "Triumph Spitfire",
-    "photo": "https://majorette-toys.com/media/triumph-spitfire-green.jpg",
+    "photo": "https://burningrubbertoycompany.com/cdn/shop/files/p1011941_9767794f-bbe9-4f32-9ad0-03a39ad1a863.jpg?v=1755122205&width=1946",
     "type": "mythique"
   },
 {
@@ -1401,7 +1401,7 @@
   "notes": "La Renault 5 Turbo Monte Carlo 1981 est une légende du rallye grâce à ses performances spectaculaires et son style agressif.  Jean Ragnotti.",
   "fabricant": "Tarmac Works",
   "reference_fabricant": "108788",
-  "photo": "https://modellautos-dresden.de/media/image/0b/4b/a3/T64-TL060-81MCR09-1_600x600.jpg",
+  "photo": "https://www.tarmacworks.com/cdn/shop/files/T64-TL060-81MCR09_a1.jpg?v=1708057699&width=1400",
   "type": "course"
 },
 {
@@ -1778,7 +1778,20 @@
   "notes": "Livrée 'Rexy' de AO Racing, très populaire en IMSA. Look dinosaure unique, devenue iconique.",
   "fabricant": "Tarmac Works",
   "reference_fabricant": "TW-AO-911-RXY",
-  "photo": "",
+  "photo": "https://www.diecastturkey.com/mini-gt-164-porsche-911-gt3-r-ao-racing-2024-imsa-road-america-mgt01052-164-mini-gt-11117-38-B.jpg",
+  "type": "tuning"
+},
+  {
+  "marque": "Rexy",
+  "modele": "Porsche 911 GT3 R - AO Racing 77",
+  "annees": "2025",
+  "categorie": "Course / IMSA / WEC",
+  "couleur": "Blanc-Noir",
+  "prix": "25",
+  "notes": "MSA Petit Le Mans",
+  "fabricant": "Tarmac Works",
+  "reference_fabricant": "MGT01143",
+  "photo": "https://www.diecastturkey.com/on-satis-mini-gt-164-porsche-911-gt3-r-ao-racing-2025-imsa-petit-le-mans-mgt01143-164-mini-gt-11561-39-O.jpg",
   "type": "tuning"
 },
   {
@@ -1830,7 +1843,7 @@
   "notes": "La Supra GT300 Top Secret est mythique grâce au travail de Smokey Nagata, fondateur de Top Secret. Sa livrée or est devenue une signature visuelle, et ses performances extrêmes — dont des runs illégaux à plus de 300 km/h — ont forgé sa légende dans la culture JDM.",
   "fabricant": "Pop Race",
   "reference_fabricant": "PR640229",
-  "photo": "",
+  "photo": "https://a.allegroimg.com/s512/1184c5/baa1ff254e9ba34234dceec13ee0/1-64-POP-RACE-TOYOTA-SUPRA-gt300-Top-Secret-gold-METALOWY-OTWIERANY",
   "type": "tuning"
 },
   {
