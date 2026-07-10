@@ -51,6 +51,19 @@
     "photo": "https://modellautos-dresden.de/media/image/de/3d/67/T64S-025-SL-Audi-Quattro-silber-1-jpg_600x600@2x.jpg",
     "type": "mythique"
   },
+    {
+    "marque": "Audi",
+    "modele": "R8o",
+    "annees": "",
+    "categorie": "",
+    "couleur": "Gris",
+    "prix": "",
+    "notes": "Ferdinand Piesch crazyness",
+    "fabricant": "Tarmac Works",
+    "reference_fabricant": "T64S-025-SL",
+    "photo": "",
+    "type": "wanted"
+  },
   {
     "marque": "Bentley",
     "modele": "Continental GT3",
@@ -178,7 +191,7 @@
     "notes": "Rendue immortelle par Retour vers le Futur, c’est une icône pop. Sa carrosserie en inox et ses portes papillon sont uniques.",
     "fabricant": "Hot Wheels Premium",
     "reference_fabricant": "N/A",
-    "photo": "delorean_dmc12_stainless.jpg",
+    "photo": "https://i.ebayimg.com/images/g/n9oAAOSwBMRnEBfW/s-l1200.jpg",
     "type": "wanted"
   }, 
   {
@@ -362,19 +375,6 @@
     "reference_fabricant": "MGT004",
     "photo": "kia_stinger_gt_red.jpg",
     "type": "wanted"
-  },
-  {
-  "marque": "Kimera",
-  "modele": "EVO37",
-  "annees": "2021–2024",
-  "categorie": "Rally / Restomod",
-  "couleur": "Rouge",
-  "prix": "",
-  "notes": "Version Tarmac Works de la Kimera EVO37, restomod inspiré de la Lancia 037. Modèle très recherché en 1:64.",
-  "fabricant": "Tarmac Works",
-  "reference_fabricant": "TW-KIM-EVO37-RED",
-  "photo": "https://www.164hunters.com/wp-content/uploads/2026/05/Tarmac-Works-Kimera-EVO37-Red-001.webp",
-  "type": "wanted"
 },
   {
     "marque": "Koenigsegg",
@@ -959,8 +959,8 @@
   "notes": "La GT2 RS est la 911 la plus extrême, axée sur la performance pure. Son mélange de puissance et d’aérodynamique en fait une référence moderne.",
   "fabricant": "PopRace",
   "reference_fabricant": "PR640017",
-  "photo": "https://bransdiecast.com/cdn/shop/files/62DE2C43-9C64-4952-A4D8-EF825575EB7C.jpg?v=1703094982",
-  "type": "mythique"
+  "photo": "https://bransdiecast.com/cdn/shop/files/62DE2C43-9C64-4952-A4D8-EF825575EB7C.jpg",
+  "type": "wanted"
 },
   {
     "marque": "Porsche",
@@ -1518,7 +1518,7 @@
   "notes": "La monoplace championne du monde 2022 pilotée par Max Verstappen. Vu au Grand Prix de Spa 2022",
   "fabricant": "Spark",
   "reference_fabricant": "Y254",
-  "photo": "https://www.raceland.de/$WS/raceland/websale8_shop-raceland/produkte/medien/bilder/gross/20-84255.jpg",
+  "photo": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/500x659/products/31279/139262/QQ20230404195843__31765.1680663593.png?c=2",
   "type": "course"
 },
 {
@@ -1648,7 +1648,7 @@
   "notes": "La voiture la plus emblématique du DTM, agile et victorieuse. Rendue légendaire par Roberto Ravaglia.",
   "fabricant": "Tarmac Works / Minichamps (1:64)",
   "reference_fabricant": "N/A",
-  "photo": "bmw_m3_e30_dtm_warsteiner.jpg",
+  "photo": "https://hobbiestock.com/cdn/shop/products/T64-009-91DTM_a_large_c5cbe743-d7aa-452d-bab9-ebb74057e10f_480x480.jpg?v=1515380952",
   "type": "course"
 },  
    {
@@ -1765,7 +1765,7 @@
     "notes": "Un camion plateau custom iconique dans la gamme MicroTurbo, très recherché pour son style unique. Modèle devenu culte dans les collections grâce à sa livrée rose 'Dinosaur'.",
     "fabricant": "MicroTurbo",
     "reference_fabricant": "H300-DINO-PINK",
-    "photo": "https://erp-image.sgliteasset.com/_next/image?url=https%3A%2F%2Fcdn1.sgliteasset.com%2Fdreamcus%2Fimages%2Fproduct%2Fproduct-7393689%2F9tA263SN6981a0c5c4ddb_1770102981.jpg&w=1920&q=100",
+    "photo": "https://cdn11.bigcommerce.com/s-yrkef1j7/images/stencil/1280x1280/products/63614/287638/QQ_1775880230898__86913.1775880408.png?c=2",
     "type": "tuning"
   },
   {
